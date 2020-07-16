@@ -1,0 +1,61 @@
+2020-07-14 11:17:55,854 ERROR 41552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-14 14:25:12,850 ERROR 41552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-14 16:02:53,296 ERROR 41552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-14 16:14:54,250 ERROR 41552 nodejs.ClusterClientNoResponseError: client no response in 69788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\webServer\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-14 16:20:34,258 ERROR 41552 nodejs.ClusterClientNoResponseError: client no response in 62341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\webServer\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-14 16:25:43,180 ERROR 66916 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:59454)
+    at afterWriteDispatched (internal/stream_base_commons.js:150:25)
+    at writeGeneric (internal/stream_base_commons.js:141:3)
+    at Socket._writeGeneric (net.js:768:11)
+    at Socket._write (net.js:780:8)
+    at doWrite (_stream_writable.js:428:12)
+    at writeOrBuffer (_stream_writable.js:412:5)
+    at Socket.Writable.write (_stream_writable.js:302:11)
+    at Follower.sendHeartBeat (E:\webServer\egg-example\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._onTimeout (E:\webServer\egg-example\node_modules\tcp-base\lib\base.js:437:12)
+    at listOnTimeout (internal/timers.js:531:17)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+name: "ECONNABORTEDError"
+pid: 66916
+hostname: SF0001391332A
+

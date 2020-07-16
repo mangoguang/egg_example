@@ -1,0 +1,337 @@
+2020-07-10 15:18:46,795 ERROR 36656 [-/127.0.0.1/-/5ms GET /api/users/mangoguang] nodejs.TypeError: Cannot read property 'userName' of undefined
+    at UserController.index (E:\webServer\egg-example\app\controller\users.js:8:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 36656
+hostname: SF0001391332A
+
+2020-07-10 16:46:20,227 ERROR 40464 [-/127.0.0.1/-/10ms POST /api/users?userName=mango&password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'field list'
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`userName`, `password`, `phone`, `address`, `register_time`) VALUES('mango', 'admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:46:20.220')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `users`(`userName`, `password`, `phone`, `address`, `register_time`) VALUES('mango', 'admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:46:20.220')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 40464
+hostname: SF0001391332A
+
+2020-07-10 16:46:54,876 ERROR 40068 [-/127.0.0.1/-/8ms POST /api/users?userName=mango&password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'userName' in 'field list'
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`userName`, `password`, `phone`, `address`, `register_time`, `user_name`) VALUES('mango', 'admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:46:54.869', 'mango')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'userName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `users`(`userName`, `password`, `phone`, `address`, `register_time`, `user_name`) VALUES('mango', 'admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:46:54.869', 'mango')"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 40068
+hostname: SF0001391332A
+
+2020-07-10 16:55:46,261 ERROR 40128 [-/127.0.0.1/-/3241ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'user_name' cannot be null
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:55:45.589', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'user_name' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:55:45.589', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 40128
+hostname: SF0001391332A
+
+2020-07-10 16:57:06,357 ERROR 40536 [-/127.0.0.1/-/9ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'user_name' cannot be null
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:57:06.349', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'user_name' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:57:06.349', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 40536
+hostname: SF0001391332A
+
+2020-07-10 16:58:22,821 ERROR 29368 [-/127.0.0.1/-/8ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'user_name' cannot be null
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:58:22.814', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'user_name' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 16:58:22.814', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 29368
+hostname: SF0001391332A
+
+2020-07-10 17:00:37,594 ERROR 29916 [-/127.0.0.1/-/9ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'user_name' cannot be null
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 17:00:37.586', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'user_name' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 17:00:37.586', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 29916
+hostname: SF0001391332A
+
+2020-07-10 17:01:36,411 ERROR 40172 [-/127.0.0.1/-/9ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'user_name' cannot be null
+    at Query.Sequence._packetToError (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\webServer\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\webServer\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    --------------------
+    at Pool.query (E:\webServer\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\webServer\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\webServer\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\webServer\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\webServer\egg-example\node_modules\co\index.js:65:19)
+    at E:\webServer\egg-example\node_modules\co\index.js:54:5
+    sql: INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 17:01:36.404', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'user_name' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `users`(`password`, `phone`, `address`, `register_time`, `user_name`) VALUES('admin', '18824864356', '广东省惠东县平山镇蕉田矮岭村', '2020-07-10 17:01:36.404', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 40172
+hostname: SF0001391332A
+
+2020-07-10 17:44:46,233 WARN 41720 [-/127.0.0.1/-/7ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\webServer\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (E:\webServer\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.create (E:\webServer\egg-example\app\controller\users.js:34:9)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"userName","code":"missing_field"}]
+pid: 41720
+hostname: SF0001391332A
+
+2020-07-10 17:48:04,111 WARN 41584 [-/127.0.0.1/-/8ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\webServer\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (E:\webServer\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.create (E:\webServer\egg-example\app\controller\users.js:34:23)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"userName","code":"missing_field"}]
+pid: 41584
+hostname: SF0001391332A
+
+2020-07-10 17:49:33,909 WARN 36152 [-/127.0.0.1/-/6ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\webServer\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (E:\webServer\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.create (E:\webServer\egg-example\app\controller\users.js:34:23)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"userName","code":"missing_field"}]
+pid: 36152
+hostname: SF0001391332A
+
+2020-07-10 17:50:37,935 WARN 31968 [-/127.0.0.1/-/6ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\webServer\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (E:\webServer\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.create (E:\webServer\egg-example\app\controller\users.js:34:9)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"userName","code":"missing_field"}]
+pid: 31968
+hostname: SF0001391332A
+
+2020-07-10 17:51:51,840 WARN 22112 [-/127.0.0.1/-/5ms POST /api/users?password=admin&phone=18824864356&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (E:\webServer\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (E:\webServer\egg-example\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UserController.create (E:\webServer\egg-example\app\controller\users.js:34:9)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"userName","code":"missing_field"}]
+pid: 22112
+hostname: SF0001391332A
+
+2020-07-10 18:18:31,673 INFO 39588 [-/127.0.0.1/-/81ms POST /api/users?password=123456&address=%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%83%A0%E4%B8%9C%E5%8E%BF%E5%B9%B3%E5%B1%B1%E9%95%87%E8%95%89%E7%94%B0%E7%9F%AE%E5%B2%AD%E6%9D%91&userName=mango3&phone=18824864356] 创建用户： {
+  userName: 'mango3',
+  password: '123456',
+  phone: '18824864356',
+  address: '广东省惠东县平山镇蕉田矮岭村'
+}

@@ -1,0 +1,9 @@
+2020-07-06 09:41:00,983 ERROR 69968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 69968
+hostname: SF0001391332A
+

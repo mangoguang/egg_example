@@ -1,0 +1,33 @@
+2020-07-13 15:15:11,543 ERROR 41552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 41552
+hostname: SF0001391332A
+
+2020-07-13 16:05:00,043 ERROR 56904 [-/127.0.0.1/-/5ms PUT /api/users/1?phone=18888888888] nodejs.ReferenceError: app is not defined
+    at UserController.update (E:\webServer\egg-example\app\controller\users.js:46:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 56904
+hostname: SF0001391332A
+
+2020-07-13 16:24:05,654 ERROR 41552 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 41552
+hostname: SF0001391332A
+

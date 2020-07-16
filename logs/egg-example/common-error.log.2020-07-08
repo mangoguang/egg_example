@@ -1,0 +1,698 @@
+2020-07-07 14:08:46,387 ERROR 69968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 69968
+hostname: SF0001391332A
+
+2020-07-07 15:11:03,036 ERROR 69968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 69968
+hostname: SF0001391332A
+
+2020-07-07 16:11:28,109 ERROR 82800 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 82800
+hostname: SF0001391332A
+
+2020-07-07 16:38:36,117 ERROR 83300 [-/127.0.0.1/-/7ms GET /user/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83300
+hostname: SF0001391332A
+
+2020-07-07 16:38:59,943 ERROR 83300 [-/127.0.0.1/-/6ms GET /user/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83300
+hostname: SF0001391332A
+
+2020-07-07 16:39:08,249 ERROR 83300 [-/127.0.0.1/-/3ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83300
+hostname: SF0001391332A
+
+2020-07-07 16:39:39,852 ERROR 83300 [-/127.0.0.1/-/3ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83300
+hostname: SF0001391332A
+
+2020-07-07 16:39:54,106 ERROR 84980 [-/127.0.0.1/-/4ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 84980
+hostname: SF0001391332A
+
+2020-07-07 16:41:40,820 ERROR 83692 [-/127.0.0.1/-/6ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83692
+hostname: SF0001391332A
+
+2020-07-07 16:41:51,961 ERROR 83692 [-/127.0.0.1/-/3ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83692
+hostname: SF0001391332A
+
+2020-07-07 16:42:13,255 ERROR 83692 [-/127.0.0.1/-/3ms GET /login/000001] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\webServer\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\webServer\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\webServer\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\webServer\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\webServer\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\webServer\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\webServer\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 83692
+hostname: SF0001391332A
+
+2020-07-07 16:53:12,065 ERROR 84400 [-/127.0.0.1/-/4ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 84400
+hostname: SF0001391332A
+
+2020-07-07 16:53:44,364 ERROR 84400 [-/127.0.0.1/-/2ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 84400
+hostname: SF0001391332A
+
+2020-07-07 16:55:00,194 ERROR 84400 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 84400
+hostname: SF0001391332A
+
+2020-07-07 16:56:26,711 ERROR 76408 [-/127.0.0.1/-/3ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 76408
+hostname: SF0001391332A
+
+2020-07-07 16:58:39,811 ERROR 72000 [-/127.0.0.1/-/6ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:58:48,262 ERROR 72000 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:59:00,301 ERROR 72000 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:59:01,553 ERROR 72000 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:59:02,207 ERROR 72000 [-/127.0.0.1/-/0ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:59:02,813 ERROR 72000 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 16:59:03,333 ERROR 72000 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 72000
+hostname: SF0001391332A
+
+2020-07-07 17:02:22,953 ERROR 83132 [-/127.0.0.1/-/4ms GET /user/000001] nodejs.TypeError: ctx.header.authorization.splice is not a function
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:42)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 83132
+hostname: SF0001391332A
+
+2020-07-07 17:02:24,805 ERROR 83132 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.TypeError: ctx.header.authorization.splice is not a function
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:42)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 83132
+hostname: SF0001391332A
+
+2020-07-07 17:02:25,635 ERROR 83132 [-/127.0.0.1/-/0ms GET /user/000001] nodejs.TypeError: ctx.header.authorization.splice is not a function
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:42)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 83132
+hostname: SF0001391332A
+
+2020-07-07 17:02:26,536 ERROR 83132 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.TypeError: ctx.header.authorization.splice is not a function
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:42)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 83132
+hostname: SF0001391332A
+
+2020-07-07 17:02:27,182 ERROR 83132 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.TypeError: ctx.header.authorization.splice is not a function
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:16:42)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 83132
+hostname: SF0001391332A
+
+2020-07-07 17:03:56,473 ERROR 82020 [-/127.0.0.1/-/6ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:03:57,527 ERROR 82020 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:03:58,130 ERROR 82020 [-/127.0.0.1/-/0ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:03:59,156 ERROR 82020 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:04:03,159 ERROR 82020 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:04:03,969 ERROR 82020 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:04:04,550 ERROR 82020 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:28)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 82020
+hostname: SF0001391332A
+
+2020-07-07 17:04:27,041 ERROR 64260 [-/127.0.0.1/-/4ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:25)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 64260
+hostname: SF0001391332A
+
+2020-07-07 17:04:27,841 ERROR 64260 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:25)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 64260
+hostname: SF0001391332A
+
+2020-07-07 17:04:28,380 ERROR 64260 [-/127.0.0.1/-/1ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:25)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 64260
+hostname: SF0001391332A
+
+2020-07-07 17:04:29,997 ERROR 64260 [-/127.0.0.1/-/0ms GET /user/000001] nodejs.JsonWebTokenError: invalid token
+    at Object.module.exports [as verify] (E:\webServer\egg-example\node_modules\jsonwebtoken\verify.js:75:17)
+    at AsyncFunction.<computed>.verify (E:\webServer\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at UserController.index (E:\webServer\egg-example\app\controller\user.js:15:25)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+name: "JsonWebTokenError"
+message: "invalid token"
+pid: 64260
+hostname: SF0001391332A
+
+2020-07-07 17:11:45,353 ERROR 82800 nodejs.ClusterClientNoResponseError: client no response in 76230ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\webServer\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82800
+hostname: SF0001391332A
+
+2020-07-07 17:14:14,643 ERROR 82800 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 82800
+hostname: SF0001391332A
+
+2020-07-07 18:20:35,389 ERROR 83160 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 83160
+hostname: SF0001391332A
+
+2020-07-08 15:28:51,934 ERROR 18784 [-/127.0.0.1/-/9921ms GET /getUserInfo/1] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:21:40)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 18784
+hostname: SF0001391332A
+
+2020-07-08 15:29:59,813 ERROR 20224 [-/127.0.0.1/-/4549ms GET /getUserInfo/1] nodejs.TypeError: Cannot read property 'find' of undefined
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:21:52)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 20224
+hostname: SF0001391332A
+
+2020-07-08 15:31:36,636 ERROR 16480 nodejs.ClusterClientNoResponseError: client no response in 61303ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\webServer\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 16480
+hostname: SF0001391332A
+
+2020-07-08 15:32:57,364 ERROR 20648 [-/127.0.0.1/-/4742ms GET /getUserInfo/1] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:22:40)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 20648
+hostname: SF0001391332A
+
+2020-07-08 15:33:41,089 ERROR 20648 [-/127.0.0.1/-/2ms GET /getUserInfo/1] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:22:40)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 20648
+hostname: SF0001391332A
+
+2020-07-08 15:33:44,383 ERROR 20648 [-/127.0.0.1/-/2ms GET /getUserInfo/1] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:22:40)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 20648
+hostname: SF0001391332A
+
+2020-07-08 15:34:49,162 ERROR 14068 [-/127.0.0.1/-/6884ms GET /getUserInfo/1] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.getUserInfo (E:\webServer\egg-example\app\controller\user.js:22:40)
+    at Object.callFn (E:\webServer\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\webServer\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\webServer\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\webServer\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (E:\webServer\egg-example\node_modules\koa-compose\index.js:45:18)
+    at E:\webServer\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\webServer\egg-example\node_modules\koa-compose\index.js:44:32)
+    at E:\webServer\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 14068
+hostname: SF0001391332A
+
