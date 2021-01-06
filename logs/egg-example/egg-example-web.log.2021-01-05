@@ -1,0 +1,39 @@
+2021-01-05 16:47:49,302 INFO 83768 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-05 16:47:49,325 INFO 83768 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-05 16:50:42,636 WARN 83768 [-/::1/-/4ms POST /api/v1/users?userName=dong&password=admin123&phone=18575215414&address=%E4%B8%9C%E8%8E%9E%E5%B8%82] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/example-egg/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/example-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/example-egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 83768
+hostname: guangs-MBP
+
+2021-01-05 16:53:14,640 INFO 83768 [-/::1/-/56ms POST /api/v1/users?userName=dong&password=admin123&phone=18575215414&address=%E4%B8%9C%E8%8E%9E%E5%B8%82] 创建用户： {
+  userName: 'dong',
+  password: 'admin123',
+  phone: '18575215414',
+  address: '东莞市'
+}
+2021-01-05 16:56:25,179 INFO 83768 [-/::1/-/3ms POST /api/v1/users?userName=huicheng&password=admin123&phone=18824863288&address=%E5%B9%BF%E5%B7%9E%E5%B8%82] 创建用户： {
+  userName: 'huicheng',
+  password: 'admin123',
+  phone: '18824863288',
+  address: '广州市'
+}
+2021-01-05 16:56:26,802 INFO 83768 [-/::1/-/5ms POST /api/v1/users?userName=huicheng&password=admin123&phone=18824863288&address=%E5%B9%BF%E5%B7%9E%E5%B8%82] 创建用户： {
+  userName: 'huicheng',
+  password: 'admin123',
+  phone: '18824863288',
+  address: '广州市'
+}

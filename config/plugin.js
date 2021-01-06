@@ -18,6 +18,10 @@ module.exports = {
     enable: true,
     package: 'egg-validate',
   },
+  swaggerdoc: {
+    enable: true,
+    package: 'egg-swagger-doc',
+  }
   // io: {
   //   enable: true,
   //   package: 'egg-socket.io',

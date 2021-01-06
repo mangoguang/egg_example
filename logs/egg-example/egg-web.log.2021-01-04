@@ -1,0 +1,79 @@
+2021-01-04 00:00:00,654 INFO 17925 [egg-logrotator] app logger reload: got log-reload message
+2021-01-04 01:29:45,346 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 01:29:45,347 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 02:02:50,282 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 02:02:50,282 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 02:37:42,280 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 02:37:42,280 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 03:19:02,263 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 03:19:02,263 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 03:55:32,249 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 03:55:32,249 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 04:49:39,222 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 04:49:39,222 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 04:49:39,224 INFO 17925 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=/Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/k5/0gw04hr107b766mg27_g0lj80000gn/T/egg-multipart-tmp/egg-example"
+2021-01-04 04:49:39,591 INFO 17925 [-/127.0.0.1/-/368ms SCHEDULE /__schedule?path=/Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-04 05:43:46,206 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 05:43:46,206 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 06:31:12,176 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 06:31:12,176 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 07:25:19,156 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 07:25:19,156 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 08:19:26,122 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 08:19:26,122 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 09:13:33,097 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 09:13:33,098 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 10:07:40,067 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 10:07:40,067 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 10:38:14,448 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 10:38:14,448 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 10:46:26,136 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 10:46:26,137 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 11:45:49,035 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 11:45:49,035 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 12:39:56,010 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 12:39:56,011 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 12:46:15,804 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 12:46:15,804 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 14:03:40,004 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 14:03:40,005 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 14:57:44,990 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 14:57:44,990 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 15:51:48,968 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 15:51:48,968 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 16:45:52,945 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 16:45:52,946 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 17:01:31,399 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 17:01:31,399 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 17:12:12,775 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 17:12:12,775 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 17:17:53,304 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 17:17:53,305 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 19:18:14,898 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 19:18:14,898 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 19:51:51,818 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 19:51:51,818 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 20:08:09,409 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 20:08:09,409 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 20:23:11,814 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 20:38:14,812 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 20:53:17,814 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 20:53:17,815 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 21:08:20,812 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 21:08:20,812 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 21:23:24,179 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 21:23:24,180 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 21:38:26,813 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 21:38:26,813 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 21:53:29,813 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 21:53:29,813 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 22:08:32,813 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 22:08:32,813 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 22:54:30,311 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 23:05:08,329 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 23:05:08,329 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 23:21:33,958 WARN 17925 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-04 23:21:33,958 WARN 17925 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-04 23:59:59,466 INFO 17925 [egg-logrotator] clean all log before 31 days
+2021-01-05 00:00:00,450 INFO 17925 [egg-logrotator] broadcast log-reload
+2021-01-05 00:00:00,451 INFO 17925 [egg-logrotator] rotate files success by DayRotator, files ["/Users/mangoguang/Documents/service/example-egg/logs/egg-example/common-error.log -> /Users/mangoguang/Documents/service/example-egg/logs/egg-example/common-error.log.2021-01-04","/Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-example-web.log -> /Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-example-web.log.2021-01-04","/Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-web.log -> /Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-web.log.2021-01-04","/Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-schedule.log -> /Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-schedule.log.2021-01-04","/Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-agent.log -> /Users/mangoguang/Documents/service/example-egg/logs/egg-example/egg-agent.log.2021-01-04"]

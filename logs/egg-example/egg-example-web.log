@@ -1,0 +1,5 @@
+2021-01-07 00:13:12,473 INFO 45370 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-07 00:13:12,499 INFO 45370 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-07 00:14:42,213 INFO 45370 [-/::1/-/3ms GET /api/login/mangoguang?password=admin123] 登录用户的IP地址---------------： ::1
+2021-01-07 00:34:46,377 INFO 47839 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-07 00:34:46,398 INFO 47839 [egg-swagger-doc] register router: get /swagger-ui.html

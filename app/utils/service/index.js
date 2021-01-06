@@ -1,4 +1,7 @@
-succData = (data = '') => {
+const { dataToHump } = require('../common')
+const succData = (data = '') => {
+  if (typeof data === 'object') data = dataToHump(data)
+
   return {
     code : '1',
     data: data,
@@ -7,7 +10,7 @@ succData = (data = '') => {
   }
 }
 
-errData = (message, data = '') => {
+const errData = (message, data = '') => {
   return {
     code : '0',
     data: data,

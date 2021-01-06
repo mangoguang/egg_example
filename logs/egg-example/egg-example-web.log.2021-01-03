@@ -1,0 +1,60 @@
+2021-01-03 03:34:26,056 INFO 17925 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-03 03:34:26,080 INFO 17925 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-03 17:22:14,670 INFO 17925 [-/::1/-/74ms GET /api/login/mangoguang] 登录用户的IP地址---------------： ::1
+2021-01-03 17:22:14,861 WARN 17925 [-/::1/-/26ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/example-egg/node_modules/jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/example-egg/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/example-egg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 17925
+hostname: guangs-MacBook-Pro.local
+
+2021-01-03 17:22:29,390 WARN 17925 [-/::1/-/2ms POST /api/v1/order/list] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/example-egg/node_modules/jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/example-egg/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/example-egg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 17925
+hostname: guangs-MacBook-Pro.local
+
+2021-01-03 17:22:33,648 WARN 17925 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/example-egg/node_modules/jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/example-egg/node_modules/koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/example-egg/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/example-egg/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/example-egg/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 17925
+hostname: guangs-MacBook-Pro.local
+

@@ -1,138 +1,421 @@
-2020-07-16 00:00:01,039 INFO 73220 [egg-logrotator] app logger reload: got log-reload message
-2020-07-16 04:30:00,039 INFO 73220 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=E:\webServer\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\01391332\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example"
-2020-07-16 04:30:00,042 INFO 73220 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=E:\webServer\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2020-07-16 10:09:51,096 INFO 63108 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:09:51,121 INFO 63108 [egg-multipart] stream mode enable
-2020-07-16 10:09:51,122 INFO 63108 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:09:51,266 INFO 63108 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:09:51,269 INFO 63108 [egg-security] use methodnoallow middleware
-2020-07-16 10:09:51,269 INFO 63108 [egg-security] use noopen middleware
-2020-07-16 10:09:51,270 INFO 63108 [egg-security] use nosniff middleware
-2020-07-16 10:09:51,271 INFO 63108 [egg-security] use xssProtection middleware
-2020-07-16 10:09:51,271 INFO 63108 [egg-security] use xframe middleware
-2020-07-16 10:09:51,272 INFO 63108 [egg-security] use dta middleware
-2020-07-16 10:09:51,272 INFO 63108 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:09:51,284 INFO 63108 [egg:core] dump config after load, 5ms
-2020-07-16 10:09:51,294 INFO 63108 [egg-watcher:application] watcher start success
-2020-07-16 10:09:51,300 INFO 63108 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:09:51 GMT+0800 (GMT+08:00)
-2020-07-16 10:09:51,309 INFO 63108 [egg:core] dump config after ready, 8ms
-2020-07-16 10:09:52,951 INFO 78200 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:09:52,980 INFO 78200 [egg-multipart] stream mode enable
-2020-07-16 10:09:52,981 INFO 78200 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:09:53,255 INFO 78200 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:09:53,259 INFO 78200 [egg-security] use methodnoallow middleware
-2020-07-16 10:09:53,260 INFO 78200 [egg-security] use noopen middleware
-2020-07-16 10:09:53,262 INFO 78200 [egg-security] use nosniff middleware
-2020-07-16 10:09:53,264 INFO 78200 [egg-security] use xssProtection middleware
-2020-07-16 10:09:53,265 INFO 78200 [egg-security] use xframe middleware
-2020-07-16 10:09:53,267 INFO 78200 [egg-security] use dta middleware
-2020-07-16 10:09:53,267 INFO 78200 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:09:53,285 INFO 78200 [egg:core] dump config after load, 7ms
-2020-07-16 10:09:53,307 INFO 78200 [egg-watcher:application] watcher start success
-2020-07-16 10:09:53,310 INFO 78200 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:09:53 GMT+0800 (GMT+08:00)
-2020-07-16 10:09:53,396 INFO 78200 [egg:core] dump config after ready, 12ms
-2020-07-16 10:09:54,406 INFO 78784 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:09:54,430 INFO 78784 [egg-multipart] stream mode enable
-2020-07-16 10:09:54,431 INFO 78784 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:09:54,572 INFO 78784 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:09:54,574 INFO 78784 [egg-security] use methodnoallow middleware
-2020-07-16 10:09:54,575 INFO 78784 [egg-security] use noopen middleware
-2020-07-16 10:09:54,576 INFO 78784 [egg-security] use nosniff middleware
-2020-07-16 10:09:54,576 INFO 78784 [egg-security] use xssProtection middleware
-2020-07-16 10:09:54,577 INFO 78784 [egg-security] use xframe middleware
-2020-07-16 10:09:54,577 INFO 78784 [egg-security] use dta middleware
-2020-07-16 10:09:54,577 INFO 78784 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:09:54,588 INFO 78784 [egg:core] dump config after load, 4ms
-2020-07-16 10:09:54,601 INFO 78784 [egg-watcher:application] watcher start success
-2020-07-16 10:09:54,604 INFO 78784 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:09:54 GMT+0800 (GMT+08:00)
-2020-07-16 10:09:54,622 INFO 78784 [egg:core] dump config after ready, 7ms
-2020-07-16 10:10:35,392 INFO 77612 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:10:35,417 INFO 77612 [egg-multipart] stream mode enable
-2020-07-16 10:10:35,418 INFO 77612 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:10:35,565 INFO 77612 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:10:35,568 INFO 77612 [egg-security] use methodnoallow middleware
-2020-07-16 10:10:35,568 INFO 77612 [egg-security] use noopen middleware
-2020-07-16 10:10:35,570 INFO 77612 [egg-security] use nosniff middleware
-2020-07-16 10:10:35,570 INFO 77612 [egg-security] use xssProtection middleware
-2020-07-16 10:10:35,571 INFO 77612 [egg-security] use xframe middleware
-2020-07-16 10:10:35,571 INFO 77612 [egg-security] use dta middleware
-2020-07-16 10:10:35,571 INFO 77612 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:10:35,585 INFO 77612 [egg:core] dump config after load, 6ms
-2020-07-16 10:10:35,598 INFO 77612 [egg-watcher:application] watcher start success
-2020-07-16 10:10:35,602 INFO 77612 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:10:35 GMT+0800 (GMT+08:00)
-2020-07-16 10:10:35,621 INFO 77612 [egg:core] dump config after ready, 8ms
-2020-07-16 10:10:48,355 INFO 80396 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:10:48,379 INFO 80396 [egg-multipart] stream mode enable
-2020-07-16 10:10:48,379 INFO 80396 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:10:48,519 INFO 80396 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:10:48,521 INFO 80396 [egg-security] use methodnoallow middleware
-2020-07-16 10:10:48,522 INFO 80396 [egg-security] use noopen middleware
-2020-07-16 10:10:48,523 INFO 80396 [egg-security] use nosniff middleware
-2020-07-16 10:10:48,523 INFO 80396 [egg-security] use xssProtection middleware
-2020-07-16 10:10:48,524 INFO 80396 [egg-security] use xframe middleware
-2020-07-16 10:10:48,524 INFO 80396 [egg-security] use dta middleware
-2020-07-16 10:10:48,524 INFO 80396 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:10:48,536 INFO 80396 [egg:core] dump config after load, 5ms
-2020-07-16 10:10:48,549 INFO 80396 [egg-watcher:application] watcher start success
-2020-07-16 10:10:48,551 INFO 80396 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:10:48 GMT+0800 (GMT+08:00)
-2020-07-16 10:10:48,571 INFO 80396 [egg:core] dump config after ready, 7ms
-2020-07-16 10:15:43,304 INFO 78680 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:15:43,328 INFO 78680 [egg-multipart] stream mode enable
-2020-07-16 10:15:43,328 INFO 78680 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:15:43,471 INFO 78680 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:15:43,473 INFO 78680 [egg-security] use methodnoallow middleware
-2020-07-16 10:15:43,473 INFO 78680 [egg-security] use noopen middleware
-2020-07-16 10:15:43,474 INFO 78680 [egg-security] use nosniff middleware
-2020-07-16 10:15:43,475 INFO 78680 [egg-security] use xssProtection middleware
-2020-07-16 10:15:43,475 INFO 78680 [egg-security] use xframe middleware
-2020-07-16 10:15:43,476 INFO 78680 [egg-security] use dta middleware
-2020-07-16 10:15:43,476 INFO 78680 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:15:43,487 INFO 78680 [egg:core] dump config after load, 5ms
-2020-07-16 10:15:43,499 INFO 78680 [egg-watcher:application] watcher start success
-2020-07-16 10:15:43,501 INFO 78680 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:15:43 GMT+0800 (GMT+08:00)
-2020-07-16 10:15:43,520 INFO 78680 [egg:core] dump config after ready, 7ms
-2020-07-16 10:18:24,507 INFO 79816 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:18:24,531 INFO 79816 [egg-multipart] stream mode enable
-2020-07-16 10:18:24,531 INFO 79816 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:18:24,684 INFO 79816 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:18:24,686 INFO 79816 [egg-security] use methodnoallow middleware
-2020-07-16 10:18:24,686 INFO 79816 [egg-security] use noopen middleware
-2020-07-16 10:18:24,687 INFO 79816 [egg-security] use nosniff middleware
-2020-07-16 10:18:24,688 INFO 79816 [egg-security] use xssProtection middleware
-2020-07-16 10:18:24,688 INFO 79816 [egg-security] use xframe middleware
-2020-07-16 10:18:24,689 INFO 79816 [egg-security] use dta middleware
-2020-07-16 10:18:24,689 INFO 79816 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:18:24,700 INFO 79816 [egg:core] dump config after load, 5ms
-2020-07-16 10:18:24,712 INFO 79816 [egg-watcher:application] watcher start success
-2020-07-16 10:18:24,715 INFO 79816 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:18:24 GMT+0800 (GMT+08:00)
-2020-07-16 10:18:24,734 INFO 79816 [egg:core] dump config after ready, 8ms
-2020-07-16 10:45:13,255 INFO 35900 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:45:13,280 INFO 35900 [egg-multipart] stream mode enable
-2020-07-16 10:45:13,280 INFO 35900 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:45:13,427 INFO 35900 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:45:13,430 INFO 35900 [egg-security] use methodnoallow middleware
-2020-07-16 10:45:13,430 INFO 35900 [egg-security] use noopen middleware
-2020-07-16 10:45:13,431 INFO 35900 [egg-security] use nosniff middleware
-2020-07-16 10:45:13,432 INFO 35900 [egg-security] use xssProtection middleware
-2020-07-16 10:45:13,432 INFO 35900 [egg-security] use xframe middleware
-2020-07-16 10:45:13,433 INFO 35900 [egg-security] use dta middleware
-2020-07-16 10:45:13,433 INFO 35900 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:45:13,451 INFO 35900 [egg:core] dump config after load, 5ms
-2020-07-16 10:45:13,464 INFO 35900 [egg-watcher:application] watcher start success
-2020-07-16 10:45:13,466 INFO 35900 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:45:13 GMT+0800 (GMT+08:00)
-2020-07-16 10:45:13,485 INFO 35900 [egg:core] dump config after ready, 7ms
-2020-07-16 10:45:31,434 INFO 75104 [egg:logger] init all loggers with options: {"dir":"E:\\webServer\\egg-example\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-07-16 10:45:31,458 INFO 75104 [egg-multipart] stream mode enable
-2020-07-16 10:45:31,459 INFO 75104 [egg-mysql] connecting root@localhost:3306/egg_example
-2020-07-16 10:45:31,592 INFO 75104 [egg-static] starting static serve /public/ -> E:\webServer\egg-example\app\public
-2020-07-16 10:45:31,594 INFO 75104 [egg-security] use methodnoallow middleware
-2020-07-16 10:45:31,595 INFO 75104 [egg-security] use noopen middleware
-2020-07-16 10:45:31,596 INFO 75104 [egg-security] use nosniff middleware
-2020-07-16 10:45:31,596 INFO 75104 [egg-security] use xssProtection middleware
-2020-07-16 10:45:31,597 INFO 75104 [egg-security] use xframe middleware
-2020-07-16 10:45:31,597 INFO 75104 [egg-security] use dta middleware
-2020-07-16 10:45:31,597 INFO 75104 [egg-security] compose 6 middlewares into one security middleware
-2020-07-16 10:45:31,609 INFO 75104 [egg:core] dump config after load, 5ms
-2020-07-16 10:45:31,622 INFO 75104 [egg-watcher:application] watcher start success
-2020-07-16 10:45:31,625 INFO 75104 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jul 16 2020 10:45:31 GMT+0800 (GMT+08:00)
-2020-07-16 10:45:31,634 INFO 75104 [egg:core] dump config after ready, 7ms
+2021-01-07 00:00:01,080 INFO 43420 [egg-logrotator] app logger reload: got log-reload message
+2021-01-07 00:02:50,340 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,886 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:13:12,282 INFO 45370 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/example-egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-07 00:13:12,310 INFO 45370 [egg-multipart] stream mode enable
+2021-01-07 00:13:12,310 INFO 45370 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-07 00:13:12,434 INFO 45370 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/example-egg/app/public
+2021-01-07 00:13:12,436 INFO 45370 [egg-security] use methodnoallow middleware
+2021-01-07 00:13:12,437 INFO 45370 [egg-security] use noopen middleware
+2021-01-07 00:13:12,437 INFO 45370 [egg-security] use nosniff middleware
+2021-01-07 00:13:12,438 INFO 45370 [egg-security] use xssProtection middleware
+2021-01-07 00:13:12,438 INFO 45370 [egg-security] use xframe middleware
+2021-01-07 00:13:12,439 INFO 45370 [egg-security] use dta middleware
+2021-01-07 00:13:12,439 INFO 45370 [egg-security] compose 6 middlewares into one security middleware
+2021-01-07 00:13:12,455 INFO 45370 [egg:core] dump config after load, 5ms
+2021-01-07 00:13:12,508 INFO 45370 [egg-watcher:application] watcher start success
+2021-01-07 00:13:12,510 INFO 45370 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jan 07 2021 00:13:12 GMT+0800 (中国标准时间)
+2021-01-07 00:13:12,516 INFO 45370 [egg:core] dump config after ready, 5ms
+2021-01-07 00:34:46,185 INFO 47839 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-07 00:34:46,209 INFO 47839 [egg-multipart] stream mode enable
+2021-01-07 00:34:46,209 INFO 47839 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-07 00:34:46,343 INFO 47839 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-07 00:34:46,346 INFO 47839 [egg-security] use methodnoallow middleware
+2021-01-07 00:34:46,346 INFO 47839 [egg-security] use noopen middleware
+2021-01-07 00:34:46,347 INFO 47839 [egg-security] use nosniff middleware
+2021-01-07 00:34:46,348 INFO 47839 [egg-security] use xssProtection middleware
+2021-01-07 00:34:46,348 INFO 47839 [egg-security] use xframe middleware
+2021-01-07 00:34:46,349 INFO 47839 [egg-security] use dta middleware
+2021-01-07 00:34:46,349 INFO 47839 [egg-security] compose 6 middlewares into one security middleware
+2021-01-07 00:34:46,364 INFO 47839 [egg:core] dump config after load, 5ms
+2021-01-07 00:34:46,407 INFO 47839 [egg-watcher:application] watcher start success
+2021-01-07 00:34:46,409 INFO 47839 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jan 07 2021 00:34:46 GMT+0800 (中国标准时间)
+2021-01-07 00:34:46,414 INFO 47839 [egg:core] dump config after ready, 4ms

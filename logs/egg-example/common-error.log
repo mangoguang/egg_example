@@ -1,9 +1,390 @@
-2020-07-16 10:09:53,384 ERROR 74620 nodejs.unhandledExceptionError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "read"
-name: "unhandledExceptionError"
-pid: 74620
-hostname: SF0001391332A
+2021-01-07 00:02:50,340 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,886 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
+
+2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
+    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
+    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
+    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
+    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
+    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+    at new Promise (<anonymous>)
+    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+
+pid: 43420
+hostname: guangs-MacBook-Pro.local
 

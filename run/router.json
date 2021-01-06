@@ -51,20 +51,6 @@
     ]
   },
   {
-    "name": "new_user",
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/v1/users/new",
-    "regexp": "/^\\/api\\/v1\\/users\\/new(?:\\/(?=$))?$/",
-    "stack": [
-      "middleware",
-      "wrappedController"
-    ]
-  },
-  {
     "name": "users",
     "methods": [
       "POST"
@@ -82,31 +68,6 @@
     "methods": [
       "HEAD",
       "GET"
-    ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/api/v1/users/:id",
-    "regexp": "/^\\/api\\/v1\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
-      "middleware",
-      "wrappedController"
-    ]
-  },
-  {
-    "name": "user",
-    "methods": [
-      "PATCH",
-      "PUT"
     ],
     "paramNames": [
       {
@@ -147,6 +108,248 @@
     ],
     "path": "/api/v1/users/check/:userName",
     "regexp": "/^\\/api\\/v1\\/users\\/check\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/users/payInfo",
+    "regexp": "/^\\/api\\/v1\\/users\\/payInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/getUserInfoByCode",
+    "regexp": "/^\\/api\\/v1\\/getUserInfoByCode(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/createUserByCode",
+    "regexp": "/^\\/api\\/v1\\/createUserByCode(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "dicts",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/dict",
+    "regexp": "/^\\/api\\/v1\\/dict(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "dicts",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/dict",
+    "regexp": "/^\\/api\\/v1\\/dict(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_dict",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/dict/:id",
+    "regexp": "/^\\/api\\/v1\\/dict\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "dictType",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/dict/list/:dictType",
+    "regexp": "/^\\/api\\/v1\\/dict\\/list\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "orders",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/order",
+    "regexp": "/^\\/api\\/v1\\/order(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "orders",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/order",
+    "regexp": "/^\\/api\\/v1\\/order(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "order",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/order/:id",
+    "regexp": "/^\\/api\\/v1\\/order\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_order",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/order/:id",
+    "regexp": "/^\\/api\\/v1\\/order\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/order/list/",
+    "regexp": "/^\\/api\\/v1\\/order\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "files",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/file",
+    "regexp": "/^\\/api\\/v1\\/file(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/common/code2Session",
+    "regexp": "/^\\/api\\/v1\\/common\\/code2Session(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/swagger-doc",
+    "regexp": "/^\\/swagger-doc(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

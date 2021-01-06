@@ -1,0 +1,15 @@
+2021-01-05 05:12:13,636 INFO 17925 [Job#16097947335952736443755302393] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-01-05 05:12:13,657 INFO 17925 [Job#16097947335952736443755302393] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 17ms
+2021-01-05 05:12:13,628 INFO 17919 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 83866383ms at 2021-01-06 04:30:00.011
+2021-01-05 16:47:49,367 INFO 83763 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42130634ms at 2021-01-06 04:30:00.001
+2021-01-05 16:47:49,368 INFO 83763 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25930633ms at 2021-01-06 00:00:00.001
+2021-01-05 16:47:49,368 INFO 83763 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25931632ms at 2021-01-06 00:00:01.000
+2021-01-05 16:47:49,157 INFO 83768 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-05 16:47:49,157 INFO 83768 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2021-01-05 16:47:49,157 INFO 83768 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-06 00:00:00,170 INFO 83763 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399832ms at 2021-01-07 00:00:00.002
+2021-01-06 00:00:00,172 INFO 83768 [Job#16098624001673413111258088501] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2021-01-06 00:00:00,183 INFO 83768 [Job#16098624001673413111258088501] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 10ms
+2021-01-06 00:00:01,159 INFO 83768 [Job#16098624011593413121172683571] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-01-06 00:00:01,164 INFO 83768 [Job#16098624011593413121172683571] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms
+2021-01-06 00:00:01,162 INFO 83763 [Timer] /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399841ms at 2021-01-07 00:00:01.003

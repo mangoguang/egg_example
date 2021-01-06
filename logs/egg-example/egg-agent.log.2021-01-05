@@ -1,0 +1,315 @@
+2021-01-05 00:00:00,453 INFO 17919 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-05 00:14:58,052 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 263479ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 00:40:10,057 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 1511999ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 01:10:43,759 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 1813690ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 03:11:46,144 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 7214562ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 05:12:13,635 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 7187326ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 07:12:32,024 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 7218252ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 08:50:44,219 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 5872116ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 08:53:15,619 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 111163ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 10:54:19,936 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 7211778ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 11:50:50,885 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 3390784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 12:11:41,914 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 1250898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 12:50:56,851 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 2354781ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 13:52:40,594 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 3703480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 14:13:23,777 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 882563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 14:28:25,420 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 901639ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 14:43:27,416 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 901991ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 14:58:30,417 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 902998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 15:13:32,417 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 901997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 15:28:34,784 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 902004ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 15:43:36,417 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 901631ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 15:58:38,419 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 901611ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 16:21:45,678 ERROR 17919 nodejs.ClusterClientNoResponseError: client no response in 1387254ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 17919
+hostname: guangs-MacBook-Pro.local
+
+2021-01-05 16:47:48,417 INFO 83763 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/example-egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-05 16:47:48,424 INFO 83763 [egg:core] dump config after load, 4ms
+2021-01-05 16:47:48,460 INFO 83763 [egg-watcher] Start watching: ["/Users/mangoguang/Documents/service/example-egg/app","/Users/mangoguang/Documents/service/example-egg/config","/Users/mangoguang/Documents/service/example-egg/mocks","/Users/mangoguang/Documents/service/example-egg/mocks_proxy","/Users/mangoguang/Documents/service/example-egg/app.js"]
+2021-01-05 16:47:48,460 INFO 83763 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/example-egg/app"
+2021-01-05 16:47:48,461 INFO 83763 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/example-egg/config"
+2021-01-05 16:47:48,461 INFO 83763 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/example-egg/mocks"
+2021-01-05 16:47:48,461 INFO 83763 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/example-egg/mocks_proxy"
+2021-01-05 16:47:48,461 INFO 83763 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/example-egg/app.js"
+2021-01-05 16:47:48,461 INFO 83763 [egg-watcher:agent] watcher start success
+2021-01-05 16:47:48,473 INFO 83763 [egg:core] dump config after ready, 4ms
+2021-01-05 17:07:03,075 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 553639ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 17:22:05,355 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 882267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 17:37:07,364 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 902005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 17:52:09,358 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 901989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 18:07:11,358 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 901997ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 18:22:13,355 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 901994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 18:37:15,360 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 902002ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 18:52:17,358 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 901995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 19:07:19,362 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 902001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 19:12:47,225 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 327861ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 19:53:33,853 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 2446626ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 20:07:32,294 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 98338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 20:32:01,139 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 1328797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 20:47:30,622 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 829457ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 20:58:19,058 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 608417ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+
+2021-01-05 22:40:16,566 ERROR 83763 nodejs.ClusterClientNoResponseError: client no response in 123120ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/example-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 83763
+hostname: guangs-MBP
+

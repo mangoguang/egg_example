@@ -6,18 +6,25 @@
   "scripts": {
     "test": "egg-bin test --sticky",
     "dev": "egg-bin dev --sticky",
-    "debug": "egg-bin debug --sticky"
+    "debug": "egg-bin debug --sticky",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "await-stream-ready": "^1.0.1",
+    "dayjs": "^1.8.32",
     "egg": "^2.27.0",
     "egg-cors": "^2.2.3",
     "egg-jwt": "^3.1.7",
     "egg-logger": "^2.4.2",
     "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.13.0",
     "egg-socket.io": "^4.1.6",
-    "egg-validate": "^2.0.2"
+    "egg-swagger-doc": "^2.3.2",
+    "egg-validate": "^2.0.2",
+    "stream-wormhole": "^1.1.0"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"

@@ -81,7 +81,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\webServer\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -94,8 +94,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\webServer\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\webServer\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/default",
+        "development": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-watcher@3.1.1@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -118,7 +118,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\01391332\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example",
+      "tmpdir": "/var/folders/k5/0gw04hr107b766mg27_g0lj80000gn/T/egg-multipart-tmp/egg-example",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -128,7 +128,8 @@
       "ignoreDirs": [],
       "fastReady": false,
       "reloadOnDebug": true,
-      "overrideDefault": false
+      "overrideDefault": false,
+      "overrideIgnore": false
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -141,14 +142,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\webServer\\egg-example\\app\\public",
+      "dir": "/Users/mangoguang/Documents/service/egg_example/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\webServer\\egg-example\\app\\view",
+      "root": "/Users/mangoguang/Documents/service/egg_example/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -167,14 +168,37 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "localhost",
+        "host": "127.0.0.1",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 8>",
+        "password": "<String len: 9>",
         "database": "egg_example"
       }
     },
     "validate": {},
+    "swaggerdoc": {
+      "dirScanner": "./app/controller",
+      "basePath": "/",
+      "apiInfo": {
+        "title": "egg-swagger",
+        "description": "swagger-ui for egg",
+        "version": "1.0.0"
+      },
+      "schemes": [
+        "http",
+        "https"
+      ],
+      "consumes": [
+        "application/json"
+      ],
+      "produces": [
+        "application/json"
+      ],
+      "securityDefinitions": {},
+      "enableSecurity": false,
+      "routerMap": false,
+      "enable": true
+    },
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 10>",
@@ -191,27 +215,35 @@
       "description": "",
       "main": "index.js",
       "scripts": {
-        "test": "egg-bin test",
-        "dev": "egg-bin dev",
-        "debug": "egg-bin debug"
+        "test": "egg-bin test --sticky",
+        "dev": "egg-bin dev --sticky",
+        "debug": "egg-bin debug --sticky",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop"
       },
       "author": "",
       "license": "ISC",
       "dependencies": {
+        "await-stream-ready": "^1.0.1",
+        "dayjs": "^1.8.32",
         "egg": "^2.27.0",
         "egg-cors": "^2.2.3",
         "egg-jwt": "^3.1.7",
         "egg-logger": "^2.4.2",
         "egg-mysql": "^3.0.0",
-        "egg-validate": "^2.0.2"
+        "egg-scripts": "^2.13.0",
+        "egg-socket.io": "^4.1.6",
+        "egg-swagger-doc": "^2.3.2",
+        "egg-validate": "^2.0.2",
+        "stream-wormhole": "^1.1.0"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
       }
     },
-    "baseDir": "E:\\webServer\\egg-example",
-    "HOME": "C:\\Users\\01391332",
-    "rundir": "E:\\webServer\\egg-example\\run",
+    "baseDir": "/Users/mangoguang/Documents/service/egg_example",
+    "HOME": "/Users/mangoguang",
+    "rundir": "/Users/mangoguang/Documents/service/egg_example/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -243,7 +275,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "E:\\webServer\\egg-example\\logs\\egg-example",
+      "dir": "/Users/mangoguang/Documents/service/egg_example/logs/egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -317,43 +349,6 @@
     "appMiddleware": "~config~middleware"
   },
   "plugins": {
-    "session": {
-      "enable": true,
-      "package": "egg-session",
-      "name": "session",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-session",
-      "version": "3.2.0"
-    },
-    "security": {
-      "enable": true,
-      "package": "egg-security",
-      "name": "security",
-      "dependencies": [],
-      "optionalDependencies": [
-        "session"
-      ],
-      "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-security",
-      "version": "2.8.0"
-    },
-    "jsonp": {
-      "enable": true,
-      "package": "egg-jsonp",
-      "name": "jsonp",
-      "dependencies": [],
-      "optionalDependencies": [
-        "security"
-      ],
-      "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-jsonp",
-      "version": "2.0.0"
-    },
     "onerror": {
       "enable": true,
       "package": "egg-onerror",
@@ -363,9 +358,20 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-onerror",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-session@3.2.0@egg-session",
+      "version": "3.2.0"
     },
     "i18n": {
       "enable": true,
@@ -374,8 +380,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-i18n",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -385,20 +391,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-watcher",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
-    },
-    "schedule": {
-      "enable": true,
-      "package": "egg-schedule",
-      "name": "schedule",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-schedule",
-      "version": "3.6.4"
     },
     "multipart": {
       "enable": true,
@@ -409,9 +404,22 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-multipart",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart",
       "version": "2.10.3"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security",
+      "version": "2.8.0"
     },
     "development": {
       "enable": true,
@@ -424,9 +432,9 @@
       "env": [
         "local"
       ],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-development",
-      "version": "2.5.0"
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development",
+      "version": "2.7.0"
     },
     "logrotator": {
       "enable": true,
@@ -437,9 +445,20 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-logrotator",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-schedule@3.6.6@egg-schedule",
+      "version": "3.6.6"
     },
     "static": {
       "enable": true,
@@ -448,9 +467,22 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-static",
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "version": "2.0.0"
     },
     "view": {
       "enable": true,
@@ -459,9 +491,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-view",
-      "version": "2.1.2"
+      "from": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-view@2.1.3@egg-view",
+      "version": "2.1.3"
     },
     "jwt": {
       "enable": true,
@@ -472,8 +504,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-jwt",
+      "from": "/Users/mangoguang/Documents/service/egg_example/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-jwt@3.1.7@egg-jwt",
       "version": "3.1.7"
     },
     "cors": {
@@ -483,8 +515,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-cors",
+      "from": "/Users/mangoguang/Documents/service/egg_example/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-cors@2.2.3@egg-cors",
       "version": "2.2.3"
     },
     "mysql": {
@@ -494,8 +526,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-mysql",
+      "from": "/Users/mangoguang/Documents/service/egg_example/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
     },
     "validate": {
@@ -505,9 +537,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\webServer\\egg-example\\config\\plugin.js",
-      "path": "E:\\webServer\\egg-example\\node_modules\\egg-validate",
+      "from": "/Users/mangoguang/Documents/service/egg_example/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-validate@2.0.2@egg-validate",
       "version": "2.0.2"
+    },
+    "swaggerdoc": {
+      "enable": true,
+      "package": "egg-swagger-doc",
+      "name": "swaggerdoc",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/mangoguang/Documents/service/egg_example/config/plugin.js",
+      "path": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-swagger-doc@2.3.2@egg-swagger-doc",
+      "version": "2.3.2"
     }
   }
 }
