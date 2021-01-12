@@ -9,8 +9,8 @@ module.exports = app => {
   router.resources('users', '/api/v1/users', jwt, controller.users)
   router.get('/api/v1/users/check/:userName', controller.users.check)
   router.post('/api/v1/users/payInfo', jwt, controller.users.payInfo)
-  router.get('/api/v1/getUserInfoByCode', controller.users.userInfo)
-  router.post('/api/v1/createUserByCode', controller.users.createUserByCode)
+  router.post('/api/v1/users/getUserInfoByCode', controller.users.userInfo)
+  router.post('/api/v1/users/createUserByCode', controller.users.createUserByCode)
 
   // 数据字典路由
   router.resources('dict', '/api/v1/dict', jwt, controller.dictionary)

@@ -1,5 +1,408 @@
-2021-01-07 00:13:12,473 INFO 45370 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-07 00:13:12,499 INFO 45370 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-07 00:14:42,213 INFO 45370 [-/::1/-/3ms GET /api/login/mangoguang?password=admin123] 登录用户的IP地址---------------： ::1
-2021-01-07 00:34:46,377 INFO 47839 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-07 00:34:46,398 INFO 47839 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 13:59:32,971 INFO 10049 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 13:59:32,995 INFO 10049 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 13:59:33,006 ERROR 10049 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:131:14)
+    --------------------
+    at Protocol._enqueue (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:48:16)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:202:8)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 10049
+hostname: guangs-MBP
+
+2021-01-12 14:00:11,824 INFO 10216 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:00:11,841 INFO 10216 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:03:14,734 WARN 10216 [-/::1/-/19ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10216
+hostname: guangs-MBP
+
+2021-01-12 14:03:15,503 INFO 10216 [-/::1/-/396ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:04:39,580 WARN 10216 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10216
+hostname: guangs-MBP
+
+2021-01-12 14:04:40,316 INFO 10216 [-/::1/-/444ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:05:49,982 INFO 10720 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:05:50,002 INFO 10720 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:06:00,837 WARN 10720 [-/::1/-/17ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10720
+hostname: guangs-MBP
+
+2021-01-12 14:06:01,582 INFO 10720 [-/::1/-/369ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:06:15,892 WARN 10720 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10720
+hostname: guangs-MBP
+
+2021-01-12 14:06:16,471 INFO 10720 [-/::1/-/319ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:06:51,246 INFO 10801 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:06:51,267 INFO 10801 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:06:56,086 WARN 10801 [-/::1/-/12ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10801
+hostname: guangs-MBP
+
+2021-01-12 14:06:56,612 INFO 10801 [-/::1/-/320ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:07:22,698 INFO 10853 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:07:22,721 INFO 10853 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:07:55,611 WARN 10853 [-/::1/-/12ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10853
+hostname: guangs-MBP
+
+2021-01-12 14:07:56,199 INFO 10853 [-/::1/-/327ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:08:46,863 WARN 10853 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10853
+hostname: guangs-MBP
+
+2021-01-12 14:08:47,767 INFO 10853 [-/::1/-/332ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:09:27,704 INFO 10998 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:09:27,724 INFO 10998 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:09:48,960 INFO 10998 [-/::1/-/16332ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=88A537EA-0C47-4BAF-8649-0EF4C048C9C6] 登录用户的IP地址---------------： ::1
+2021-01-12 14:09:49,117 WARN 10998 [-/::1/-/12ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 10998
+hostname: guangs-MBP
+
+2021-01-12 14:09:49,862 INFO 10998 [-/::1/-/465ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:10:19,387 INFO 11055 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:10:19,406 INFO 11055 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:10:50,794 INFO 11091 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:10:50,814 INFO 11091 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:11:09,332 INFO 11091 [-/::1/-/13515ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=4861DCD0-96F6-40F3-8DBE-2B34C4D0A2AE] 登录用户的IP地址---------------： ::1
+2021-01-12 14:11:09,480 WARN 11091 [-/::1/-/12ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11091
+hostname: guangs-MBP
+
+2021-01-12 14:11:10,115 INFO 11091 [-/::1/-/375ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:12:20,669 INFO 11182 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:12:20,689 INFO 11182 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:14:15,285 INFO 11296 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:14:15,305 INFO 11296 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:16:51,365 INFO 11437 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:16:51,385 INFO 11437 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:17:37,146 INFO 11501 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:17:37,164 INFO 11501 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:18:01,251 WARN 11501 [-/::1/-/13ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11501
+hostname: guangs-MBP
+
+2021-01-12 14:18:01,848 ERROR 11501 [-/::1/-/2ms POST /api/v1/users/getUserInfoByCode] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/base_context_class.js:25:20)
+    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/lib/core/base_context_class.js:13:1)
+    at new UserService (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:8:5)
+    at getInstance (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:27:22)
+    at UserController.userInfo (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:50:36)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+
+pid: 11501
+hostname: guangs-MBP
+
+2021-01-12 14:19:16,564 INFO 11582 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:19:16,585 INFO 11582 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:19:39,736 INFO 11631 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:19:39,756 INFO 11631 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:19:46,744 WARN 11631 [-/::1/-/13ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11631
+hostname: guangs-MBP
+
+2021-01-12 14:19:47,365 INFO 11631 [-/::1/-/385ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:20:42,059 WARN 11631 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11631
+hostname: guangs-MBP
+
+2021-01-12 14:20:42,645 INFO 11631 [-/::1/-/321ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:22:27,336 INFO 11770 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:22:27,353 INFO 11770 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:22:50,117 INFO 11790 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:22:50,135 INFO 11790 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:24:40,345 INFO 11790 [-/::1/-/76942ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=EE32800B-F0AF-4B22-B42F-A4A5D96B2BC1] 登录用户的IP地址---------------： ::1
+2021-01-12 14:25:48,281 INFO 11935 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:25:48,298 INFO 11935 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:26:04,390 INFO 11981 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:26:04,408 INFO 11981 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:26:21,352 INFO 11981 [-/::1/-/15ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=71B9566F-F96A-401E-A412-B0459181CF79] 登录用户的IP地址---------------： ::1
+2021-01-12 14:26:34,754 WARN 11981 [-/::1/-/13ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11981
+hostname: guangs-MBP
+
+2021-01-12 14:26:35,541 INFO 11981 [-/::1/-/371ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:26:56,158 INFO 11981 [-/::1/-/7ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=45B9415A-AA60-4BEB-9D35-0BB2C9CEE812] 登录用户的IP地址---------------： ::1
+2021-01-12 14:26:56,279 WARN 11981 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 11981
+hostname: guangs-MBP
+
+2021-01-12 14:26:56,830 INFO 11981 [-/::1/-/299ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:28:02,233 INFO 12086 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:28:02,251 INFO 12086 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:28:09,059 INFO 12086 [-/::1/-/14ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=DAC98460-867B-4B66-8DA8-032D19F642AE] 登录用户的IP地址---------------： ::1
+2021-01-12 14:28:17,587 WARN 12086 [-/::1/-/13ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 12086
+hostname: guangs-MBP
+
+2021-01-12 14:28:18,220 INFO 12086 [-/::1/-/323ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:28:55,309 INFO 12086 [-/::1/-/7ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=F63F1C86-7FBE-4757-BC29-E5244DC79DCC] 登录用户的IP地址---------------： ::1
+2021-01-12 14:28:55,428 WARN 12086 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt malformed
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:63:12)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+name: "UnauthorizedError"
+message: "jwt malformed"
+code: "invalid_token"
+status: 401
+inner: {"name":"JsonWebTokenError","message":"jwt malformed"}
+pid: 12086
+hostname: guangs-MBP
+
+2021-01-12 14:28:55,983 INFO 12086 [-/::1/-/268ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:30:30,255 INFO 12232 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 14:30:30,276 INFO 12232 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 14:30:34,566 INFO 12232 [-/::1/-/15ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=2FA4C85D-B408-4F6E-BE3C-C905201B18D0] 登录用户的IP地址---------------： ::1
+2021-01-12 14:30:35,353 INFO 12232 [-/::1/-/395ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null

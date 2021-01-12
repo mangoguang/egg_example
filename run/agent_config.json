@@ -235,6 +235,7 @@
         "egg-socket.io": "^4.1.6",
         "egg-swagger-doc": "^2.3.2",
         "egg-validate": "^2.0.2",
+        "node-crypto": "^1.0.0",
         "stream-wormhole": "^1.1.0"
       },
       "devDependencies": {

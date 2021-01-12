@@ -1,421 +1,353 @@
-2021-01-07 00:00:01,080 INFO 43420 [egg-logrotator] app logger reload: got log-reload message
-2021-01-07 00:02:50,340 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+2021-01-09 00:00:00,610 INFO 44447 [egg-logrotator] app logger reload: got log-reload message
+2021-01-09 00:02:23,013 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 00:02:23,014 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 00:50:53,027 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 00:50:53,027 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 01:23:53,269 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 01:23:53,270 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 01:40:12,529 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 01:40:12,530 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 01:56:31,776 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 01:56:31,777 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 03:57:24,258 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 03:57:24,259 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 04:08:37,179 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 04:08:37,180 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 06:09:29,207 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 06:09:29,208 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 06:09:29,566 INFO 44447 [-/127.0.0.1/-/355ms SCHEDULE /__schedule?path=/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/k5/0gw04hr107b766mg27_g0lj80000gn/T/egg-multipart-tmp/egg-example"
+2021-01-09 06:09:29,574 INFO 44447 [-/127.0.0.1/-/364ms SCHEDULE /__schedule?path=/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-09 06:20:42,141 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 06:20:42,142 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 08:21:00,604 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 08:21:00,605 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 09:10:19,083 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 09:10:19,084 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-09 09:19:32,881 WARN 44447 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-09 09:19:32,882 WARN 44447 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-12 13:59:32,746 INFO 10049 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 13:59:32,768 INFO 10049 [egg-multipart] stream mode enable
+2021-01-12 13:59:32,768 INFO 10049 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 13:59:32,933 INFO 10049 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 13:59:32,935 INFO 10049 [egg-security] use methodnoallow middleware
+2021-01-12 13:59:32,936 INFO 10049 [egg-security] use noopen middleware
+2021-01-12 13:59:32,936 INFO 10049 [egg-security] use nosniff middleware
+2021-01-12 13:59:32,937 INFO 10049 [egg-security] use xssProtection middleware
+2021-01-12 13:59:32,937 INFO 10049 [egg-security] use xframe middleware
+2021-01-12 13:59:32,938 INFO 10049 [egg-security] use dta middleware
+2021-01-12 13:59:32,938 INFO 10049 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 13:59:32,956 INFO 10049 [egg:core] dump config after load, 4ms
+2021-01-12 13:59:33,012 INFO 10049 [egg:core] dump config after ready, 4ms
+2021-01-12 13:59:33,017 INFO 10049 [egg-watcher:application] watcher start success
+2021-01-12 14:00:11,652 INFO 10216 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:00:11,673 INFO 10216 [egg-multipart] stream mode enable
+2021-01-12 14:00:11,673 INFO 10216 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:00:11,787 INFO 10216 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:00:11,789 INFO 10216 [egg-security] use methodnoallow middleware
+2021-01-12 14:00:11,789 INFO 10216 [egg-security] use noopen middleware
+2021-01-12 14:00:11,790 INFO 10216 [egg-security] use nosniff middleware
+2021-01-12 14:00:11,791 INFO 10216 [egg-security] use xssProtection middleware
+2021-01-12 14:00:11,791 INFO 10216 [egg-security] use xframe middleware
+2021-01-12 14:00:11,791 INFO 10216 [egg-security] use dta middleware
+2021-01-12 14:00:11,792 INFO 10216 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:00:11,810 INFO 10216 [egg:core] dump config after load, 4ms
+2021-01-12 14:00:11,853 INFO 10216 [egg-watcher:application] watcher start success
+2021-01-12 14:00:11,857 INFO 10216 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:00:11 GMT+0800 (中国标准时间)
+2021-01-12 14:00:11,863 INFO 10216 [egg:core] dump config after ready, 4ms
+2021-01-12 14:05:49,801 INFO 10720 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:05:49,825 INFO 10720 [egg-multipart] stream mode enable
+2021-01-12 14:05:49,825 INFO 10720 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:05:49,946 INFO 10720 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:05:49,948 INFO 10720 [egg-security] use methodnoallow middleware
+2021-01-12 14:05:49,949 INFO 10720 [egg-security] use noopen middleware
+2021-01-12 14:05:49,949 INFO 10720 [egg-security] use nosniff middleware
+2021-01-12 14:05:49,949 INFO 10720 [egg-security] use xssProtection middleware
+2021-01-12 14:05:49,950 INFO 10720 [egg-security] use xframe middleware
+2021-01-12 14:05:49,950 INFO 10720 [egg-security] use dta middleware
+2021-01-12 14:05:49,950 INFO 10720 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:05:49,968 INFO 10720 [egg:core] dump config after load, 3ms
+2021-01-12 14:05:50,013 INFO 10720 [egg-watcher:application] watcher start success
+2021-01-12 14:05:50,015 INFO 10720 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:05:50 GMT+0800 (中国标准时间)
+2021-01-12 14:05:50,021 INFO 10720 [egg:core] dump config after ready, 5ms
+2021-01-12 14:06:51,059 INFO 10801 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:06:51,084 INFO 10801 [egg-multipart] stream mode enable
+2021-01-12 14:06:51,084 INFO 10801 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:06:51,205 INFO 10801 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:06:51,207 INFO 10801 [egg-security] use methodnoallow middleware
+2021-01-12 14:06:51,208 INFO 10801 [egg-security] use noopen middleware
+2021-01-12 14:06:51,208 INFO 10801 [egg-security] use nosniff middleware
+2021-01-12 14:06:51,209 INFO 10801 [egg-security] use xssProtection middleware
+2021-01-12 14:06:51,209 INFO 10801 [egg-security] use xframe middleware
+2021-01-12 14:06:51,210 INFO 10801 [egg-security] use dta middleware
+2021-01-12 14:06:51,210 INFO 10801 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:06:51,231 INFO 10801 [egg:core] dump config after load, 4ms
+2021-01-12 14:06:51,280 INFO 10801 [egg-watcher:application] watcher start success
+2021-01-12 14:06:51,281 INFO 10801 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:06:51 GMT+0800 (中国标准时间)
+2021-01-12 14:06:51,288 INFO 10801 [egg:core] dump config after ready, 5ms
+2021-01-12 14:07:22,510 INFO 10853 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:07:22,534 INFO 10853 [egg-multipart] stream mode enable
+2021-01-12 14:07:22,535 INFO 10853 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:07:22,657 INFO 10853 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:07:22,658 INFO 10853 [egg-security] use methodnoallow middleware
+2021-01-12 14:07:22,659 INFO 10853 [egg-security] use noopen middleware
+2021-01-12 14:07:22,660 INFO 10853 [egg-security] use nosniff middleware
+2021-01-12 14:07:22,660 INFO 10853 [egg-security] use xssProtection middleware
+2021-01-12 14:07:22,661 INFO 10853 [egg-security] use xframe middleware
+2021-01-12 14:07:22,662 INFO 10853 [egg-security] use dta middleware
+2021-01-12 14:07:22,662 INFO 10853 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:07:22,684 INFO 10853 [egg:core] dump config after load, 4ms
+2021-01-12 14:07:22,734 INFO 10853 [egg-watcher:application] watcher start success
+2021-01-12 14:07:22,736 INFO 10853 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:07:22 GMT+0800 (中国标准时间)
+2021-01-12 14:07:22,742 INFO 10853 [egg:core] dump config after ready, 4ms
+2021-01-12 14:09:27,514 INFO 10998 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:09:27,540 INFO 10998 [egg-multipart] stream mode enable
+2021-01-12 14:09:27,540 INFO 10998 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:09:27,663 INFO 10998 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:09:27,664 INFO 10998 [egg-security] use methodnoallow middleware
+2021-01-12 14:09:27,665 INFO 10998 [egg-security] use noopen middleware
+2021-01-12 14:09:27,666 INFO 10998 [egg-security] use nosniff middleware
+2021-01-12 14:09:27,666 INFO 10998 [egg-security] use xssProtection middleware
+2021-01-12 14:09:27,666 INFO 10998 [egg-security] use xframe middleware
+2021-01-12 14:09:27,667 INFO 10998 [egg-security] use dta middleware
+2021-01-12 14:09:27,667 INFO 10998 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:09:27,689 INFO 10998 [egg:core] dump config after load, 4ms
+2021-01-12 14:09:27,738 INFO 10998 [egg-watcher:application] watcher start success
+2021-01-12 14:09:27,739 INFO 10998 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:09:27 GMT+0800 (中国标准时间)
+2021-01-12 14:09:27,745 INFO 10998 [egg:core] dump config after ready, 4ms
+2021-01-12 14:10:19,196 INFO 11055 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:10:19,224 INFO 11055 [egg-multipart] stream mode enable
+2021-01-12 14:10:19,224 INFO 11055 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:10:19,348 INFO 11055 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:10:19,350 INFO 11055 [egg-security] use methodnoallow middleware
+2021-01-12 14:10:19,350 INFO 11055 [egg-security] use noopen middleware
+2021-01-12 14:10:19,351 INFO 11055 [egg-security] use nosniff middleware
+2021-01-12 14:10:19,351 INFO 11055 [egg-security] use xssProtection middleware
+2021-01-12 14:10:19,352 INFO 11055 [egg-security] use xframe middleware
+2021-01-12 14:10:19,352 INFO 11055 [egg-security] use dta middleware
+2021-01-12 14:10:19,352 INFO 11055 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:10:19,372 INFO 11055 [egg:core] dump config after load, 4ms
+2021-01-12 14:10:19,420 INFO 11055 [egg-watcher:application] watcher start success
+2021-01-12 14:10:19,421 INFO 11055 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:10:19 GMT+0800 (中国标准时间)
+2021-01-12 14:10:19,427 INFO 11055 [egg:core] dump config after ready, 4ms
+2021-01-12 14:10:50,607 INFO 11091 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:10:50,633 INFO 11091 [egg-multipart] stream mode enable
+2021-01-12 14:10:50,634 INFO 11091 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:10:50,754 INFO 11091 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:10:50,756 INFO 11091 [egg-security] use methodnoallow middleware
+2021-01-12 14:10:50,756 INFO 11091 [egg-security] use noopen middleware
+2021-01-12 14:10:50,757 INFO 11091 [egg-security] use nosniff middleware
+2021-01-12 14:10:50,757 INFO 11091 [egg-security] use xssProtection middleware
+2021-01-12 14:10:50,758 INFO 11091 [egg-security] use xframe middleware
+2021-01-12 14:10:50,758 INFO 11091 [egg-security] use dta middleware
+2021-01-12 14:10:50,758 INFO 11091 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:10:50,780 INFO 11091 [egg:core] dump config after load, 3ms
+2021-01-12 14:10:50,828 INFO 11091 [egg-watcher:application] watcher start success
+2021-01-12 14:10:50,829 INFO 11091 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:10:50 GMT+0800 (中国标准时间)
+2021-01-12 14:10:50,836 INFO 11091 [egg:core] dump config after ready, 5ms
+2021-01-12 14:12:20,481 INFO 11182 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:12:20,507 INFO 11182 [egg-multipart] stream mode enable
+2021-01-12 14:12:20,507 INFO 11182 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:12:20,629 INFO 11182 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:12:20,631 INFO 11182 [egg-security] use methodnoallow middleware
+2021-01-12 14:12:20,632 INFO 11182 [egg-security] use noopen middleware
+2021-01-12 14:12:20,632 INFO 11182 [egg-security] use nosniff middleware
+2021-01-12 14:12:20,633 INFO 11182 [egg-security] use xssProtection middleware
+2021-01-12 14:12:20,633 INFO 11182 [egg-security] use xframe middleware
+2021-01-12 14:12:20,633 INFO 11182 [egg-security] use dta middleware
+2021-01-12 14:12:20,633 INFO 11182 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:12:20,654 INFO 11182 [egg:core] dump config after load, 4ms
+2021-01-12 14:12:20,703 INFO 11182 [egg-watcher:application] watcher start success
+2021-01-12 14:12:20,704 INFO 11182 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:12:20 GMT+0800 (中国标准时间)
+2021-01-12 14:12:20,711 INFO 11182 [egg:core] dump config after ready, 5ms
+2021-01-12 14:12:30,799 WARN 11091 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-12 14:14:15,102 INFO 11296 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:14:15,128 INFO 11296 [egg-multipart] stream mode enable
+2021-01-12 14:14:15,128 INFO 11296 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:14:15,247 INFO 11296 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:14:15,249 INFO 11296 [egg-security] use methodnoallow middleware
+2021-01-12 14:14:15,250 INFO 11296 [egg-security] use noopen middleware
+2021-01-12 14:14:15,251 INFO 11296 [egg-security] use nosniff middleware
+2021-01-12 14:14:15,251 INFO 11296 [egg-security] use xssProtection middleware
+2021-01-12 14:14:15,252 INFO 11296 [egg-security] use xframe middleware
+2021-01-12 14:14:15,253 INFO 11296 [egg-security] use dta middleware
+2021-01-12 14:14:15,253 INFO 11296 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:14:15,272 INFO 11296 [egg:core] dump config after load, 3ms
+2021-01-12 14:14:15,318 INFO 11296 [egg-watcher:application] watcher start success
+2021-01-12 14:14:15,319 INFO 11296 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:14:15 GMT+0800 (中国标准时间)
+2021-01-12 14:14:15,325 INFO 11296 [egg:core] dump config after ready, 4ms
+2021-01-12 14:16:51,182 INFO 11437 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:16:51,206 INFO 11437 [egg-multipart] stream mode enable
+2021-01-12 14:16:51,206 INFO 11437 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:16:51,327 INFO 11437 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:16:51,329 INFO 11437 [egg-security] use methodnoallow middleware
+2021-01-12 14:16:51,329 INFO 11437 [egg-security] use noopen middleware
+2021-01-12 14:16:51,330 INFO 11437 [egg-security] use nosniff middleware
+2021-01-12 14:16:51,330 INFO 11437 [egg-security] use xssProtection middleware
+2021-01-12 14:16:51,330 INFO 11437 [egg-security] use xframe middleware
+2021-01-12 14:16:51,331 INFO 11437 [egg-security] use dta middleware
+2021-01-12 14:16:51,331 INFO 11437 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:16:51,350 INFO 11437 [egg:core] dump config after load, 3ms
+2021-01-12 14:16:51,396 INFO 11437 [egg-watcher:application] watcher start success
+2021-01-12 14:16:51,398 INFO 11437 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:16:51 GMT+0800 (中国标准时间)
+2021-01-12 14:16:51,404 INFO 11437 [egg:core] dump config after ready, 4ms
+2021-01-12 14:17:36,954 INFO 11501 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:17:36,986 INFO 11501 [egg-multipart] stream mode enable
+2021-01-12 14:17:36,987 INFO 11501 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:17:37,109 INFO 11501 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:17:37,111 INFO 11501 [egg-security] use methodnoallow middleware
+2021-01-12 14:17:37,111 INFO 11501 [egg-security] use noopen middleware
+2021-01-12 14:17:37,112 INFO 11501 [egg-security] use nosniff middleware
+2021-01-12 14:17:37,112 INFO 11501 [egg-security] use xssProtection middleware
+2021-01-12 14:17:37,113 INFO 11501 [egg-security] use xframe middleware
+2021-01-12 14:17:37,113 INFO 11501 [egg-security] use dta middleware
+2021-01-12 14:17:37,113 INFO 11501 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:17:37,132 INFO 11501 [egg:core] dump config after load, 3ms
+2021-01-12 14:17:37,176 INFO 11501 [egg-watcher:application] watcher start success
+2021-01-12 14:17:37,177 INFO 11501 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:17:37 GMT+0800 (中国标准时间)
+2021-01-12 14:17:37,183 INFO 11501 [egg:core] dump config after ready, 4ms
+2021-01-12 14:19:12,435 INFO 11582 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:19:12,460 INFO 11582 [egg-multipart] stream mode enable
+2021-01-12 14:19:12,460 INFO 11582 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:19:16,523 INFO 11582 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:19:16,525 INFO 11582 [egg-security] use methodnoallow middleware
+2021-01-12 14:19:16,526 INFO 11582 [egg-security] use noopen middleware
+2021-01-12 14:19:16,526 INFO 11582 [egg-security] use nosniff middleware
+2021-01-12 14:19:16,527 INFO 11582 [egg-security] use xssProtection middleware
+2021-01-12 14:19:16,527 INFO 11582 [egg-security] use xframe middleware
+2021-01-12 14:19:16,528 INFO 11582 [egg-security] use dta middleware
+2021-01-12 14:19:16,528 INFO 11582 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:19:16,549 INFO 11582 [egg:core] dump config after load, 4ms
+2021-01-12 14:19:16,600 INFO 11582 [egg-watcher:application] watcher start success
+2021-01-12 14:19:16,601 INFO 11582 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:19:16 GMT+0800 (中国标准时间)
+2021-01-12 14:19:16,609 INFO 11582 [egg:core] dump config after ready, 4ms
+2021-01-12 14:19:39,548 INFO 11631 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:19:39,576 INFO 11631 [egg-multipart] stream mode enable
+2021-01-12 14:19:39,577 INFO 11631 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:19:39,704 INFO 11631 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:19:39,705 INFO 11631 [egg-security] use methodnoallow middleware
+2021-01-12 14:19:39,706 INFO 11631 [egg-security] use noopen middleware
+2021-01-12 14:19:39,706 INFO 11631 [egg-security] use nosniff middleware
+2021-01-12 14:19:39,707 INFO 11631 [egg-security] use xssProtection middleware
+2021-01-12 14:19:39,707 INFO 11631 [egg-security] use xframe middleware
+2021-01-12 14:19:39,708 INFO 11631 [egg-security] use dta middleware
+2021-01-12 14:19:39,708 INFO 11631 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:19:39,722 INFO 11631 [egg:core] dump config after load, 4ms
+2021-01-12 14:19:39,769 INFO 11631 [egg-watcher:application] watcher start success
+2021-01-12 14:19:39,771 INFO 11631 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:19:39 GMT+0800 (中国标准时间)
+2021-01-12 14:19:39,777 INFO 11631 [egg:core] dump config after ready, 4ms
+2021-01-12 14:22:27,167 INFO 11770 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:22:27,193 INFO 11770 [egg-multipart] stream mode enable
+2021-01-12 14:22:27,193 INFO 11770 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:22:27,306 INFO 11770 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:22:27,308 INFO 11770 [egg-security] use methodnoallow middleware
+2021-01-12 14:22:27,308 INFO 11770 [egg-security] use noopen middleware
+2021-01-12 14:22:27,309 INFO 11770 [egg-security] use nosniff middleware
+2021-01-12 14:22:27,309 INFO 11770 [egg-security] use xssProtection middleware
+2021-01-12 14:22:27,309 INFO 11770 [egg-security] use xframe middleware
+2021-01-12 14:22:27,310 INFO 11770 [egg-security] use dta middleware
+2021-01-12 14:22:27,310 INFO 11770 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:22:27,322 INFO 11770 [egg:core] dump config after load, 3ms
+2021-01-12 14:22:27,366 INFO 11770 [egg-watcher:application] watcher start success
+2021-01-12 14:22:27,367 INFO 11770 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:22:27 GMT+0800 (中国标准时间)
+2021-01-12 14:22:27,373 INFO 11770 [egg:core] dump config after ready, 4ms
+2021-01-12 14:22:49,948 INFO 11790 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:22:49,972 INFO 11790 [egg-multipart] stream mode enable
+2021-01-12 14:22:49,973 INFO 11790 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:22:50,087 INFO 11790 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:22:50,089 INFO 11790 [egg-security] use methodnoallow middleware
+2021-01-12 14:22:50,089 INFO 11790 [egg-security] use noopen middleware
+2021-01-12 14:22:50,090 INFO 11790 [egg-security] use nosniff middleware
+2021-01-12 14:22:50,090 INFO 11790 [egg-security] use xssProtection middleware
+2021-01-12 14:22:50,090 INFO 11790 [egg-security] use xframe middleware
+2021-01-12 14:22:50,091 INFO 11790 [egg-security] use dta middleware
+2021-01-12 14:22:50,091 INFO 11790 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:22:50,103 INFO 11790 [egg:core] dump config after load, 3ms
+2021-01-12 14:22:50,147 INFO 11790 [egg-watcher:application] watcher start success
+2021-01-12 14:22:50,148 INFO 11790 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:22:50 GMT+0800 (中国标准时间)
+2021-01-12 14:22:50,153 INFO 11790 [egg:core] dump config after ready, 3ms
+2021-01-12 14:23:03,690 WARN 11631 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-12 14:23:03,692 ERROR 11631 nodejs.ERR_IPC_DISCONNECTEDError: IPC channel is already disconnected (uncaughtException throw 1 times on pid:11631)
+    at process.target.disconnect (internal/child_process.js:858:26)
+    at Server.checkWaitingCount (internal/cluster/child.js:215:17)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+code: "ERR_IPC_DISCONNECTED"
+name: "ERR_IPC_DISCONNECTEDError"
+pid: 11631
+hostname: guangs-MBP
 
-pid: 43420
-hostname: guangs-MacBook-Pro.local
+2021-01-12 14:23:03,711 ERROR 11631 nodejs.ERR_IPC_CHANNEL_CLOSEDError: Channel closed (uncaughtException throw 2 times on pid:11631)
+    at process.target.send (internal/child_process.js:705:16)
+    at Worker.send (internal/cluster/worker.js:46:10)
+    at process.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_graceful@1.0.2@graceful/index.js:100:16)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+code: "ERR_IPC_CHANNEL_CLOSED"
+name: "ERR_IPC_CHANNEL_CLOSEDError"
+pid: 11631
+hostname: guangs-MBP
 
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,886 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:13:12,282 INFO 45370 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/example-egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-07 00:13:12,310 INFO 45370 [egg-multipart] stream mode enable
-2021-01-07 00:13:12,310 INFO 45370 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
-2021-01-07 00:13:12,434 INFO 45370 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/example-egg/app/public
-2021-01-07 00:13:12,436 INFO 45370 [egg-security] use methodnoallow middleware
-2021-01-07 00:13:12,437 INFO 45370 [egg-security] use noopen middleware
-2021-01-07 00:13:12,437 INFO 45370 [egg-security] use nosniff middleware
-2021-01-07 00:13:12,438 INFO 45370 [egg-security] use xssProtection middleware
-2021-01-07 00:13:12,438 INFO 45370 [egg-security] use xframe middleware
-2021-01-07 00:13:12,439 INFO 45370 [egg-security] use dta middleware
-2021-01-07 00:13:12,439 INFO 45370 [egg-security] compose 6 middlewares into one security middleware
-2021-01-07 00:13:12,455 INFO 45370 [egg:core] dump config after load, 5ms
-2021-01-07 00:13:12,508 INFO 45370 [egg-watcher:application] watcher start success
-2021-01-07 00:13:12,510 INFO 45370 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jan 07 2021 00:13:12 GMT+0800 (中国标准时间)
-2021-01-07 00:13:12,516 INFO 45370 [egg:core] dump config after ready, 5ms
-2021-01-07 00:34:46,185 INFO 47839 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2021-01-07 00:34:46,209 INFO 47839 [egg-multipart] stream mode enable
-2021-01-07 00:34:46,209 INFO 47839 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
-2021-01-07 00:34:46,343 INFO 47839 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
-2021-01-07 00:34:46,346 INFO 47839 [egg-security] use methodnoallow middleware
-2021-01-07 00:34:46,346 INFO 47839 [egg-security] use noopen middleware
-2021-01-07 00:34:46,347 INFO 47839 [egg-security] use nosniff middleware
-2021-01-07 00:34:46,348 INFO 47839 [egg-security] use xssProtection middleware
-2021-01-07 00:34:46,348 INFO 47839 [egg-security] use xframe middleware
-2021-01-07 00:34:46,349 INFO 47839 [egg-security] use dta middleware
-2021-01-07 00:34:46,349 INFO 47839 [egg-security] compose 6 middlewares into one security middleware
-2021-01-07 00:34:46,364 INFO 47839 [egg:core] dump config after load, 5ms
-2021-01-07 00:34:46,407 INFO 47839 [egg-watcher:application] watcher start success
-2021-01-07 00:34:46,409 INFO 47839 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jan 07 2021 00:34:46 GMT+0800 (中国标准时间)
-2021-01-07 00:34:46,414 INFO 47839 [egg:core] dump config after ready, 4ms
+2021-01-12 14:25:08,477 WARN 11790 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-12 14:25:08,477 WARN 11790 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-12 14:25:48,100 INFO 11935 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:25:48,129 INFO 11935 [egg-multipart] stream mode enable
+2021-01-12 14:25:48,130 INFO 11935 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:25:48,251 INFO 11935 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:25:48,253 INFO 11935 [egg-security] use methodnoallow middleware
+2021-01-12 14:25:48,253 INFO 11935 [egg-security] use noopen middleware
+2021-01-12 14:25:48,254 INFO 11935 [egg-security] use nosniff middleware
+2021-01-12 14:25:48,254 INFO 11935 [egg-security] use xssProtection middleware
+2021-01-12 14:25:48,255 INFO 11935 [egg-security] use xframe middleware
+2021-01-12 14:25:48,255 INFO 11935 [egg-security] use dta middleware
+2021-01-12 14:25:48,255 INFO 11935 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:25:48,268 INFO 11935 [egg:core] dump config after load, 3ms
+2021-01-12 14:25:48,309 INFO 11935 [egg-watcher:application] watcher start success
+2021-01-12 14:25:48,310 INFO 11935 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:25:48 GMT+0800 (中国标准时间)
+2021-01-12 14:25:48,316 INFO 11935 [egg:core] dump config after ready, 4ms
+2021-01-12 14:26:04,215 INFO 11981 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:26:04,241 INFO 11981 [egg-multipart] stream mode enable
+2021-01-12 14:26:04,241 INFO 11981 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:26:04,359 INFO 11981 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:26:04,360 INFO 11981 [egg-security] use methodnoallow middleware
+2021-01-12 14:26:04,361 INFO 11981 [egg-security] use noopen middleware
+2021-01-12 14:26:04,362 INFO 11981 [egg-security] use nosniff middleware
+2021-01-12 14:26:04,362 INFO 11981 [egg-security] use xssProtection middleware
+2021-01-12 14:26:04,362 INFO 11981 [egg-security] use xframe middleware
+2021-01-12 14:26:04,363 INFO 11981 [egg-security] use dta middleware
+2021-01-12 14:26:04,363 INFO 11981 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:26:04,376 INFO 11981 [egg:core] dump config after load, 3ms
+2021-01-12 14:26:04,419 INFO 11981 [egg-watcher:application] watcher start success
+2021-01-12 14:26:04,420 INFO 11981 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:26:04 GMT+0800 (中国标准时间)
+2021-01-12 14:26:04,426 INFO 11981 [egg:core] dump config after ready, 4ms
+2021-01-12 14:28:02,057 INFO 12086 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:28:02,082 INFO 12086 [egg-multipart] stream mode enable
+2021-01-12 14:28:02,083 INFO 12086 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:28:02,202 INFO 12086 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:28:02,203 INFO 12086 [egg-security] use methodnoallow middleware
+2021-01-12 14:28:02,204 INFO 12086 [egg-security] use noopen middleware
+2021-01-12 14:28:02,204 INFO 12086 [egg-security] use nosniff middleware
+2021-01-12 14:28:02,205 INFO 12086 [egg-security] use xssProtection middleware
+2021-01-12 14:28:02,205 INFO 12086 [egg-security] use xframe middleware
+2021-01-12 14:28:02,206 INFO 12086 [egg-security] use dta middleware
+2021-01-12 14:28:02,206 INFO 12086 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:28:02,218 INFO 12086 [egg:core] dump config after load, 3ms
+2021-01-12 14:28:02,265 INFO 12086 [egg-watcher:application] watcher start success
+2021-01-12 14:28:02,266 INFO 12086 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:28:02 GMT+0800 (中国标准时间)
+2021-01-12 14:28:02,271 INFO 12086 [egg:core] dump config after ready, 4ms
+2021-01-12 14:30:30,077 INFO 12232 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-12 14:30:30,104 INFO 12232 [egg-multipart] stream mode enable
+2021-01-12 14:30:30,105 INFO 12232 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-12 14:30:30,219 INFO 12232 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-12 14:30:30,220 INFO 12232 [egg-security] use methodnoallow middleware
+2021-01-12 14:30:30,221 INFO 12232 [egg-security] use noopen middleware
+2021-01-12 14:30:30,221 INFO 12232 [egg-security] use nosniff middleware
+2021-01-12 14:30:30,221 INFO 12232 [egg-security] use xssProtection middleware
+2021-01-12 14:30:30,222 INFO 12232 [egg-security] use xframe middleware
+2021-01-12 14:30:30,222 INFO 12232 [egg-security] use dta middleware
+2021-01-12 14:30:30,222 INFO 12232 [egg-security] compose 6 middlewares into one security middleware
+2021-01-12 14:30:30,240 INFO 12232 [egg:core] dump config after load, 6ms
+2021-01-12 14:30:30,290 INFO 12232 [egg-watcher:application] watcher start success
+2021-01-12 14:30:30,291 INFO 12232 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 12 2021 14:30:30 GMT+0800 (中国标准时间)
+2021-01-12 14:30:30,297 INFO 12232 [egg:core] dump config after ready, 4ms

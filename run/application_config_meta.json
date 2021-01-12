@@ -221,6 +221,7 @@
       "egg-socket.io": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
       "egg-swagger-doc": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
       "egg-validate": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+      "node-crypto": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
       "stream-wormhole": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js"
     },
     "devDependencies": {

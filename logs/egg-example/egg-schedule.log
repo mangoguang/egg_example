@@ -1,9 +1,66 @@
-2021-01-07 00:13:12,309 INFO 45370 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2021-01-07 00:13:12,309 INFO 45370 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/clean_log.js
-2021-01-07 00:13:12,309 INFO 45370 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/example-egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2021-01-07 00:34:46,420 INFO 47838 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 14113582ms at 2021-01-07 04:30:00.002
-2021-01-07 00:34:46,421 INFO 47838 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 84313580ms at 2021-01-08 00:00:00.001
-2021-01-07 00:34:46,422 INFO 47838 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 84314579ms at 2021-01-08 00:00:01.001
-2021-01-07 00:34:46,208 INFO 47839 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2021-01-07 00:34:46,208 INFO 47839 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2021-01-07 00:34:46,208 INFO 47839 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-09 06:09:29,567 INFO 1564 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 80430793ms at 2021-01-10 04:30:00.360
+2021-01-09 06:09:29,210 INFO 44447 [Job#16101437692071351001940125692] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-01-09 06:09:29,575 INFO 44447 [Job#16101437692071351001940125692] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 364ms. 
+2021-01-12 13:59:32,767 INFO 10049 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 13:59:32,767 INFO 10049 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 13:59:32,767 INFO 10049 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:00:11,869 INFO 10214 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52188133ms at 2021-01-13 04:30:00.002
+2021-01-12 14:00:11,870 INFO 10214 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 35988131ms at 2021-01-13 00:00:00.001
+2021-01-12 14:00:11,870 INFO 10214 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35989130ms at 2021-01-13 00:00:01.000
+2021-01-12 14:00:11,672 INFO 10216 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:00:11,672 INFO 10216 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:00:11,672 INFO 10216 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:05:49,824 INFO 10720 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:05:49,824 INFO 10720 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:05:49,824 INFO 10720 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:06:51,083 INFO 10801 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:06:51,083 INFO 10801 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:06:51,083 INFO 10801 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:07:22,534 INFO 10853 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:07:22,534 INFO 10853 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:07:22,534 INFO 10853 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:09:27,539 INFO 10998 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:09:27,539 INFO 10998 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:09:27,539 INFO 10998 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:10:19,223 INFO 11055 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:10:19,223 INFO 11055 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:10:19,223 INFO 11055 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:10:50,633 INFO 11091 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:10:50,633 INFO 11091 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:10:50,633 INFO 11091 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:12:20,506 INFO 11182 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:12:20,506 INFO 11182 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:12:20,506 INFO 11182 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:14:15,127 INFO 11296 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:14:15,127 INFO 11296 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:14:15,127 INFO 11296 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:16:51,205 INFO 11437 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:16:51,205 INFO 11437 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:16:51,205 INFO 11437 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:17:36,986 INFO 11501 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:17:36,986 INFO 11501 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:17:36,986 INFO 11501 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:19:12,459 INFO 11582 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:19:12,459 INFO 11582 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:19:12,459 INFO 11582 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:19:39,576 INFO 11631 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:19:39,576 INFO 11631 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:19:39,576 INFO 11631 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:22:27,193 INFO 11770 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:22:27,193 INFO 11770 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:22:27,193 INFO 11770 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:22:49,972 INFO 11790 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:22:49,972 INFO 11790 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:22:49,972 INFO 11790 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:25:48,129 INFO 11935 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:25:48,129 INFO 11935 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:25:48,129 INFO 11935 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:26:04,240 INFO 11981 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:26:04,240 INFO 11981 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:26:04,240 INFO 11981 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:28:02,082 INFO 12086 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:28:02,082 INFO 12086 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:28:02,082 INFO 12086 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-01-12 14:30:30,103 INFO 12232 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-01-12 14:30:30,104 INFO 12232 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-01-12 14:30:30,104 INFO 12232 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

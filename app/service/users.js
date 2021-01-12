@@ -1,8 +1,24 @@
 const Service = require('egg').Service;
-const { getDate } = require('../utils/common')
+const { getDate, dataToLine, sendDateTime } = require('../utils/common')
 const { weappInfo } = require('../utils/constants')
+const { md5 } = require('../utils/common')
 
 class UserService extends Service {
+  // constructor() {
+  //   super()
+  //   /**
+  //   * 查询用户详情
+  //   */
+  //   this.showByName = async function(user_name) {
+  //     const { app } = this
+  //     try {
+  //       const result = await app.mysql.get('users', { user_name })
+  //       return result
+  //     } catch (error) {
+  //       return error
+  //     }
+  //   }
+  // }
   async index() {
     const { app } = this
     const result = await app.mysql.select('users')
@@ -50,19 +66,6 @@ class UserService extends Service {
   }
 
   /**
-   * 查询用户详情
-   */
-  async showByName(user_name) {
-    const { app } = this
-    try {
-      const result = await app.mysql.get('users', { user_name })
-      return result
-    } catch (error) {
-      return error
-    }
-  }
-
-  /**
    * 创建用户
    */
   async create(params) {
@@ -81,10 +84,17 @@ class UserService extends Service {
   /**
    * 根据微信jsCode创建用户
    */
-  async create(params) {
+  async createUserByCode(params) {
     const { ctx, app } = this
-    const data = { ...params, register_time: new Date() }
+    const { weappName, jsCode } = params
+    let data = { ...params, register_time: sendDateTime(new Date()) }
     try {
+      const url = `https://api.weixin.qq.com/sns/jscode2session?appid=${weappInfo[weappName].appid}&secret=${weappInfo[weappName].secret}&js_code=${jsCode}&grant_type=authorization_code`
+      let temp = await this.ctx.curl(url, { dataType: 'json' })
+      data.openid = temp.data.openid
+      delete data.jsCode
+      delete data.weappName
+      data = dataToLine(data)
       const result = await app.mysql.insert('users', data)
       ctx.logger.info('根据微信jsCode创建用户：', params)
       return result
@@ -102,6 +112,26 @@ class UserService extends Service {
   //     return error
   //   }
   // }
+
+  async login(params) {
+    const { ctx, app } = this
+    const { password, userName, uuid } = params
+    try {
+      console.log(this, UserService)
+      const userInfo = await app.mysql.get('users', { user_name: userName })
+      ctx.logger.info('登录用户的IP地址---------------：', ctx.request.socket.remoteAddress);
+      // 校验密码
+      if (md5(userInfo.password) !== password) return '用户不存在或密码错误。'
+      const token = app.jwt.sign({
+        exp: Math.floor(Date.now() / 1000) + (2 * 60 * 60),
+        userName: userName,
+        uuid: uuid
+      }, app.config.jwt.secret);
+      return { token }
+    } catch (error) {
+      return error
+    }
+  }
 
   /**
    * 用户收支情况
@@ -151,7 +181,6 @@ class UserService extends Service {
           monthPay += parseFloat(item.money)
         }
       })
-      console.log('---',monthStartDate, today, monthIncome, monthPay)
 
       // 获取本年数据
       let [yearIncome, yearPay] = [0, 0]

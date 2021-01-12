@@ -1,13 +1,178 @@
-2021-01-07 00:00:01,080 INFO 40712 [egg-logrotator] agent logger reload: got log-reload message
-2021-01-07 00:13:11,184 INFO 40712 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/example-egg/app/router.js","stat":{"dev":16777221,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":1235006,"size":1231,"blocks":8,"atimeMs":1609947503390.236,"mtimeMs":1609949591122.5828,"ctimeMs":1609949591122.5828,"birthtimeMs":1597215954000,"atime":"2021-01-06T15:38:23.390Z","mtime":"2021-01-06T16:13:11.123Z","ctime":"2021-01-06T16:13:11.123Z","birthtime":"2020-08-12T07:05:54.000Z"},"remove":false,"isDirectory":false,"isFile":true}
-2021-01-07 00:13:11,386 WARN 40712 [agent:development] reload worker because /Users/mangoguang/Documents/service/example-egg/app/router.js change
-2021-01-07 00:34:45,175 INFO 47838 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2021-01-07 00:34:45,182 INFO 47838 [egg:core] dump config after load, 4ms
-2021-01-07 00:34:45,211 INFO 47838 [egg-watcher] Start watching: ["/Users/mangoguang/Documents/service/egg_example/app","/Users/mangoguang/Documents/service/egg_example/config","/Users/mangoguang/Documents/service/egg_example/mocks","/Users/mangoguang/Documents/service/egg_example/mocks_proxy","/Users/mangoguang/Documents/service/egg_example/app.js"]
-2021-01-07 00:34:45,211 INFO 47838 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app"
-2021-01-07 00:34:45,212 INFO 47838 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/config"
-2021-01-07 00:34:45,212 INFO 47838 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks"
-2021-01-07 00:34:45,212 INFO 47838 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks_proxy"
-2021-01-07 00:34:45,212 INFO 47838 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app.js"
-2021-01-07 00:34:45,212 INFO 47838 [egg-watcher:agent] watcher start success
-2021-01-07 00:34:45,225 INFO 47838 [egg:core] dump config after ready, 4ms
+2021-01-09 00:00:00,610 INFO 1564 [egg-logrotator] agent logger reload: got log-reload message
+2021-01-09 00:02:23,014 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 92679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 00:50:53,031 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 949745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:23:53,271 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1920166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:40:12,531 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:56:31,778 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 03:57:24,259 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7192451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 04:08:37,180 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 06:09:29,569 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7191994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 06:20:42,143 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 08:21:00,607 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7158430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 09:10:19,085 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1438206ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 09:19:32,882 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 113744ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-12 13:59:32,000 INFO 10044 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-12 13:59:32,007 INFO 10044 [egg:core] dump config after load, 4ms
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: ["/Users/mangoguang/Documents/service/egg_example/app","/Users/mangoguang/Documents/service/egg_example/config","/Users/mangoguang/Documents/service/egg_example/mocks","/Users/mangoguang/Documents/service/egg_example/mocks_proxy","/Users/mangoguang/Documents/service/egg_example/app.js"]
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app"
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/config"
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks"
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks_proxy"
+2021-01-12 13:59:32,039 INFO 10044 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app.js"
+2021-01-12 13:59:32,040 INFO 10044 [egg-watcher:agent] watcher start success
+2021-01-12 13:59:32,071 INFO 10044 [egg:core] dump config after ready, 4ms
+2021-01-12 14:00:10,972 INFO 10214 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2021-01-12 14:00:10,977 INFO 10214 [egg:core] dump config after load, 2ms
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: ["/Users/mangoguang/Documents/service/egg_example/app","/Users/mangoguang/Documents/service/egg_example/config","/Users/mangoguang/Documents/service/egg_example/mocks","/Users/mangoguang/Documents/service/egg_example/mocks_proxy","/Users/mangoguang/Documents/service/egg_example/app.js"]
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app"
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/config"
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks"
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks_proxy"
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app.js"
+2021-01-12 14:00:11,005 INFO 10214 [egg-watcher:agent] watcher start success
+2021-01-12 14:00:11,017 INFO 10214 [egg:core] dump config after ready, 3ms
+2021-01-12 14:05:49,074 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:05:48,866 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5440,"blocks":16,"atimeMs":1610431437459.7705,"mtimeMs":1610431548803.1877,"ctimeMs":1610431548803.1877,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:03:57.460Z","mtime":"2021-01-12T06:05:48.803Z","ctime":"2021-01-12T06:05:48.803Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:06:00,692 WARN 10214 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-12 14:06:50,325 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:06:50,124 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5452,"blocks":16,"atimeMs":1610431550586.7712,"mtimeMs":1610431610061.915,"ctimeMs":1610431610061.915,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:05:50.587Z","mtime":"2021-01-12T06:06:50.062Z","ctime":"2021-01-12T06:06:50.062Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:07:21,767 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:07:21,565 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5451,"blocks":16,"atimeMs":1610431625405.5,"mtimeMs":1610431641503.8948,"ctimeMs":1610431641503.8948,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:07:05.406Z","mtime":"2021-01-12T06:07:21.504Z","ctime":"2021-01-12T06:07:21.504Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:09:26,789 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:09:26,588 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6742,"blocks":16,"atimeMs":1610431735015.7397,"mtimeMs":1610431766525.3503,"ctimeMs":1610431766525.3503,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:08:55.016Z","mtime":"2021-01-12T06:09:26.525Z","ctime":"2021-01-12T06:09:26.525Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:10:18,279 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6767,"blocks":16,"atimeMs":1610431814697.1235,"mtimeMs":1610431818217.0027,"ctimeMs":1610431818217.0027,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:10:14.697Z","mtime":"2021-01-12T06:10:18.217Z","ctime":"2021-01-12T06:10:18.217Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:10:18,484 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:10:49,897 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:10:49,695 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6780,"blocks":16,"atimeMs":1610431836519.9102,"mtimeMs":1610431849633.504,"ctimeMs":1610431849633.504,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:10:36.520Z","mtime":"2021-01-12T06:10:49.634Z","ctime":"2021-01-12T06:10:49.634Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:12:11,060 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 60226ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 14:12:19,573 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6787,"blocks":16,"atimeMs":1610431852138.122,"mtimeMs":1610431939512.0483,"ctimeMs":1610431939512.0483,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:10:52.138Z","mtime":"2021-01-12T06:12:19.512Z","ctime":"2021-01-12T06:12:19.512Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:12:19,775 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:14:14,372 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:14:14,168 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5451,"blocks":16,"atimeMs":1610431642753.3208,"mtimeMs":1610432054106.4563,"ctimeMs":1610432054106.4563,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:07:22.753Z","mtime":"2021-01-12T06:14:14.106Z","ctime":"2021-01-12T06:14:14.106Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:16:50,264 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6860,"blocks":16,"atimeMs":1610432121975.7954,"mtimeMs":1610432210201.3494,"ctimeMs":1610432210201.3494,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:15:21.976Z","mtime":"2021-01-12T06:16:50.201Z","ctime":"2021-01-12T06:16:50.201Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:16:50,470 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:17:36,277 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:17:36,075 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6853,"blocks":16,"atimeMs":1610432211413.343,"mtimeMs":1610432256013.9155,"ctimeMs":1610432256013.9155,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:16:51.413Z","mtime":"2021-01-12T06:17:36.014Z","ctime":"2021-01-12T06:17:36.014Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:19:11,538 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6903,"blocks":16,"atimeMs":1610432325549.9885,"mtimeMs":1610432351477.2368,"ctimeMs":1610432351477.2368,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:18:45.550Z","mtime":"2021-01-12T06:19:11.477Z","ctime":"2021-01-12T06:19:11.477Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:19:11,739 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:19:38,674 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5451,"blocks":16,"atimeMs":1610432054521.5203,"mtimeMs":1610432378612.2407,"ctimeMs":1610432378612.2407,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:14:14.522Z","mtime":"2021-01-12T06:19:38.612Z","ctime":"2021-01-12T06:19:38.612Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:19:38,875 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:21:51,165 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 71381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 14:22:26,497 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:22:26,296 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5395,"blocks":16,"atimeMs":1610432379002.848,"mtimeMs":1610432546234.1455,"ctimeMs":1610432546234.1455,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:19:39.003Z","mtime":"2021-01-12T06:22:26.234Z","ctime":"2021-01-12T06:22:26.234Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:22:49,102 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6920,"blocks":16,"atimeMs":1610432362901.6248,"mtimeMs":1610432569039.9192,"ctimeMs":1610432569039.9192,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:19:22.902Z","mtime":"2021-01-12T06:22:49.040Z","ctime":"2021-01-12T06:22:49.040Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:22:49,307 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:24:51,181 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 61623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 14:25:47,340 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:25:47,136 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6907,"blocks":16,"atimeMs":1610432743682.942,"mtimeMs":1610432747074.7273,"ctimeMs":1610432747074.7273,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:25:43.683Z","mtime":"2021-01-12T06:25:47.075Z","ctime":"2021-01-12T06:25:47.075Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:26:03,526 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/controller/users.js change
+2021-01-12 14:26:03,321 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/controller/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257959,"size":5351,"blocks":16,"atimeMs":1610432754519.3616,"mtimeMs":1610432763259.169,"ctimeMs":1610432763259.169,"birthtimeMs":1596770774000,"atime":"2021-01-12T06:25:54.519Z","mtime":"2021-01-12T06:26:03.259Z","ctime":"2021-01-12T06:26:03.259Z","birthtime":"2020-08-07T03:26:14.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:28:01,354 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change
+2021-01-12 14:28:01,148 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6941,"blocks":16,"atimeMs":1610432804265.8997,"mtimeMs":1610432881085.2874,"ctimeMs":1610432881085.2874,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:26:44.266Z","mtime":"2021-01-12T06:28:01.085Z","ctime":"2021-01-12T06:28:01.085Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:30:29,202 INFO 10214 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/mangoguang/Documents/service/egg_example/app/service/users.js","stat":{"dev":16777220,"mode":33204,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2257971,"size":6945,"blocks":16,"atimeMs":1610433022709.9268,"mtimeMs":1610433029142.8428,"ctimeMs":1610433029142.8428,"birthtimeMs":1596624632000,"atime":"2021-01-12T06:30:22.710Z","mtime":"2021-01-12T06:30:29.143Z","ctime":"2021-01-12T06:30:29.143Z","birthtime":"2020-08-05T10:50:32.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2021-01-12 14:30:29,408 WARN 10214 [agent:development] reload worker because /Users/mangoguang/Documents/service/egg_example/app/service/users.js change

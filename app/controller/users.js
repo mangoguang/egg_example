@@ -45,10 +45,10 @@ class UserController extends Controller {
    */
   async userInfo() {
     const { ctx } = this
-    const { weappName, jsCode } = ctx.query
+    const { weappName, jsCode } = ctx.request.body
     const data = await ctx.service.users.userInfo(weappName, jsCode)
     ctx.logger.info('获取用户信息', data);
-    ctx.body = data
+    ctx.body = data || '用户不存在'
   }
 
   /**
@@ -85,16 +85,15 @@ class UserController extends Controller {
    */
   async createUserByCode() {
     const { ctx } = this
-    const { phone, address, jsCode, nickName, avatarUrl, gender } = ctx.query
+    const { weappName, phone, address, jsCode, userName, nickName, avatarUrl, gender } = ctx.request.body
     try {
-      console.log('---------==============', ctx.query)
       ctx.validate({
         jsCode: { type: 'string' },
         nickName: { type: 'string' },
         avatarUrl: { type: 'string' }
-      }, ctx.query)
-      console.log('---------==============', ctx.query)
-      const data = await ctx.service.users.create({ phone, address, jsCode, nickName, avatarUrl, gender })
+      }, ctx.request.body)
+      const data = await ctx.service.users.createUserByCode({ weappName, phone, address, jsCode, userName, nickName, avatarUrl, gender })
+      console.log('---------==============1', data)
       ctx.body = data
     } catch (error) {
       ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`
@@ -118,19 +117,20 @@ class UserController extends Controller {
    * @response 200 loginResponse 查询成功
    */
   async login() {
-    const { ctx, app } = this
+    const { ctx } = this
     const { userName } = ctx.params
-    const { password } = ctx.query
-    const userInfo = await ctx.service.users.showByName(userName)
-    console.log('用户密码123', userInfo.password)
-    ctx.logger.info('登录用户的IP地址---------------：', ctx.request.socket.remoteAddress);
-    if (userInfo.password !== password) return ctx.body = '用户不存在或密码错误。'
-    const token = app.jwt.sign({
-      exp: Math.floor(Date.now() / 1000) + (2 * 60 * 60),
-      userName: userName,
-      uuid: '888888888'
-    }, app.config.jwt.secret);
-    ctx.body = { token }
+    const { password, uuid } = ctx.query
+    try {
+      ctx.validate({
+        password: { type: 'string' },
+        uuid: { type: 'string' }
+      }, { ...ctx.query })
+      const data = await ctx.service.users.login({ userName, password, uuid })
+      ctx.body = data
+    } catch (error) {
+      ctx.body = error
+      // ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`
+    }
   }
 
   /**

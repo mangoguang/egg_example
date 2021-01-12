@@ -1,390 +1,183 @@
-2021-01-07 00:02:50,340 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
+2021-01-09 00:02:23,013 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 92679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 00:50:53,030 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 949745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:23:53,270 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1920166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:40:12,530 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 01:56:31,777 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 03:57:24,258 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7192451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 04:08:37,180 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 06:09:29,568 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7191994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 06:20:42,142 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 08:21:00,605 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7158430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 09:10:19,084 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1438206ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-09 09:19:32,881 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 113744ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1564
+hostname: guangs-MBP
+
+2021-01-12 13:59:33,005 ERROR 10049 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:131:14)
+    --------------------
+    at Protocol._enqueue (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:48:16)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
     at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:202:8)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 10049
+hostname: guangs-MBP
 
-pid: 43420
-hostname: guangs-MacBook-Pro.local
+2021-01-12 14:12:11,060 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 60226ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
 
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+2021-01-12 14:18:01,847 ERROR 11501 [-/::1/-/2ms POST /api/v1/users/getUserInfoByCode] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/base_context_class.js:25:20)
+    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/lib/core/base_context_class.js:13:1)
+    at new UserService (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:8:5)
+    at getInstance (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:27:22)
+    at UserController.userInfo (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:50:36)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
 
-pid: 43420
-hostname: guangs-MacBook-Pro.local
+pid: 11501
+hostname: guangs-MBP
 
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+2021-01-12 14:21:51,165 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 71381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
 
-pid: 43420
-hostname: guangs-MacBook-Pro.local
+2021-01-12 14:23:03,692 ERROR 11631 nodejs.ERR_IPC_DISCONNECTEDError: IPC channel is already disconnected (uncaughtException throw 1 times on pid:11631)
+    at process.target.disconnect (internal/child_process.js:858:26)
+    at Server.checkWaitingCount (internal/cluster/child.js:215:17)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)
+code: "ERR_IPC_DISCONNECTED"
+name: "ERR_IPC_DISCONNECTEDError"
+pid: 11631
+hostname: guangs-MBP
 
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
+2021-01-12 14:23:03,711 ERROR 11631 nodejs.ERR_IPC_CHANNEL_CLOSEDError: Channel closed (uncaughtException throw 2 times on pid:11631)
+    at process.target.send (internal/child_process.js:705:16)
+    at Worker.send (internal/cluster/worker.js:46:10)
+    at process.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_graceful@1.0.2@graceful/index.js:100:16)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+code: "ERR_IPC_CHANNEL_CLOSED"
+name: "ERR_IPC_CHANNEL_CLOSEDError"
+pid: 11631
+hostname: guangs-MBP
 
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,341 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,342 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,343 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:02:50,348 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,886 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,887 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,888 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,889 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
-
-2021-01-07 00:04:35,898 ERROR 43420 nodejs.TypeError: Cannot read property 'userName' of undefined
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:68:163
-    at /Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:356:13
-    at async.forEachOf.async.eachOf (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:233:13)
-    at _asyncMap (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:355:9)
-    at Object.map (/Users/mangoguang/Documents/service/example-egg/node_modules/async/lib/async.js:337:20)
-    at /Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:67:15
-    at new Promise (<anonymous>)
-    at DictService.list (/Users/mangoguang/Documents/service/example-egg/app/service/dictionary.js:65:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async DictController.list (/Users/mangoguang/Documents/service/example-egg/app/controller/dictionary.js:69:18)
-
-pid: 43420
-hostname: guangs-MacBook-Pro.local
+2021-01-12 14:24:51,181 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 61623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
 

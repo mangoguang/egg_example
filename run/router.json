@@ -128,12 +128,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/api/v1/getUserInfoByCode",
-    "regexp": "/^\\/api\\/v1\\/getUserInfoByCode(?:\\/(?=$))?$/",
+    "path": "/api/v1/users/getUserInfoByCode",
+    "regexp": "/^\\/api\\/v1\\/users\\/getUserInfoByCode(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -144,8 +143,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/v1/createUserByCode",
-    "regexp": "/^\\/api\\/v1\\/createUserByCode(?:\\/(?=$))?$/",
+    "path": "/api/v1/users/createUserByCode",
+    "regexp": "/^\\/api\\/v1\\/users\\/createUserByCode(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
