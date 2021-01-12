@@ -1,4 +1,6 @@
 const crypto = require('crypto')
+const { weappInfo } = require('./constants')
+const WXBizDataCrypt = require('./WXBizDataCrypt')
 
 /**
  * 传给后端日期格式化
@@ -190,10 +192,27 @@ const getDate = (date) => {
   return `${date.getFullYear()}-${filterDate(date.getMonth() + 1)}-${filterDate(date.getDate())}`
 }
 
+/**
+ * md5加密方法
+ * @param {*} Str md5加密字符串
+ */
 const md5 = (Str) => {
   var md5sum = crypto.createHash('md5')
   md5sum.update(new Buffer(Str))
   return md5sum.digest('hex')
+}
+
+/**
+ * 微信开放数据解密方法
+ * @param {*} sessionKey 
+ * @param {*} encryptedData 
+ * @param {*} iv 
+ */
+const getWxUserInfo = (sessionKey, encryptedData, iv) => {
+  let appId = weappInfo.MANGOGUANG.appid
+  let pc = new WXBizDataCrypt(appId, sessionKey)
+
+  return pc.decryptData(encryptedData , iv)
 }
 
 module.exports = {
@@ -203,5 +222,6 @@ module.exports = {
   dataToHump,
   dataToLine,
   getDate,
-  md5
+  md5,
+  getWxUserInfo
 }

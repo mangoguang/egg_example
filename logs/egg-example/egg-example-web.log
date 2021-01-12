@@ -406,3 +406,1072 @@ hostname: guangs-MBP
 2021-01-12 14:30:30,276 INFO 12232 [egg-swagger-doc] register router: get /swagger-ui.html
 2021-01-12 14:30:34,566 INFO 12232 [-/::1/-/15ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=2FA4C85D-B408-4F6E-BE3C-C905201B18D0] 登录用户的IP地址---------------： ::1
 2021-01-12 14:30:35,353 INFO 12232 [-/::1/-/395ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:34:29,148 INFO 12232 [-/::1/-/350ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 14:34:47,986 WARN 12232 [-/::1/-/3ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 14:34:49,647 INFO 12232 [-/::1/-/1022ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 15:43:41,708 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:43:58,631 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:45:03,049 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:45:08,324 WARN 12232 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:46:34,212 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:47:38,139 WARN 12232 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:48:22,043 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:48:42,531 WARN 12232 [-/::1/-/3ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:48:45,515 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:48:57,215 INFO 12232 [-/::1/-/8ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=B8BF7324-EB2C-4A66-A6C4-4D319A479716] 登录用户的IP地址---------------： ::1
+2021-01-12 15:53:40,858 INFO 12232 [-/::1/-/340ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 15:53:58,415 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:53:59,022 INFO 12232 [-/::1/-/324ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 15:54:28,739 WARN 12232 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12232
+hostname: guangs-MBP
+
+2021-01-12 15:54:29,422 INFO 12232 [-/::1/-/406ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 null
+2021-01-12 15:56:12,270 INFO 15741 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 15:56:12,294 INFO 15741 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 15:56:16,179 WARN 15741 [-/::1/-/17ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 15741
+hostname: guangs-MBP
+
+2021-01-12 15:56:17,016 INFO 15741 [-/::1/-/362ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  result: null,
+  info: {
+    data: {
+      session_key: 'lhVEIHjI8O6i1NCIh8DzGA==',
+      openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE'
+    },
+    status: 200,
+    headers: {
+      connection: 'keep-alive',
+      'content-type': 'text/plain',
+      date: 'Tue, 12 Jan 2021 07:56:16 GMT',
+      'content-length': '82'
+    },
+    res: {
+      status: 200,
+      statusCode: 200,
+      statusMessage: 'OK',
+      headers: [Object],
+      size: 82,
+      aborted: false,
+      rt: 354,
+      keepAliveSocket: false,
+      data: [Object],
+      requestUrls: [Array],
+      timing: null,
+      remoteAddress: '112.60.0.226',
+      remotePort: 443,
+      socketHandledRequests: 1,
+      socketHandledResponses: 1
+    }
+  }
+}
+2021-01-12 15:56:38,462 INFO 15791 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 15:56:38,480 INFO 15791 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 15:56:42,148 WARN 15791 [-/::1/-/15ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 15791
+hostname: guangs-MBP
+
+2021-01-12 15:56:42,795 INFO 15791 [-/::1/-/394ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  result: null,
+  info: {
+    session_key: 'lhVEIHjI8O6i1NCIh8DzGA==',
+    openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE'
+  }
+}
+2021-01-12 15:57:44,165 INFO 15876 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 15:57:44,183 INFO 15876 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 15:58:08,290 INFO 15919 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 15:58:08,308 INFO 15919 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 15:58:11,913 WARN 15919 [-/::1/-/16ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 15919
+hostname: guangs-MBP
+
+2021-01-12 15:58:12,729 INFO 15919 [-/::1/-/401ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  result: '用户不存在',
+  info: {
+    session_key: 'lhVEIHjI8O6i1NCIh8DzGA==',
+    openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE'
+  }
+}
+2021-01-12 16:09:32,242 INFO 16472 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:09:32,262 INFO 16472 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:14:04,506 INFO 16681 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:14:04,526 INFO 16681 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:14:42,830 INFO 16729 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:14:42,848 INFO 16729 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:16:26,482 INFO 16827 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:16:26,500 INFO 16827 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:19:54,161 INFO 17004 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:19:54,180 INFO 17004 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:21:51,689 INFO 17108 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:21:51,709 INFO 17108 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:21:53,521 INFO 17119 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:21:53,542 INFO 17119 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:21:56,608 WARN 17119 [-/::1/-/14ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 17119
+hostname: guangs-MBP
+
+2021-01-12 16:21:57,552 INFO 17119 [-/::1/-/348ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  result: '用户不存在',
+  info: {
+    session_key: 'CiGengyiRCqw+ug/EDpBHQ==',
+    openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE'
+  }
+}
+2021-01-12 16:25:38,537 INFO 17327 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:25:38,557 INFO 17327 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:28:12,711 INFO 17458 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:28:12,728 INFO 17458 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:47:54,727 WARN 17458 [-/::1/-/18ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 17458
+hostname: guangs-MBP
+
+2021-01-12 16:47:55,629 INFO 17458 [-/::1/-/385ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  result: '用户不存在',
+  info: {
+    session_key: '1VB8hHF11ZZSLAD3p7V5LQ==',
+    openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE'
+  }
+}
+2021-01-12 16:50:03,879 INFO 18404 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:50:03,904 INFO 18404 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:52:50,148 INFO 18580 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:52:50,167 INFO 18580 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:55:10,372 INFO 18703 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:55:10,391 INFO 18703 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:56:30,763 INFO 18775 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:56:30,781 INFO 18775 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:57:43,255 INFO 18870 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:57:43,272 INFO 18870 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 16:58:04,246 INFO 18888 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 16:58:04,264 INFO 18888 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:00:21,850 INFO 19046 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:00:21,868 INFO 19046 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:15:14,871 INFO 19696 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:15:14,897 INFO 19696 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:13:39,439 WARN 19046 [-/::1/-/4ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 19046
+hostname: guangs-MBP
+
+2021-01-12 17:17:56,001 INFO 19842 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:17:56,026 INFO 19842 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:18:20,824 INFO 19890 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:18:20,851 INFO 19890 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:18:27,566 INFO 19890 [-/::1/-/417ms POST /api/v1/users/createUserByCode] 根据微信jsCode创建用户： {
+  weappName: 'MANGOGUANG',
+  jsCode: '073Cw20w3lPsEV2wji0w34e36D1Cw20a',
+  errMsg: 'getUserInfo:ok',
+  rawData: '{"nickName":"guang","gender":1,"language":"zh_CN","city":"","province":"","country":"Algeria","avatarUrl":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132"}',
+  userInfo: {
+    nickName: 'guang',
+    gender: 1,
+    language: 'zh_CN',
+    city: '',
+    province: '',
+    country: 'Algeria',
+    avatarUrl: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132'
+  },
+  signature: 'bc46a355c1c65df862425ce804b7c345fa74a2bc',
+  encryptedData: 'w+ZyB2g7aD12W6w7mseIzcPaP189tHku3HBw8ImiqL0njqJ38T9fIOAym87VQEtCVBiElH2JNnOvq/3V1ybmyleilJf5OVAuyLHVg5aKG12d3LmyDnFkwihzVX1ZD1G4TDLhPb3O4+2txH4KomSmKGA7kt1MWkLLelMzRxnoQWLj3yqPnWsnDjqPCRKzC5Pw31gWjSDiuHmTU8eXS/okMAdiFOnMnMHrsZ15Mu5g39UWZJ0NI/2fUe4EX4T1pT/AS+sMs0ZRP4ii5EHQko/bloNBLqVMm2JDju12p60Gj0eMx/LAXKmA2rN0ADYhU4TrhCd1bYIo2wPuLiKHa94toZg30Op3Ebtnzc4tcx/+7EtiIDDl8xsjRHeFqrw6uhMycJ7AAiSFfbgKO9VXVjZQDUyAVMQ8c3lPG4fV2td7d20YZGEDHFBwKmPYhqfmr9OTocaqhm0lmox8S8BB9A1oEw==',
+  iv: 'xDAWpSqm/BDWQgGAlv4HKQ=='
+}
+2021-01-12 17:19:28,742 WARN 19890 [-/::1/-/4ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 19890
+hostname: guangs-MBP
+
+2021-01-12 17:19:29,462 INFO 19890 [-/::1/-/243ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 RowDataPacket {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: ''
+}
+2021-01-12 17:23:19,672 INFO 20137 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:23:19,702 INFO 20137 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:24:08,035 INFO 20176 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:24:08,055 INFO 20176 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:24:39,037 WARN 20176 [-/::1/-/17ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20176
+hostname: guangs-MBP
+
+2021-01-12 17:24:40,021 INFO 20176 [-/::1/-/471ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 RowDataPacket {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: ''
+}
+2021-01-12 17:25:21,517 WARN 20176 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20176
+hostname: guangs-MBP
+
+2021-01-12 17:25:22,129 INFO 20176 [-/::1/-/348ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 RowDataPacket {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: ''
+}
+2021-01-12 17:25:57,424 INFO 20307 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:25:57,451 INFO 20307 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:26:04,142 WARN 20307 [-/::1/-/15ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20307
+hostname: guangs-MBP
+
+2021-01-12 17:26:04,985 INFO 20307 [-/::1/-/335ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 RowDataPacket {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: ''
+}
+2021-01-12 17:26:34,089 WARN 20307 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20307
+hostname: guangs-MBP
+
+2021-01-12 17:26:34,699 INFO 20307 [-/::1/-/323ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 RowDataPacket {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: ''
+}
+2021-01-12 17:27:56,628 INFO 20402 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:27:56,648 INFO 20402 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:30:18,454 INFO 20521 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:30:18,473 INFO 20521 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:30:34,952 INFO 20557 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:30:34,970 INFO 20557 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:31:19,957 WARN 20557 [-/::1/-/22ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20557
+hostname: guangs-MBP
+
+2021-01-12 17:31:21,048 INFO 20557 [-/::1/-/595ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTEwODEsInV1aWQiOiJEMTUwRUJDNi01RUVFLTRDMUItQjY2MS1BQUZGODQ4NEZCMjciLCJpYXQiOjE2MTA0NDM4ODF9.57ib2WGsUFFmJP5JVWBg7uze53cuHs5JezKdWC40s2U'
+}
+2021-01-12 17:33:17,854 WARN 20557 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20557
+hostname: guangs-MBP
+
+2021-01-12 17:33:18,776 INFO 20557 [-/::1/-/359ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTExOTgsInV1aWQiOiIxMTNENTFCRC01MjE0LTQxNkYtOEFEMy0wQTlDREZGMUIzNDgiLCJpYXQiOjE2MTA0NDM5OTh9.BdvmNHHuzOtqp-zcIwShWT3RnRmPM5h4l5taxW4GF-A'
+}
+2021-01-12 17:33:26,986 WARN 20557 [-/::1/-/2ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20557
+hostname: guangs-MBP
+
+2021-01-12 17:33:28,089 INFO 20557 [-/::1/-/352ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTEyMDgsInV1aWQiOiJCNjREMDlGQi02NUQzLTQ4OEYtOTk2Ri00MDVEQjQ4NzJCMzUiLCJpYXQiOjE2MTA0NDQwMDh9.gpYZ4-odeuBNhdT_zjEolbmKw0a2CzZjKJlr3I97Vds'
+}
+2021-01-12 17:37:52,554 INFO 20557 [-/::1/-/356ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE0NzIsInV1aWQiOiJGNzY1Q0IxNC01NUFCLTRDOUMtOERENC0yM0U2ODJFODVGMDYiLCJpYXQiOjE2MTA0NDQyNzJ9.zUsn-LfADDaBOQaX32QVbhcvqZ7ZIuNQCvqVPyTgKBA'
+}
+2021-01-12 17:39:34,147 INFO 20557 [-/::1/-/305ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE1NzQsInV1aWQiOiI1RTZENTg4OS0zMzk5LTRFMUQtQTQ2OS02NDIxOTZEQjdGQUQiLCJpYXQiOjE2MTA0NDQzNzR9.dqyEKN5BCwKwm-dZiL2aaesC4haD4s7djOQ-w6_DSdk'
+}
+2021-01-12 17:39:47,863 INFO 20557 [-/::1/-/279ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE1ODcsInV1aWQiOiJCOTc5NkY5MS0xQ0JCLTQyRjMtOTk0RC04REMwNDE0OEQ2MjYiLCJpYXQiOjE2MTA0NDQzODd9.agGYzCXuWS1n8gLF_vwm3mW87ChWSK9PIF7MFi4KxXo'
+}
+2021-01-12 17:39:56,434 INFO 20557 [-/::1/-/309ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE1OTYsInV1aWQiOiIwQThCNzE3RS0zMDYwLTQ1OUMtQUVBRS00MjIxN0U5NkFFOEQiLCJpYXQiOjE2MTA0NDQzOTZ9.VUXjV3K0EkyZZBdO0UpKgx2weWsFkdgxgLOfhI3Wlqo'
+}
+2021-01-12 17:41:24,606 INFO 20557 [-/::1/-/303ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE2ODQsInV1aWQiOiJFMzZFMjE3NC0wNUVGLTRCRkItOUY3QS00QUFGRDVFNjQ2RjkiLCJpYXQiOjE2MTA0NDQ0ODR9.NT6cA6HPt72PQX43_Fygn5cFVdU6h3fnX263DV1_ByU'
+}
+2021-01-12 17:41:24,653 WARN 20557 [-/::1/-/1ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:89:15)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:69
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 20557
+hostname: guangs-MBP
+
+2021-01-12 17:43:00,998 INFO 20557 [-/::1/-/308ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: null,
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE3ODAsInV1aWQiOiJCRjE5QURFNS0xMDY4LTRBMjQtOTU2RS01MTZGRTdBOEQ4RTciLCJpYXQiOjE2MTA0NDQ1ODB9.8AThcimwrzocMmVEs4WRBaqE4rEDmQ9ujWL-urdOTVo'
+}
+2021-01-12 17:44:28,865 INFO 20557 [-/::1/-/433ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE4NjgsInV1aWQiOiI2OTQzMkMwMC1DQjczLTQzRTctQTkxOC04RUQ2NzIwRDJENUYiLCJpYXQiOjE2MTA0NDQ2Njh9.D3k4IxvObMyeqvoFLkYXcoaRuEDizt0BPiVGMkTPhaA'
+}
+2021-01-12 17:46:05,564 INFO 20557 [-/::1/-/822ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTE5NjUsInV1aWQiOiIxNDEyRjdBRi01RTE1LTRBNDUtODRCRC0xQ0M5N0Q1MkI3M0EiLCJpYXQiOjE2MTA0NDQ3NjV9.jz6RezjJkEFfGQKiZ6Eniqm7vmk1-PS27pp6MNBcoqk'
+}
+2021-01-12 17:48:33,020 INFO 21609 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:48:33,048 INFO 21609 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:47:35,282 INFO 20557 [-/::1/-/323ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTIwNTUsInV1aWQiOiI5NzY0RENENS0yNTk4LTQwRUMtODBDRS05RUVCMTQ3OTZDREYiLCJpYXQiOjE2MTA0NDQ4NTV9.Dbww15KeOvUXtkiZvTdotOcSJGoNQGCUD3jLzlv6FNY'
+}
+2021-01-12 17:48:42,137 INFO 21609 [-/::1/-/706ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTIxMjIsInV1aWQiOiJENkE3OUQ3My02QzlFLTRCQTctQkYyMy0xMEVBRTdERkYwQkQiLCJpYXQiOjE2MTA0NDQ5MjJ9.JE_VxmOuevpt3vKYJzjVbYLOMP-hxajvwsd6LmACuCA'
+}
+2021-01-12 17:50:41,949 INFO 21733 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-12 17:50:41,966 INFO 21733 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-12 17:50:58,392 INFO 21609 [-/::1/-/34433ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTIyNTgsInV1aWQiOiIzMjE4OTg2RS02QzI0LTRCQzYtQTM5QS1FMEU1MkYzN0ZBRjIiLCJpYXQiOjE2MTA0NDUwNTh9.f0qCpuYBwthHHn6izpaezt6PRKY6wnD5RW5xT81SBzw'
+}
+2021-01-12 17:51:30,426 INFO 21733 [-/::1/-/21254ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTIyOTAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTlCMjYyNzgtMTdDOS00RjJCLUI5Q0YtRUUxRjFEQzNGNTg5IiwiaWF0IjoxNjEwNDQ1MDkwfQ.U_hX_Uk2yWsl9kcIfxq8XoENvaJPrrAwNI5JoebXR1U'
+}
+2021-01-12 17:52:56,321 INFO 21733 [-/::1/-/8299ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTIzNzYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOERCNjQzNEEtREI2Ri00NzU4LTgzMjItOUIyNkQxQjE4MzQxIiwiaWF0IjoxNjEwNDQ1MTc2fQ.BujydkIPSKcMU1-F2CVXftw-noS6QSBVCbWuRMJjasM'
+}
+2021-01-12 17:59:45,361 INFO 21733 [-/::1/-/352ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTI3ODUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0Y2QzEzNTctMTFCRS00N0I3LTk0MzctMjFEMjgzNzcxQkFBIiwiaWF0IjoxNjEwNDQ1NTg1fQ.TVscnlRtxGJM0fjqkNRZFNs9kdR-hQ5p8qDvdQHx4F0'
+}
+2021-01-12 18:01:00,749 INFO 21733 [-/::1/-/331ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 17,
+  user_name: 'guang',
+  password: null,
+  phone: '18824864356',
+  register_time: 2021-01-12T09:43:32.000Z,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTA0NTI4NjAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNzJFQzM3NTItNzAxMC00OUY2LUIyQUEtNUZDMjZGNEM1N0U3IiwiaWF0IjoxNjEwNDQ1NjYwfQ.elp_buIlFuL6KSi5VUMLlz6c-Wa8UPp-1NSgbGmmLIU'
+}

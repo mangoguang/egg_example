@@ -181,3 +181,83 @@ name: "ClusterClientNoResponseError"
 pid: 10214
 hostname: guangs-MBP
 
+2021-01-12 15:40:50,861 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 882764ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 15:42:48,972 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 118101ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 16:23:29,244 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 75685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 16:26:49,267 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 70701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 16:52:29,495 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 72380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 17:01:29,561 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 67687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 17:14:49,697 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 70240ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 17:17:09,707 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 74791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 17:49:49,976 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 76922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+
+2021-01-12 17:56:07,889 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 171556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 10214
+hostname: guangs-MBP
+

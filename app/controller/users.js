@@ -45,10 +45,10 @@ class UserController extends Controller {
    */
   async userInfo() {
     const { ctx } = this
-    const { weappName, jsCode } = ctx.request.body
-    const data = await ctx.service.users.userInfo(weappName, jsCode)
+    const { weappName, jsCode, uuid } = ctx.request.body
+    const data = await ctx.service.users.userInfo(weappName, jsCode, uuid)
     ctx.logger.info('获取用户信息', data);
-    ctx.body = data || '用户不存在'
+    ctx.body = data
   }
 
   /**
@@ -85,15 +85,11 @@ class UserController extends Controller {
    */
   async createUserByCode() {
     const { ctx } = this
-    const { weappName, phone, address, jsCode, userName, nickName, avatarUrl, gender } = ctx.request.body
     try {
       ctx.validate({
-        jsCode: { type: 'string' },
-        nickName: { type: 'string' },
-        avatarUrl: { type: 'string' }
+        weappName: { type: 'string' },
       }, ctx.request.body)
-      const data = await ctx.service.users.createUserByCode({ weappName, phone, address, jsCode, userName, nickName, avatarUrl, gender })
-      console.log('---------==============1', data)
+      const data = await ctx.service.users.createUserByCode(ctx.request.body)
       ctx.body = data
     } catch (error) {
       ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`

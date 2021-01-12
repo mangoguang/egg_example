@@ -1,5 +1,5 @@
 const Service = require('egg').Service;
-const { getDate, dataToLine, sendDateTime } = require('../utils/common')
+const { getDate, dataToLine, sendDateTime, getWxUserInfo } = require('../utils/common')
 const { weappInfo } = require('../utils/constants')
 const { md5 } = require('../utils/common')
 
@@ -53,13 +53,22 @@ class UserService extends Service {
   /**
    * 根据微信jsCode获取用户信息
    */
-  async userInfo(weappName, jsCode) {
+  async userInfo(weappName, jsCode, uuid) {
     const { app } = this
     try {
       const url = `https://api.weixin.qq.com/sns/jscode2session?appid=${weappInfo[weappName].appid}&secret=${weappInfo[weappName].secret}&js_code=${jsCode}&grant_type=authorization_code`
       const temp = await this.ctx.curl(url, { dataType: 'json' })
       const result = await app.mysql.get('users', { openid: temp.data.openid || '' })
-      return result
+      if (result) {
+        // 生成token
+        const token = app.jwt.sign({
+          exp: Math.floor(Date.now() / 1000) + (2 * 60 * 60),
+          userName: result.user_name,
+          uuid
+        }, app.config.jwt.secret)
+        return { ...result, token }
+      }
+      return { result: '用户不存在', info: temp.data }
     } catch (error) {
       return error
     }
@@ -86,14 +95,24 @@ class UserService extends Service {
    */
   async createUserByCode(params) {
     const { ctx, app } = this
-    const { weappName, jsCode } = params
-    let data = { ...params, register_time: sendDateTime(new Date()) }
+    const { weappName, jsCode, encryptedData, iv } = params
     try {
+      // getWxUserInfo
       const url = `https://api.weixin.qq.com/sns/jscode2session?appid=${weappInfo[weappName].appid}&secret=${weappInfo[weappName].secret}&js_code=${jsCode}&grant_type=authorization_code`
       let temp = await this.ctx.curl(url, { dataType: 'json' })
-      data.openid = temp.data.openid
-      delete data.jsCode
-      delete data.weappName
+      const sessionKey = temp.data.session_key
+      // 获取微信用户开放数据
+      let userInfo = getWxUserInfo(sessionKey, encryptedData, iv)
+      let data = {
+        avatarUrl: userInfo.avatarUrl,
+        city: userInfo.city,
+        country: userInfo.country,
+        gender: userInfo.gender,
+        nickName: userInfo.nickName,
+        openid: userInfo.openId,
+        province: userInfo.province,
+        userName: userInfo.nickName,
+      }
       data = dataToLine(data)
       const result = await app.mysql.insert('users', data)
       ctx.logger.info('根据微信jsCode创建用户：', params)
@@ -125,7 +144,7 @@ class UserService extends Service {
       const token = app.jwt.sign({
         exp: Math.floor(Date.now() / 1000) + (2 * 60 * 60),
         userName: userName,
-        uuid: uuid
+        uuid
       }, app.config.jwt.secret);
       return { token }
     } catch (error) {
@@ -142,6 +161,7 @@ class UserService extends Service {
 
     try {
       // 获取用户信息
+      const userName = ctx.state.user.userName
       const userInfo = await app.mysql.query('select * from users where user_name = ?', [ctx.state.user.userName])
 
       // 获取当天数据

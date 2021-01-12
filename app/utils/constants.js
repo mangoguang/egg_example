@@ -21,7 +21,5 @@ const weappInfo = {
 module.exports = {
   orderType,
   timeInterval,
-  weappInfo,
-  PAY: 0,
-  INCOME: 1
+  weappInfo
 }
