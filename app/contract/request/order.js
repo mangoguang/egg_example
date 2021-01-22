@@ -25,5 +25,15 @@ module.exports = {
     endTime: { type: 'string', required: true, description: '结束时间' },
     limit: { type: 'number', required: true, description: '每页请求的数量' },
     page: { type: 'number', required: true, description: '页数' },
+  },
+  updateOrderRequest: {
+    levelOneCode: { type: 'string', description: '一级分类编码' },
+    levelOneName: { type: 'string', description: '一级分类名称' },
+    levelTwoCode: { type: 'string', description: '二级分类编码' },
+    levelTwoName: { type: 'string', description: '二级分类名称' },
+    memberCode: { type: 'string', description: '成员编码' },
+    memberName: { type: 'string', description: '成员名称' },
+    money: { type: 'string', description: '金额' },
+    remark: { type: 'string', description: '备注' }
   }
 };

@@ -317,7 +317,7 @@
       "level": "INFO",
       "consoleLevel": "INFO",
       "disableConsoleAfterReady": false,
-      "outputJSON": false,
+      "outputJSON": true,
       "buffer": true,
       "appLogName": "egg-example-web.log",
       "coreLogName": "egg-web.log",

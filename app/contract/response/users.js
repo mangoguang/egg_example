@@ -35,5 +35,8 @@ module.exports = {
     monthPay: { type: 'number', min: 0, description: '本月支出' },
     yearIncome: { type: 'number', min: 0, description: '今年收入' },
     yearPay: { type: 'number', min: 0, description: '今年支出' },
+  },
+  setMonthQuotaResponse: {
+    msg: { type: 'string', description: '请求结果描述' },
   }
 };

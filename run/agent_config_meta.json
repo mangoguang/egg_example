@@ -93,6 +93,24 @@
     "enable": "/Users/mangoguang/Documents/service/egg_example/config/config.default.js",
     "basePath": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-swagger-doc@2.3.2@egg-swagger-doc/config/config.default.js"
   },
+  "logger": {
+    "outputJSON": "/Users/mangoguang/Documents/service/egg_example/config/config.default.js",
+    "dir": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "encoding": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "env": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "level": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "consoleLevel": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "buffer": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "appLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "coreLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "agentLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "errorLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
     "key": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
@@ -260,24 +278,6 @@
       "parameterLimit": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js"
     },
     "onerror": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js"
-  },
-  "logger": {
-    "dir": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "encoding": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "env": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "level": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "consoleLevel": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "outputJSON": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "buffer": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "appLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "coreLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "agentLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "errorLogName": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.local.js"
-    },
-    "allowDebugAtProd": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/config/config.default.js",

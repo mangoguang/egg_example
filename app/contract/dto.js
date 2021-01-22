@@ -44,4 +44,12 @@ module.exports = {
     dictName: { type: 'string', description: '字典代码名称' },
     dictCode: { type: 'string', description: '字典代码编码' },
   },
+  userInfo: {
+    avatarUrl: { type: 'string', description: '微信头像链接' },
+    city: { type: 'string', description: '城市' },
+    country: { type: 'string', description: '国家' },
+    gender: { type: 'number', description: '性别' },
+    nickName: { type: 'string', description: '微信昵称' },
+    province: { type: 'string', description: '省份' },
+  }
 };

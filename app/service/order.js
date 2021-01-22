@@ -3,7 +3,7 @@ const path = require('path');
 const Service = require('egg').Service;
 const async = require('async');
 const { createOrderNo } = require('../utils/service/order');
-const { getDate } = require('../utils/common')
+const { getDate, dataToLine } = require('../utils/common')
 
 class DictService extends Service {
   async index() {
@@ -18,7 +18,7 @@ class DictService extends Service {
   async show(id) {
     const { app } = this
     try {
-      const result = await app.mysql.get('users', { id })
+      const result = await app.mysql.get('orders', { id })
       return result
     } catch (error) {
       return error
@@ -63,15 +63,27 @@ class DictService extends Service {
     }
   }
 
-  // async update(data) {
-  //   const { app } = this
-  //   try {
-      // const result = await app.mysql.query('update users set phone = ?, password = ? where id = ?', [data.phone, data.password, data.id])
-  //     return result
-  //   } catch (error) {
-  //     return error
-  //   }
-  // }
+  async update(id, params) {
+    const { app } = this
+    try {
+      // 过滤空参数
+      for (let item in params) {
+        if (!params[item]) delete params[item]
+      }
+      // 如果对象不为空，才更新数据库
+      if (Object.keys(params).length) {
+        const row = dataToLine(params)
+        const options = {
+          where: { id }
+        }
+        // 根据order id更新order信息
+        const result  = await app.mysql.update('orders', row, options)
+      }
+      return { msg: '更新成功' }
+    } catch (error) {
+      return error
+    }
+  }
 
   /**
    * 根据订单id删除订单

@@ -20,5 +20,8 @@ module.exports = {
     surplus: { type: 'string', description: '结余' },
     income: { type: 'number', description: '收入' },
     pay: { type: 'number', description: '支出' },
+  },
+  updateOrderByIdResponse: {
+    data: { type: 'string', description: '更新结果' },
   }
 };

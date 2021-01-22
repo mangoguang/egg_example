@@ -18,11 +18,14 @@ module.exports = {
     phone :{ type: 'string', required: true, description: '用户手机' },
   },
   createUserByCodeRequest: {
-    address :{ type: 'string', required: false, description: '用户地址' },
-    phone :{ type: 'string', required: false, description: '用户手机' },
-    jscode: { type: 'string', required: true, description: '微信jscode' },
-    nickName: { type: 'string', required: true, description: '微信昵称' },
-    avatarUrl: { type: 'string', required: true, description: '微信头像链接' },
-    gender: { type: 'number', required: false, description: '性别' }
+    jsCode: { type: 'string', required: true, description: '微信code码' },
+    weappName: { type: 'string', required: true, description: '小程序名称' },
+    encryptedData: { type: 'string', required: true, description: '微信开放数据解密参数' },
+    iv: { type: 'string', required: true, description: '微信开放数据解密参数' },
+    signature: { type: 'string', required: true, description: '微信开放数据解密参数' },
+    phone: { type: 'string', required: true, description: '手机号' },
+    address: { type: 'string', description: '地址' },
+    month_quota: { type: 'string', required: true, description: '每个月可用额度' },
+    userInfo: { type: 'array', itemType: 'userInfo', description: '微信用户信息' },
   }
 };

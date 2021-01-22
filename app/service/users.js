@@ -1,5 +1,5 @@
 const Service = require('egg').Service;
-const { getDate, dataToLine, sendDateTime, getWxUserInfo } = require('../utils/common')
+const { getDate, dataToLine, getWxUserInfo } = require('../utils/common')
 const { weappInfo } = require('../utils/constants')
 const { md5 } = require('../utils/common')
 
@@ -95,7 +95,7 @@ class UserService extends Service {
    */
   async createUserByCode(params) {
     const { ctx, app } = this
-    const { weappName, jsCode, encryptedData, iv } = params
+    const { weappName, jsCode, encryptedData, iv, phone, address, month_quota } = params
     try {
       // getWxUserInfo
       const url = `https://api.weixin.qq.com/sns/jscode2session?appid=${weappInfo[weappName].appid}&secret=${weappInfo[weappName].secret}&js_code=${jsCode}&grant_type=authorization_code`
@@ -104,6 +104,9 @@ class UserService extends Service {
       // 获取微信用户开放数据
       let userInfo = getWxUserInfo(sessionKey, encryptedData, iv)
       let data = {
+        phone,
+        address,
+        month_quota,
         avatarUrl: userInfo.avatarUrl,
         city: userInfo.city,
         country: userInfo.country,
@@ -227,6 +230,23 @@ class UserService extends Service {
       return data
     } catch (error) {
       console.log(error)
+      return error
+    }
+  }
+
+  // 设置每月可用额度
+  async setMonthQuota(monthQuota) {
+    const { ctx, app } = this
+    const userName = ctx.state.user.userName
+    try {
+      const row = { month_quota: monthQuota }
+      const options = {
+        where: { user_name: userName }
+      }
+      // 根据用户名更新用户每月可用额度
+      await app.mysql.update('users', row, options)
+      return { msg: '更新成功' }
+    } catch (error) {
       return error
     }
   }

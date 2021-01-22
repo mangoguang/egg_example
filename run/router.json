@@ -150,6 +150,19 @@
     ]
   },
   {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/users/setMonthQuota",
+    "regexp": "/^\\/api\\/v1\\/users\\/setMonthQuota(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
     "name": "dicts",
     "methods": [
       "HEAD",
@@ -257,6 +270,31 @@
     "methods": [
       "HEAD",
       "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/order/:id",
+    "regexp": "/^\\/api\\/v1\\/order\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "order",
+    "methods": [
+      "PATCH",
+      "PUT"
     ],
     "paramNames": [
       {

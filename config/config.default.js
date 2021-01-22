@@ -87,5 +87,8 @@ module.exports = {
     // enableValidate: true,
     routerMap: false,
     enable: true,
+  },
+  logger: {
+    outputJSON: true,
   }
 }

@@ -11,6 +11,7 @@ module.exports = app => {
   router.post('/api/v1/users/payInfo', jwt, controller.users.payInfo)
   router.post('/api/v1/users/getUserInfoByCode', controller.users.userInfo)
   router.post('/api/v1/users/createUserByCode', controller.users.createUserByCode)
+  router.post('/api/v1/users/setMonthQuota', jwt, controller.users.setMonthQuota)
 
   // 数据字典路由
   router.resources('dict', '/api/v1/dict', jwt, controller.dictionary)

@@ -15,16 +15,22 @@ class OrderController extends Controller {
    * @summary 查询订单详情
    * @description 根据订单id查询订单详情
    * @router get /api/v1/order/{id}
-   * @request path integer *id eg:1 用户ＩＤ
+   * @request path integer *id eg:1 订单ＩＤ
    * @request header string *Authorization token
    * @response 200 getOrderDetailByIdResponse 创建成功
    */
   async show() {
     const { ctx } = this
     const { id } = ctx.params
-    const data = await ctx.service.users.show(id)
-    // ctx.logger.info('获取用户信息', { name: ctx.state.user.userName});
-    ctx.body = data
+    try {
+      ctx.validate({
+        id: { type: 'string' }
+      }, ctx.params)
+      const data = await ctx.service.order.show(id)
+      ctx.body = data
+    } catch (error) {
+      ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`
+    }
   }
 
   /**
@@ -37,6 +43,7 @@ class OrderController extends Controller {
   async create() {
     const { ctx } = this
     const { money, classifyType, accountType, date, memberType, remark, orderType, imgUrl } = ctx.request.body
+    ctx.logger.info('新增收支记录记录：', { money, classifyType, accountType, date, memberType, remark, orderType, imgUrl });
     try {
       ctx.validate({
         money: { type: 'string' },
@@ -50,13 +57,54 @@ class OrderController extends Controller {
     }
   }
 
-  // async update() {
-  //   const { ctx } = this
-  //   const { id } = ctx.params
-  //   const { phone, password } = ctx.query
-  //   const result = await ctx.service.users.update({ id: parseInt(id), password, phone})
-  //   ctx.body = result
-  // }
+  /**
+   * @summary 更新订单
+   * @description 更新订单
+   * @router put /api/v1/order/{id}
+   * @request header string *Authorization token
+   * @request path integer *id eg:1 订单ＩＤ
+   * @request query string money 金额
+   * @request query string levelOneCode 一级分类编码
+   * @request query string levelOneName 一级分类名称
+   * @request query string levelTwoCode 二级分类编码
+   * @request query string levelTwoName 二级分类名称
+   * @request query string memberCode 成员编码
+   * @request query string memberName 成员名称
+   * @request query string remark 备注
+   * @response 200 updateOrderByIdResponse 更新结果
+   */
+  async update() {
+    const { ctx } = this
+    const { id } = ctx.params
+    const {
+      levelOneCode,
+      levelOneName,
+      levelTwoCode,
+      levelTwoName,
+      memberCode,
+      memberName,
+      money,
+      remark
+    } = ctx.query
+    try {
+      ctx.validate({
+        id: { type: 'string' }
+      }, ctx.params)
+      const result = await ctx.service.order.update(id, {
+        levelOneCode,
+        levelOneName,
+        levelTwoCode,
+        levelTwoName,
+        memberCode,
+        memberName,
+        money,
+        remark
+      })
+      ctx.body = result
+    } catch (error) {
+      ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`
+    }
+  }
 
   /**
    * @summary 删除订单

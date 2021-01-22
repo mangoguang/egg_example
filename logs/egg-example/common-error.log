@@ -1,156 +1,308 @@
-2021-01-09 00:02:23,013 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 92679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 00:50:53,030 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 949745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 01:23:53,270 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1920166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 01:40:12,530 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 01:56:31,777 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 939235ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 03:57:24,258 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7192451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 04:08:37,180 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 06:09:29,568 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7191994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 06:20:42,142 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 632596ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 08:21:00,605 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 7158430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 09:10:19,084 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 1438206ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-09 09:19:32,881 ERROR 1564 nodejs.ClusterClientNoResponseError: client no response in 113744ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1564
-hostname: guangs-MBP
-
-2021-01-12 13:59:33,005 ERROR 10049 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
-    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:131:14)
-    --------------------
-    at Protocol._enqueue (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
-    at Protocol.handshake (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:51:23)
-    at PoolConnection.connect (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:116:18)
-    at Pool.getConnection (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:48:16)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
-    at new Promise (<anonymous>)
-    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
-    at Pool.ret [as getConnection] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
-    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:202:8)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
-    sql: select now() as currentTime;
-errno: -61
-code: "ECONNREFUSED"
-syscall: "connect"
-address: "127.0.0.1"
-port: 3306
-fatal: true
-name: "ECONNREFUSEDError"
-pid: 10049
-hostname: guangs-MBP
-
-2021-01-12 14:12:11,060 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 60226ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 14:18:01,847 ERROR 11501 [-/::1/-/2ms POST /api/v1/users/getUserInfoByCode] nodejs.TypeError: Cannot read property 'app' of undefined
-    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/base_context_class.js:25:20)
-    at new BaseContextClass (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/lib/core/base_context_class.js:13:1)
-    at new UserService (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:8:5)
-    at getInstance (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:92:18)
-    at ClassLoader.get (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/context_loader.js:27:22)
-    at UserController.userInfo (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:50:36)
+2021-01-22 14:51:01,247 ERROR 26415 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?quota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
     at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
     at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
     at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
     at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
 
-pid: 11501
+pid: 26415
 hostname: guangs-MBP
 
-2021-01-12 14:21:51,165 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 71381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-22 14:52:00,923 ERROR 26415 [-/::1/-/25156ms POST /api/v1/users/setMonthQuota?quota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 26415
+hostname: guangs-MBP
+
+2021-01-22 14:53:45,494 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 61278ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 10214
+pid: 24051
 hostname: guangs-MBP
 
-2021-01-12 14:23:03,692 ERROR 11631 nodejs.ERR_IPC_DISCONNECTEDError: IPC channel is already disconnected (uncaughtException throw 1 times on pid:11631)
+2021-01-22 14:53:46,612 ERROR 26755 [-/::1/-/55424ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 26755
+hostname: guangs-MBP
+
+2021-01-22 14:55:05,506 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 79685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 14:55:10,555 ERROR 26875 [-/::1/-/76626ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:176:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 26875
+hostname: guangs-MBP
+
+2021-01-22 14:55:53,099 ERROR 26999 [-/::1/-/39227ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 26999
+hostname: guangs-MBP
+
+2021-01-22 14:56:44,590 ERROR 26999 [-/::1/-/6344ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 26999
+hostname: guangs-MBP
+
+2021-01-22 14:57:05,757 ERROR 27081 [-/::1/-/7425ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27081
+hostname: guangs-MBP
+
+2021-01-22 14:58:24,350 ERROR 27081 [-/::1/-/67096ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27081
+hostname: guangs-MBP
+
+2021-01-22 14:58:49,898 ERROR 27399 [-/::1/-/2922ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27399
+hostname: guangs-MBP
+
+2021-01-22 14:59:00,115 ERROR 27399 [-/::1/-/3947ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27399
+hostname: guangs-MBP
+
+2021-01-22 14:59:43,008 ERROR 27588 [-/::1/-/17053ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 27588
+hostname: guangs-MBP
+
+2021-01-22 15:00:14,720 ERROR 27638 [-/::1/-/7159ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
+    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 27638
+hostname: guangs-MBP
+
+2021-01-22 15:00:51,971 ERROR 27638 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
+    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 27638
+hostname: guangs-MBP
+
+2021-01-22 15:00:56,808 ERROR 27638 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
+    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 27638
+hostname: guangs-MBP
+
+2021-01-22 15:01:57,018 ERROR 27906 [-/::1/-/6ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
+    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
+    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+
+pid: 27906
+hostname: guangs-MBP
+
+2021-01-22 15:31:08,501 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 883794ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 15:46:10,500 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 901989ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 15:58:07,176 ERROR 30800 [-/::1/-/7ms GET /api/v1/order/22] nodejs.TypeError: Cannot read property 'show' of undefined
+    at OrderController.show (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:25:43)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:53:36
+
+pid: 30800
+hostname: guangs-MBP
+
+2021-01-22 17:05:47,898 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 72411ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 17:16:08,000 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 62115ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 17:28:08,098 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 72275ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 17:30:08,100 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 70808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 24051
+hostname: guangs-MBP
+
+2021-01-22 17:30:16,641 ERROR 38683 nodejs.ERR_IPC_DISCONNECTEDError: IPC channel is already disconnected (uncaughtException throw 1 times on pid:38683)
     at process.target.disconnect (internal/child_process.js:858:26)
     at Server.checkWaitingCount (internal/cluster/child.js:215:17)
     at Object.onceWrapper (events.js:421:28)
@@ -159,10 +311,10 @@ hostname: guangs-MBP
     at processTicksAndRejections (internal/process/task_queues.js:79:21)
 code: "ERR_IPC_DISCONNECTED"
 name: "ERR_IPC_DISCONNECTEDError"
-pid: 11631
+pid: 38683
 hostname: guangs-MBP
 
-2021-01-12 14:23:03,711 ERROR 11631 nodejs.ERR_IPC_CHANNEL_CLOSEDError: Channel closed (uncaughtException throw 2 times on pid:11631)
+2021-01-22 17:30:16,648 ERROR 38683 nodejs.ERR_IPC_CHANNEL_CLOSEDError: Channel closed (uncaughtException throw 2 times on pid:38683)
     at process.target.send (internal/child_process.js:705:16)
     at Worker.send (internal/cluster/worker.js:46:10)
     at process.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_graceful@1.0.2@graceful/index.js:100:16)
@@ -170,94 +322,14 @@ hostname: guangs-MBP
     at process._fatalException (internal/process/execution.js:163:25)
 code: "ERR_IPC_CHANNEL_CLOSED"
 name: "ERR_IPC_CHANNEL_CLOSEDError"
-pid: 11631
+pid: 38683
 hostname: guangs-MBP
 
-2021-01-12 14:24:51,181 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 61623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-01-22 17:41:47,197 ERROR 24051 nodejs.ClusterClientNoResponseError: client no response in 147897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 15:40:50,861 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 882764ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 15:42:48,972 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 118101ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 16:23:29,244 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 75685ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 16:26:49,267 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 70701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 16:52:29,495 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 72380ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 17:01:29,561 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 67687ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 17:14:49,697 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 70240ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 17:17:09,707 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 74791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 17:49:49,976 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 76922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
-hostname: guangs-MBP
-
-2021-01-12 17:56:07,889 ERROR 10214 nodejs.ClusterClientNoResponseError: client no response in 171556ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 10214
+pid: 24051
 hostname: guangs-MBP
 

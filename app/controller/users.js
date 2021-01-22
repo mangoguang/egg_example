@@ -110,6 +110,8 @@ class UserController extends Controller {
    * @description 登录
    * @router get /api/login/{userName}
    * @request path string *userName 用户名称
+   * @request query string password 用户密码，经MD5加密
+   * @request query string uuid uuid
    * @response 200 loginResponse 查询成功
    */
   async login() {
@@ -118,9 +120,10 @@ class UserController extends Controller {
     const { password, uuid } = ctx.query
     try {
       ctx.validate({
+        userName: { type: 'string' },
         password: { type: 'string' },
         uuid: { type: 'string' }
-      }, { ...ctx.query })
+      }, { ...ctx.query, ...ctx.params })
       const data = await ctx.service.users.login({ userName, password, uuid })
       ctx.body = data
     } catch (error) {
@@ -135,7 +138,7 @@ class UserController extends Controller {
    * @router get /api/users/check/{userName}
    * @request path string *userName 用户名称
    * @request header string *Authorization token
-   * @response 200 loginResponse 查询成功
+   * @response 200 loginResponse 检测成功
    */
   async check() {
     const { ctx } = this
@@ -154,6 +157,24 @@ class UserController extends Controller {
   async payInfo() {
     const { ctx } = this
     const data = await ctx.service.users.payInfo()
+    ctx.body = data
+  }
+
+  /**
+   * @summary 设置每月可用额度
+   * @description 设置用户每月可用的额度
+   * @router post /api/v1/users/setMonthQuota
+   * @request header string *Authorization token
+   * @request query string monthQuota 限额
+   * @response 200 setMonthQuotaResponse 设置成功
+   */
+  async setMonthQuota() {
+    const { ctx } = this
+    const { monthQuota } = ctx.query
+    // ctx.validate({
+    //   monthQuota: { type: string },
+    // }, ctx.query)
+    const data = await ctx.service.users.setMonthQuota(monthQuota)
     ctx.body = data
   }
 }
