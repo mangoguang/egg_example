@@ -42,15 +42,15 @@ class OrderController extends Controller {
    */
   async create() {
     const { ctx } = this
-    const { money, classifyType, accountType, date, memberType, remark, orderType, imgUrl } = ctx.request.body
-    ctx.logger.info('新增收支记录记录：', { money, classifyType, accountType, date, memberType, remark, orderType, imgUrl });
+    const { money, classifyType, accountType, date, memberType, projectType, remark, orderType, imgUrl } = ctx.request.body
+    ctx.logger.info('新增收支记录记录：', { money, classifyType, accountType, date, memberType, projectType, remark, orderType, imgUrl });
     try {
       ctx.validate({
         money: { type: 'string' },
         classifyType: { type: 'string' },
         accountType: { type: 'string' },
       }, ctx.request.body)
-      const data = await ctx.service.order.create({ money, classifyType, accountType, date, memberType, remark, orderType, imgUrl })
+      const data = await ctx.service.order.create({ money, classifyType, accountType, date, memberType, projectType, remark, orderType, imgUrl })
       ctx.body = data
     } catch (error) {
       ctx.body = `${error.message}: ${error.errors[0].code}-${error.errors[0].field}`

@@ -1,321 +1,11 @@
-2021-01-22 14:20:06,061 INFO 24054 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:20:06,087 INFO 24054 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:36:08,968 INFO 25415 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:36:08,997 INFO 25415 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:44:14,881 INFO 26088 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:44:14,907 INFO 26088 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:44:17,984 INFO 26115 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:44:18,006 INFO 26115 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:44:21,824 INFO 26133 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:44:21,843 INFO 26133 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:47:25,758 INFO 26377 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:47:25,784 INFO 26377 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:47:28,284 INFO 26415 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:47:28,302 INFO 26415 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:48:24,138 INFO 26415 [-/::1/-/17ms GET /api/login/mangoguang?password=427815&uuid=123] 登录用户的IP地址---------------： ::1
-2021-01-22 14:48:42,089 INFO 26415 [-/::1/-/7ms GET /api/login/mangoguang?password=admin123&uuid=123] 登录用户的IP地址---------------： ::1
-2021-01-22 14:50:05,819 INFO 26415 [-/::1/-/7ms GET /api/login/mangoguang?password=0192023a7bbd73250516f069df18b500&uuid=123] 登录用户的IP地址---------------： ::1
-2021-01-22 14:51:01,247 ERROR 26415 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?quota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26415
-hostname: guangs-MBP
-
-2021-01-22 14:52:00,923 ERROR 26415 [-/::1/-/25156ms POST /api/v1/users/setMonthQuota?quota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26415
-hostname: guangs-MBP
-
-2021-01-22 14:52:24,167 INFO 26755 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:52:24,198 INFO 26755 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:53:45,787 INFO 26875 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:53:45,811 INFO 26875 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:53:46,614 ERROR 26755 [-/::1/-/55424ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26755
-hostname: guangs-MBP
-
-2021-01-22 14:55:10,565 ERROR 26875 [-/::1/-/76626ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:176:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26875
-hostname: guangs-MBP
-
-2021-01-22 14:55:13,015 INFO 26999 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:55:13,039 INFO 26999 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:55:53,101 ERROR 26999 [-/::1/-/39227ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26999
-hostname: guangs-MBP
-
-2021-01-22 14:56:02,144 INFO 27081 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:56:02,172 INFO 27081 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:56:44,592 ERROR 26999 [-/::1/-/6344ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 26999
-hostname: guangs-MBP
-
-2021-01-22 14:57:05,758 ERROR 27081 [-/::1/-/7425ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 27081
-hostname: guangs-MBP
-
-2021-01-22 14:58:24,350 ERROR 27081 [-/::1/-/67096ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: number is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 27081
-hostname: guangs-MBP
-
-2021-01-22 14:58:40,971 INFO 27369 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:58:41,000 INFO 27369 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:58:45,861 INFO 27399 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:58:45,881 INFO 27399 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:58:49,900 ERROR 27399 [-/::1/-/2922ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 27399
-hostname: guangs-MBP
-
-2021-01-22 14:59:00,116 ERROR 27399 [-/::1/-/3947ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 27399
-hostname: guangs-MBP
-
-2021-01-22 14:59:23,260 INFO 27588 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:59:23,288 INFO 27588 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 14:59:43,010 ERROR 27588 [-/::1/-/17053ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.ReferenceError: string is not defined
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:175:27)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-
-pid: 27588
-hostname: guangs-MBP
-
-2021-01-22 14:59:57,963 INFO 27638 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 14:59:57,983 INFO 27638 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:00:14,721 ERROR 27638 [-/::1/-/7159ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
-    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-
-pid: 27638
-hostname: guangs-MBP
-
-2021-01-22 15:00:51,972 ERROR 27638 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
-    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-
-pid: 27638
-hostname: guangs-MBP
-
-2021-01-22 15:00:56,808 ERROR 27638 [-/::1/-/2ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
-    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-
-pid: 27638
-hostname: guangs-MBP
-
-2021-01-22 15:01:47,801 INFO 27906 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:01:47,821 INFO 27906 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:01:57,018 ERROR 27906 [-/::1/-/6ms POST /api/v1/users/setMonthQuota?monthQuota=1000] nodejs.TypeError: Cannot read property 'userName' of undefined
-    at UserService.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/service/users.js:240:37)
-    at UserController.setMonthQuota (/Users/mangoguang/Documents/service/egg_example/app/controller/users.js:177:42)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-
-pid: 27906
-hostname: guangs-MBP
-
-2021-01-22 15:02:27,594 INFO 27971 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:02:27,616 INFO 27971 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:02:39,626 INFO 28020 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:02:39,657 INFO 28020 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:03:22,069 INFO 28084 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:03:22,092 INFO 28084 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:12:24,711 INFO 28748 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:12:24,741 INFO 28748 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:12:37,499 INFO 28800 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:12:37,517 INFO 28800 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:14:23,691 INFO 28923 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:14:23,719 INFO 28923 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:50:49,975 WARN 28923 [-/::1/-/21ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt expired
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
-    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
-    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
-    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
-    at new Promise (<anonymous>)
-    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
-name: "UnauthorizedError"
-message: "jwt expired"
-code: "invalid_token"
-status: 401
-inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-01-22T03:48:50.000Z"}
-pid: 28923
-hostname: guangs-MBP
-
-2021-01-22 15:50:49,996 WARN 28923 [-/::1/-/3ms POST /api/v1/users/payInfo] nodejs.UnauthorizedError: jwt expired
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
-    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
-    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
-    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
-    at new Promise (<anonymous>)
-    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
-name: "UnauthorizedError"
-message: "jwt expired"
-code: "invalid_token"
-status: 401
-inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-01-22T03:48:50.000Z"}
-pid: 28923
-hostname: guangs-MBP
-
-2021-01-22 15:50:50,880 INFO 28923 [-/::1/-/624ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-01-26 00:11:11,829 INFO 83095 [-/::1/-/333ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 24,
   user_name: 'guang',
   password: null,
   phone: null,
   register_time: null,
   address: null,
-  month_quota: null,
+  month_quota: '20000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
   unionid: null,
   nick_name: 'guang',
@@ -324,101 +14,18 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTEzMDkwNTAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTYzRTM3QjYtREI0Ny00NjEzLUEwOUYtQTFERkY2Njc5MzUwIiwiaWF0IjoxNjExMzAxODUwfQ.Zd-DXQ7bla6QYPHxFndwqHYHu0JEG4rU4u-ySnHB8G0'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTgyNzEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0I0NTJCNzUtNTcwOC00MjA1LTk2RDktRkMzMkJDQjJBNTlEIiwiaWF0IjoxNjExNTkxMDcxfQ.DLYMv8Lm1ndJms9ZH7l9QL4RAjhOj7puJC4HmQyWEcY'
 }
-2021-01-22 15:51:03,203 INFO 28923 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '早午晚餐',
-  accountType: '现金',
-  date: '2021/01/22 15:50:53',
-  memberType: undefined,
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/1611301863166.jpg'
-}
-2021-01-22 15:57:48,236 INFO 30762 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:57:48,262 INFO 30762 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:58:05,961 INFO 30800 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:58:05,987 INFO 30800 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 15:58:07,208 ERROR 30800 [-/::1/-/7ms GET /api/v1/order/22] nodejs.TypeError: Cannot read property 'show' of undefined
-    at OrderController.show (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:25:43)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:53:36
-
-pid: 30800
-hostname: guangs-MBP
-
-2021-01-22 15:58:31,155 INFO 30858 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 15:58:31,177 INFO 30858 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:01:03,990 INFO 31042 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:01:04,016 INFO 31042 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:03:31,859 INFO 31279 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:03:31,885 INFO 31279 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:31:58,472 INFO 33765 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:31:58,500 INFO 33765 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:32:04,648 INFO 33797 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:32:04,669 INFO 33797 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:32:29,234 INFO 33850 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:32:29,257 INFO 33850 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:38:10,917 INFO 34275 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:38:10,946 INFO 34275 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:38:14,270 INFO 34308 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:38:14,291 INFO 34308 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:38:35,405 INFO 34351 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:38:35,427 INFO 34351 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:39:54,952 INFO 34455 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:39:54,972 INFO 34455 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:41:01,789 INFO 34565 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:41:01,809 INFO 34565 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:45:46,806 INFO 35052 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:45:46,833 INFO 35052 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:46:23,009 WARN 35052 [-/::1/-/13ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 20, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"1.1\",\n}"
-pid: 35052
-hostname: guangs-MBP
-
-2021-01-22 16:49:15,755 WARN 35052 [-/::1/-/1ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 20, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"1.1\",\n}"
-pid: 35052
-hostname: guangs-MBP
-
-2021-01-22 16:50:24,626 INFO 35052 [-/::1/-/641ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-01-26 00:11:14,049 INFO 84609 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 00:11:14,076 INFO 84609 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 00:11:29,156 INFO 84609 [-/::1/-/280ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 24,
   user_name: 'guang',
   password: null,
   phone: null,
   register_time: null,
   address: null,
-  month_quota: null,
+  month_quota: '20000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
   unionid: null,
   nick_name: 'guang',
@@ -427,74 +34,18 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTEzMTI2MjQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOEU5QjFERTAtRjU4Mi00MTBBLThEMjctOTI1NUMyQTY5QzQ5IiwiaWF0IjoxNjExMzA1NDI0fQ.cBlymgGAehBpXvnzZSwK83zbJxYuH89e075wYluyRX0'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTgyODksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNkM4QkY3N0MtOUEwQy00QjRCLTlCNDgtNjQwNTU4OTEzODc3IiwiaWF0IjoxNjExNTkxMDg5fQ.dTfR92a8rGs_sMsaMdqA5tTkMr6DxcNWt0PGn-D-afQ'
 }
-2021-01-22 16:50:50,834 WARN 35052 [-/::1/-/1ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 20, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"1.1\",\n}"
-pid: 35052
-hostname: guangs-MBP
-
-2021-01-22 16:53:44,748 INFO 35609 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:53:44,776 INFO 35609 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:53:50,112 INFO 35635 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:53:50,130 INFO 35635 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:53:55,669 WARN 35635 [-/::1/-/15ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 20, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"1.1\",\n}"
-pid: 35635
-hostname: guangs-MBP
-
-2021-01-22 16:54:28,540 INFO 35690 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:54:28,558 INFO 35690 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:54:33,627 WARN 35690 [-/::1/-/10ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 20, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"1.1\",\n}"
-pid: 35690
-hostname: guangs-MBP
-
-2021-01-22 16:57:30,323 INFO 35948 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:57:30,343 INFO 35948 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:58:38,688 INFO 36044 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 16:58:38,707 INFO 36044 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 16:58:45,833 INFO 36044 [-/::1/-/586ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-01-26 00:12:02,338 INFO 84704 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 00:12:02,358 INFO 84704 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 00:14:43,524 INFO 84704 [-/::1/-/348ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 24,
   user_name: 'guang',
   password: null,
   phone: null,
   register_time: null,
   address: null,
-  month_quota: null,
+  month_quota: '20000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
   unionid: null,
   nick_name: 'guang',
@@ -503,95 +54,131 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTEzMTMxMjUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODU5RkRFRTMtQkJBOS00OTRCLTk1QjUtOEY1MjUwNzgyMjI2IiwiaWF0IjoxNjExMzA1OTI1fQ.A9OvJPOuOnP0N4gktm_iUjIrleKTpbKBQXLV1Ty1_0E'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg0ODMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNDY0NzUxOUYtOTVENi00QzRFLUI5NkEtREYyN0YxMjJFOTJFIiwiaWF0IjoxNjExNTkxMjgzfQ.VQPvjrgYVHq0VGdQJ6_bsQFadu5f0eZXP9AWmSayz8E'
 }
-2021-01-22 16:59:29,303 WARN 36044 [-/::1/-/1ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 19, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"22\",\n}"
-pid: 36044
-hostname: guangs-MBP
-
-2021-01-22 17:02:19,410 WARN 36044 [-/::1/-/1ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 19, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"22\",\n}"
-pid: 36044
-hostname: guangs-MBP
-
-2021-01-22 17:02:22,151 WARN 36044 [-/::1/-/2ms PUT /api/v1/order/22] nodejs.SyntaxError: Unexpected token } in JSON at position 19, check bodyParser config
-    at JSON.parse (<anonymous>)
-    at parse (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:57:17)
-    at AsyncFunction.module.exports [as json] (/Users/mangoguang/Documents/service/egg_example/node_modules/_co-body@6.1.0@co-body/lib/json.js:41:20)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async parseBody (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:100:14)
-    at async bodyParser (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:85:19)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
-    at async notfound (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
-    at async meta (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
-    at async cors (/Users/mangoguang/Documents/service/egg_example/node_modules/_@koa_cors@3.1.0@@koa/cors/index.js:62:27)
-status: 400
-body: "{\n  \"money\": \"22\",\n}"
-pid: 36044
-hostname: guangs-MBP
-
-2021-01-22 17:03:38,126 INFO 36405 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:03:38,146 INFO 36405 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:04:35,460 INFO 36524 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:04:35,478 INFO 36524 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:12:17,819 INFO 37080 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:12:17,848 INFO 37080 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:12:20,322 INFO 37105 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:12:20,344 INFO 37105 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:14:45,850 INFO 37411 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:14:45,871 INFO 37411 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:16:12,028 INFO 37546 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:16:12,048 INFO 37546 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:16:25,944 INFO 37595 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:16:25,964 INFO 37595 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:17:47,613 INFO 37703 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:17:47,633 INFO 37703 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:19:25,626 INFO 37842 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:19:25,647 INFO 37842 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:23:06,324 INFO 38155 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:23:06,343 INFO 38155 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:25:15,552 INFO 38381 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:25:15,579 INFO 38381 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:25:43,926 INFO 38435 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:25:43,944 INFO 38435 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:26:35,784 INFO 38496 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:26:35,805 INFO 38496 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:28:28,111 INFO 38654 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:28:28,131 INFO 38654 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:28:35,591 INFO 38683 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:28:35,608 INFO 38683 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:29:45,075 INFO 38786 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:29:45,095 INFO 38786 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:30:15,266 INFO 38842 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:30:15,292 INFO 38842 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:30:20,391 INFO 38860 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:30:20,411 INFO 38860 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:36:20,161 INFO 39314 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:36:20,188 INFO 39314 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:37:37,189 INFO 39417 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:37:37,207 INFO 39417 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-01-22 17:37:59,254 INFO 39460 [egg-swagger-doc] register router: get /swagger-doc
-2021-01-22 17:37:59,274 INFO 39460 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 00:15:08,818 INFO 84704 [-/::1/-/255ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg1MDgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRTE4QTA1OEEtMjYxNy00RTEwLUE0MDMtREM0MDVFOUZFRUY1IiwiaWF0IjoxNjExNTkxMzA4fQ.YIDY9zOt02T0zuOiYVlR0bu8DNoPpAT8UolDcEw6voQ'
+}
+2021-01-26 00:15:29,902 INFO 84704 [-/::1/-/251ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg1MjksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRDYxQ0JBMUEtRUI0QS00REZBLUE5MTMtNTZENjRFRDIyNDkzIiwiaWF0IjoxNjExNTkxMzI5fQ.NJ7kHBtFXd6tRRfSZWQs0e-yEZAKB_YmmgOeYa4-KAk'
+}
+2021-01-26 00:15:53,854 INFO 84704 [-/::1/-/238ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg1NTMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0M0RjkwN0EtQTVEMS00RUIxLTlBREQtMzMyRDNENDY3RDk0IiwiaWF0IjoxNjExNTkxMzUzfQ.qw8oTvWTZz5bvo1l4OEVHLi83PsjS21P4hcNoGiHlmc'
+}
+2021-01-26 00:16:35,826 INFO 84704 [-/::1/-/241ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg1OTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjVENkRENjAtNzQzMC00QzVGLTg3NTItQUUzNkMwM0Y3REQwIiwiaWF0IjoxNjExNTkxMzk1fQ.Rwima5j2rHt7f5m9MNlS92g5EDMKDASrBSfI3Ss8cW0'
+}
+2021-01-26 00:18:33,641 INFO 84704 [-/::1/-/207ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg3MTMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0I5QjgwNUItMTc1RS00MjEzLTk0RkItRTc3ODE1MzdFRDdBIiwiaWF0IjoxNjExNTkxNTEzfQ.0lQ75bnOXQR8vrdN0V-pmBSKG7JY-RbT3DSqIqdNl3E'
+}
+2021-01-26 00:18:58,515 INFO 84704 [-/::1/-/234ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg3MzgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNUU4MTFFRUMtMEE1Ny00MkU1LTlDRkItNEU0MEVCQTVFNEVEIiwiaWF0IjoxNjExNTkxNTM4fQ.wj7YTWmaol1BVRHkDVOkKRBT9Epv__xQj5qmdDvCOjo'
+}
+2021-01-26 00:22:57,601 INFO 84704 [-/::1/-/213ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE1OTg5NzcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRDM4NUFDMEItMEM5OC00MzUwLTgyM0YtODc1NTNERkRCOTAyIiwiaWF0IjoxNjExNTkxNzc3fQ.vpuTWZqzE1QDKiDmBk5HFbS_iqbVj_GhAyES8F3nvNw'
+}

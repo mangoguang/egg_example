@@ -182,9 +182,9 @@ class UserService extends Service {
       // 获取本周数据
       let [weekIncome, weekPay] = [0, 0]
       const weekTemp = date.getDay()
-      const weekStartDate = getDate(new Date(+new Date() - (weekTemp - 1) * 86400000))
+      const weekStartDate = getDate(new Date(+new Date() - weekTemp * 86400000))
       const weekList = await app.mysql.query('select * from orders where user_name = ? and create_time between ? and ?', [ctx.state.user.userName, `${weekStartDate} 00:00:00`, `${today} 23:59:59`])
-      weekList.forEach(item => {
+      weekList.length && weekList.forEach(item => {
         if (parseInt(item.order_type)) {
           weekIncome += parseFloat(item.money)
         } else {
@@ -192,9 +192,9 @@ class UserService extends Service {
         }
       })
 
-
       // 获取本月数据
       let [monthIncome, monthPay] = [0, 0]
+      
       const monthStartDate = getDate(new Date(+new Date() - (date.getDate() - 1) * 86400000))
       const monthList = await app.mysql.query('select * from orders where user_name = ? and create_time between ? and ?', [ctx.state.user.userName, `${monthStartDate} 00:00:00`, `${today} 23:59:59`])
       monthList.forEach(item => {

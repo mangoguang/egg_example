@@ -5,7 +5,7 @@ const async = require('async');
 const { createOrderNo } = require('../utils/service/order');
 const { getDate, dataToLine } = require('../utils/common')
 
-class DictService extends Service {
+class OrderService extends Service {
   async index() {
     const { app } = this
     const result = await app.mysql.select('dictionary')
@@ -41,6 +41,7 @@ class DictService extends Service {
         level_two_name: params.classifyType,
         user_name: ctx.state.user.userName,
         member_name: params.memberType,
+        project_name: params.projectType,
         remark: params.remark,
         user_id: userInfo.id,
         img_url: params.imgUrl
@@ -56,6 +57,9 @@ class DictService extends Service {
       // 根据成员名称获取对应成员代码
       const memberDict = await app.mysql.get('dictionary', { dict_name: data.member_name })
       data.member_code = memberDict ? JSON.parse(JSON.stringify(memberDict)).dict_code : ''
+      // 根据项目名称获取对应项目代码
+      const projectDict = await app.mysql.get('dictionary', { dict_name: data.project_name })
+      data.project_code = projectDict ? JSON.parse(JSON.stringify(projectDict)).dict_code : ''
       await app.mysql.insert('orders', data)
       return '新增成功'
     } catch (error) {
@@ -162,4 +166,4 @@ class DictService extends Service {
   }
 }
 
-module.exports = DictService
+module.exports = OrderService

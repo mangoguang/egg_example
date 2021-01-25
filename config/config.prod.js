@@ -2,7 +2,7 @@ module.exports = {
     cluster: {
         listen: {
             path: '',
-            port: 8889,
+            port: 8888,
             hostname: '0.0.0.0'
         }
     },
