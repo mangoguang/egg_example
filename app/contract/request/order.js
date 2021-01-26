@@ -35,5 +35,15 @@ module.exports = {
     memberName: { type: 'string', description: '成员名称' },
     money: { type: 'string', description: '金额' },
     remark: { type: 'string', description: '备注' }
+  },
+  getOrdersBySearchRequest: {
+    startTime: { type: 'string', description: '开始时间' },
+    endTime: { type: 'string', description: '结束时间' },
+    orderType: { type: 'string', description: '订单类型' },
+    memberName: { type: 'number', description: '成员名称' },
+    levelOneName: { type: 'string', description: '一级分类名称' },
+    levelTwoName: { type: 'string', description: '二级分类名称' },
+    accountName: { type: 'string', description: '账户类型名称' },
+    projectName: { type: 'string', description: '项目名称' },
   }
 };

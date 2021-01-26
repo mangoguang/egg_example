@@ -20,6 +20,7 @@ module.exports = app => {
   // 收支记录
   router.resources('order', '/api/v1/order', jwt, controller.order)
   router.post('/api/v1/order/list/', jwt, controller.order.list)
+  router.post('/api/v1/order/getOrdersBySearch/', jwt, controller.order.getOrdersBySearch)
 
   // 文件
   router.resources('file', '/api/v1/file', jwt, controller.file)

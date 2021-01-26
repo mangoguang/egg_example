@@ -353,6 +353,19 @@
     ]
   },
   {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/order/getOrdersBySearch/",
+    "regexp": "/^\\/api\\/v1\\/order\\/getOrdersBySearch(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
     "name": "files",
     "methods": [
       "POST"

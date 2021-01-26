@@ -174,3 +174,258 @@ name: "ClusterClientNoResponseError"
 pid: 59866
 hostname: guangs-MacBook-Pro.local
 
+2021-01-26 16:37:30,706 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 73182ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 16:43:50,744 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 60593ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 17:01:25,212 ERROR 6357 [-/::1/-/2056ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '20' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where user_name = 'guang', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '2021-01-26 17:01:23'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '20' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where user_name = 'guang', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '2021-01-26 17:01:23'"
+name: "ER_PARSE_ERRORError"
+pid: 6357
+hostname: guangs-MBP
+
+2021-01-26 17:02:50,918 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 69899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 17:24:09,683 ERROR 8232 [-/::1/-/19ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8232
+hostname: guangs-MBP
+
+2021-01-26 17:25:19,068 ERROR 8232 [-/::1/-/3ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8232
+hostname: guangs-MBP
+
+2021-01-26 17:25:33,957 ERROR 8334 [-/::1/-/15ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8334
+hostname: guangs-MBP
+
+2021-01-26 17:27:11,122 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 79563ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 17:31:51,157 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 76415ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 17:34:08,511 ERROR 9031 [-/::1/-/1690ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:08' and ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:08' and ?"
+name: "ER_PARSE_ERRORError"
+pid: 9031
+hostname: guangs-MBP
+
+2021-01-26 17:34:33,353 ERROR 9031 [-/::1/-/16633ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:30' and ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:30' and ?"
+name: "ER_PARSE_ERRORError"
+pid: 9031
+hostname: guangs-MBP
+
+2021-01-26 17:43:46,232 ERROR 59866 nodejs.ClusterClientNoResponseError: client no response in 78552ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 59866
+hostname: guangs-MacBook-Pro.local
+
+2021-01-26 17:47:18,270 ERROR 10373 [-/::1/-/18ms POST /api/v1/order/getOrdersBySearch] nodejs.TypeError: Cannot set property 'userName' of undefined
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:132:21)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10373
+hostname: guangs-MBP
+
+2021-01-26 17:48:06,179 ERROR 10444 [-/::1/-/16ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: startTime is not defined
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:143:99)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10444
+hostname: guangs-MBP
+
+2021-01-26 17:54:58,744 ERROR 11037 [-/::1/-/11406ms POST /api/v1/order/getOrdersBySearch?projectName=%E6%89%93%E9%BA%BB%E5%B0%86&startTime=2021-01-23%2000:00:00&endTime=2021-01-26%2023:00:00] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'start_time' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and start_time = '2021-01-23 00:00:00' and end_time = '2021-01-26 23:00:00' and user_name = 'guang' and create_time between '2021-01-23 00:00:00' and '2021-01-26 23:00:00'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'start_time' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and start_time = '2021-01-23 00:00:00' and end_time = '2021-01-26 23:00:00' and user_name = 'guang' and create_time between '2021-01-23 00:00:00' and '2021-01-26 23:00:00'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11037
+hostname: guangs-MBP
+

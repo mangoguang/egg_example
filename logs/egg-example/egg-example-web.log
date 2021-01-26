@@ -620,3 +620,371 @@ hostname: guangs-MacBook-Pro.local
 2021-01-26 14:57:29,504 INFO 95558 [egg-swagger-doc] register router: get /swagger-ui.html
 2021-01-26 14:59:00,186 INFO 95680 [egg-swagger-doc] register router: get /swagger-doc
 2021-01-26 14:59:00,205 INFO 95680 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:24:02,585 INFO 3193 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:24:02,613 INFO 3193 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:27:19,657 INFO 3472 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:27:19,674 INFO 3472 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:27:58,913 INFO 3543 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:27:58,931 INFO 3543 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:33:25,078 WARN 3543 [-/::1/-/3ms POST /api/v1/order/getOrdersBySearch] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2020-12-30T10:25:41.000Z"}
+pid: 3543
+hostname: guangs-MBP
+
+2021-01-26 16:33:41,323 INFO 3543 [-/::1/-/793ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE2NTcyMjEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMDE1NDBFNkQtRjI5Qi00RDFCLUI1RkYtMjE2M0Q3ODE5MEVEIiwiaWF0IjoxNjExNjUwMDIxfQ.c6lB_6e6GW2MRhzoYQ74HceGDFoduLXk6PYk0lVRwro'
+}
+2021-01-26 16:35:29,053 INFO 3543 [-/::1/-/534ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 24,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '20000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  unionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: 1,
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTE2NTczMjksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUIxMDc5OTUtMTI4MS00NTUxLTkwNzEtRjEyN0JCNDMyNjAyIiwiaWF0IjoxNjExNjUwMTI5fQ.Wc3ggSdn_wkXJ8bUnhS2B4sg2wlndaoa6eMiE7LsFcY'
+}
+2021-01-26 16:35:59,581 INFO 3543 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
+  money: '3000',
+  classifyType: '休闲玩乐',
+  accountType: '微信钱包',
+  date: '2021/01/26 16:35:29',
+  memberType: '老婆',
+  projectType: '打麻将',
+  remark: '',
+  orderType: 0,
+  imgUrl: null
+}
+2021-01-26 16:36:17,488 INFO 4174 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:36:17,516 INFO 4174 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:38:12,299 INFO 4323 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:38:12,325 INFO 4323 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:38:16,516 INFO 4359 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:38:16,537 INFO 4359 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:39:09,407 INFO 4424 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:39:09,426 INFO 4424 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:39:46,711 INFO 4498 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:39:46,739 INFO 4498 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:40:29,915 INFO 4498 [-/::1/-/14ms POST /api/v1/order] 新增收支记录记录： {
+  money: '6000',
+  classifyType: '意外之财',
+  accountType: '微信钱包',
+  date: '2021/01/26 16:35:29',
+  memberType: '老婆',
+  projectType: '打麻将',
+  remark: '',
+  orderType: 1,
+  imgUrl: null
+}
+2021-01-26 16:41:03,846 INFO 4689 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:41:03,873 INFO 4689 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:42:30,104 INFO 4809 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:42:30,131 INFO 4809 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 16:58:50,127 INFO 6075 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 16:58:50,155 INFO 6075 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:01:20,966 INFO 6357 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:01:21,001 INFO 6357 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:01:25,213 ERROR 6357 [-/::1/-/2056ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '20' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where user_name = 'guang', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '2021-01-26 17:01:23'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '20' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where user_name = 'guang', project_name = 打麻将 and create_time between '2021-01-24 00:00:00' and '2021-01-26 17:01:23'"
+name: "ER_PARSE_ERRORError"
+pid: 6357
+hostname: guangs-MBP
+
+2021-01-26 17:03:10,327 INFO 6527 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:03:10,350 INFO 6527 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:03:50,214 INFO 6597 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:03:50,234 INFO 6597 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:04:50,393 INFO 6693 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:04:50,413 INFO 6693 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:24:02,478 INFO 8232 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:24:02,506 INFO 8232 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:24:09,684 ERROR 8232 [-/::1/-/19ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8232
+hostname: guangs-MBP
+
+2021-01-26 17:25:19,068 ERROR 8232 [-/::1/-/3ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8232
+hostname: guangs-MBP
+
+2021-01-26 17:25:25,841 INFO 8334 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:25:25,859 INFO 8334 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:25:33,958 ERROR 8334 [-/::1/-/15ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:130:48)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8334
+hostname: guangs-MBP
+
+2021-01-26 17:25:51,526 INFO 8389 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:25:51,551 INFO 8389 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:28:53,074 INFO 8606 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:28:53,101 INFO 8606 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:30:21,893 INFO 8732 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:30:21,913 INFO 8732 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:30:34,717 INFO 8785 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:30:34,735 INFO 8785 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:34:04,673 INFO 9031 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:34:04,694 INFO 9031 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:34:08,512 ERROR 9031 [-/::1/-/1690ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:08' and ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:08' and ?"
+name: "ER_PARSE_ERRORError"
+pid: 9031
+hostname: guangs-MBP
+
+2021-01-26 17:34:33,355 ERROR 9031 [-/::1/-/16633ms POST /api/v1/order/getOrdersBySearch] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:30' and ?
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1"
+sqlState: "42000"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and user_name = 'guang' and order_type = '2021-01-24 00:00:00' and create_time between '2021-01-26 17:34:30' and ?"
+name: "ER_PARSE_ERRORError"
+pid: 9031
+hostname: guangs-MBP
+
+2021-01-26 17:34:40,780 INFO 9085 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:34:40,800 INFO 9085 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:35:07,589 INFO 9128 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:35:07,611 INFO 9128 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:47:15,836 INFO 10373 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:47:15,863 INFO 10373 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:47:18,270 ERROR 10373 [-/::1/-/18ms POST /api/v1/order/getOrdersBySearch] nodejs.TypeError: Cannot set property 'userName' of undefined
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:132:21)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10373
+hostname: guangs-MBP
+
+2021-01-26 17:48:03,976 INFO 10444 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:48:03,997 INFO 10444 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:48:06,180 ERROR 10444 [-/::1/-/16ms POST /api/v1/order/getOrdersBySearch] nodejs.ReferenceError: startTime is not defined
+    at OrderService.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/service/order.js:143:99)
+    at OrderController.getOrdersBySearch (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:146:42)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/mangoguang/Documents/service/egg_example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:145:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 10444
+hostname: guangs-MBP
+
+2021-01-26 17:49:08,713 INFO 10561 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:49:08,731 INFO 10561 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:50:39,318 INFO 10707 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:50:39,337 INFO 10707 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:53:20,164 INFO 10897 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:53:20,191 INFO 10897 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:54:40,103 INFO 11037 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:54:40,127 INFO 11037 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 17:54:58,745 ERROR 11037 [-/::1/-/11406ms POST /api/v1/order/getOrdersBySearch?projectName=%E6%89%93%E9%BA%BB%E5%B0%86&startTime=2021-01-23%2000:00:00&endTime=2021-01-26%2023:00:00] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'start_time' in 'where clause'
+    at Query.Sequence._packetToError (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:199:23)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/mangoguang/Documents/service/egg_example/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/client.js:38:20)
+    at RDSClient.proto.query (/Users/mangoguang/Documents/service/egg_example/node_modules/_ali-rds@3.4.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: select order_no, order_type, money from orders where project_name = '打麻将' and start_time = '2021-01-23 00:00:00' and end_time = '2021-01-26 23:00:00' and user_name = 'guang' and create_time between '2021-01-23 00:00:00' and '2021-01-26 23:00:00'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'start_time' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "select order_no, order_type, money from orders where project_name = '打麻将' and start_time = '2021-01-23 00:00:00' and end_time = '2021-01-26 23:00:00' and user_name = 'guang' and create_time between '2021-01-23 00:00:00' and '2021-01-26 23:00:00'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11037
+hostname: guangs-MBP
+
+2021-01-26 17:58:24,294 INFO 11326 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 17:58:24,319 INFO 11326 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:00:01,193 INFO 11476 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:00:01,214 INFO 11476 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:01:00,684 INFO 11562 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:01:00,704 INFO 11562 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:03:01,333 INFO 11730 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:03:01,360 INFO 11730 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:09:40,002 INFO 12418 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:09:40,029 INFO 12418 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:09:40,836 INFO 12432 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:09:40,853 INFO 12432 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:09:56,714 INFO 12474 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:09:56,731 INFO 12474 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:11:47,569 INFO 12627 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:11:47,596 INFO 12627 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:14:06,259 INFO 12816 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:14:06,287 INFO 12816 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:14:52,882 INFO 12911 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:14:52,906 INFO 12911 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:15:39,036 INFO 12982 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:15:39,055 INFO 12982 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-26 18:16:29,179 INFO 13070 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-26 18:16:29,199 INFO 13070 [egg-swagger-doc] register router: get /swagger-ui.html

@@ -23,5 +23,8 @@ module.exports = {
   },
   updateOrderByIdResponse: {
     data: { type: 'string', description: '更新结果' },
-  }
+  },
+  getOrdersBySearchResponse: {
+    date: { type: 'array', itemType: 'orderDetail', description: '订单列表' }
+  },
 };

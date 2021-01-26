@@ -108,6 +108,8 @@ class OrderService extends Service {
    */
   async list(startTime, endTime, limit, page) {
     try {
+      // 根据order id更新order信息
+      const result  = await app.mysql.select('orders', row, options)
       let list = this._getDayList(startTime, endTime, limit, page)
       return list
     } catch (error) {
@@ -115,6 +117,34 @@ class OrderService extends Service {
       return error
     }
     // ctx.state.user.userName
+  }
+
+  /**
+   * 根据查询条件获取订单记录
+   */
+  async getOrdersBySearch(params = {}) {
+    const { ctx, app } = this
+    // 获取时间区间
+    const { startTime, endTime } = params
+    delete params.startTime
+    delete params.endTime
+    let [names, values] = [[], []]
+    params.userName = ctx.state.user.userName
+    params = dataToLine(params)
+    // 过滤空字段
+    for (let key in params) {
+      if (params[key]) {
+        names.push(key)
+        values.push(params[key])
+      }
+    }
+    // 生成sql语句
+    const whereCurd = ` where ${names.join(' = ? and ')} = ?`
+    const createTimeCurd = ' and create_time between ? and ?'
+    const curd = `select * from orders${names.length ? whereCurd : ''}${startTime ? createTimeCurd : ''}`
+    // 查询
+    let orders = app.mysql.query(curd, [...values, startTime, endTime])
+    return orders
   }
 
   /**

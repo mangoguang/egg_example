@@ -135,5 +135,19 @@ class OrderController extends Controller {
     const data = await ctx.service.order.list(startTime, endTime, limit, page)
     ctx.body = data
   }
+
+  /**
+   * @summary 根据查询条件获取订单列表
+   * @description 根据查询条件获取订单列表
+   * @router post /api/v1/order/getOrdersBySearch
+   * @request header string *Authorization token
+   * @request body getOrdersBySearchRequest *body
+   * @response 200 getOrdersBySearchResponse
+   */
+  async getOrdersBySearch () {
+    const { ctx } = this
+    const data = await ctx.service.order.getOrdersBySearch(ctx.request.body)
+    ctx.body = data
+  }
 }
 module.exports = OrderController;

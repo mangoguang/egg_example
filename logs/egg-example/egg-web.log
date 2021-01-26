@@ -297,3 +297,644 @@
 2021-01-26 15:35:43,279 WARN 95680 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2021-01-26 15:35:43,280 WARN 95680 [ClusterClient:Watcher] follower closed, and try to init it again
 2021-01-26 15:40:30,222 WARN 95680 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 16:24:02,317 INFO 3193 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:24:02,345 INFO 3193 [egg-multipart] stream mode enable
+2021-01-26 16:24:02,346 INFO 3193 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:24:02,536 INFO 3193 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:24:02,538 INFO 3193 [egg-security] use methodnoallow middleware
+2021-01-26 16:24:02,539 INFO 3193 [egg-security] use noopen middleware
+2021-01-26 16:24:02,540 INFO 3193 [egg-security] use nosniff middleware
+2021-01-26 16:24:02,541 INFO 3193 [egg-security] use xssProtection middleware
+2021-01-26 16:24:02,542 INFO 3193 [egg-security] use xframe middleware
+2021-01-26 16:24:02,542 INFO 3193 [egg-security] use dta middleware
+2021-01-26 16:24:02,542 INFO 3193 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:24:02,565 INFO 3193 [egg:core] dump config after load, 9ms
+2021-01-26 16:24:02,621 INFO 3193 [egg-watcher:application] watcher start success
+2021-01-26 16:24:02,624 INFO 3193 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:24:02 GMT+0800 (中国标准时间)
+2021-01-26 16:24:02,630 INFO 3193 [egg:core] dump config after ready, 4ms
+2021-01-26 16:27:19,499 INFO 3472 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:27:19,521 INFO 3472 [egg-multipart] stream mode enable
+2021-01-26 16:27:19,521 INFO 3472 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:27:19,627 INFO 3472 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:27:19,629 INFO 3472 [egg-security] use methodnoallow middleware
+2021-01-26 16:27:19,629 INFO 3472 [egg-security] use noopen middleware
+2021-01-26 16:27:19,630 INFO 3472 [egg-security] use nosniff middleware
+2021-01-26 16:27:19,630 INFO 3472 [egg-security] use xssProtection middleware
+2021-01-26 16:27:19,630 INFO 3472 [egg-security] use xframe middleware
+2021-01-26 16:27:19,631 INFO 3472 [egg-security] use dta middleware
+2021-01-26 16:27:19,631 INFO 3472 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:27:19,643 INFO 3472 [egg:core] dump config after load, 3ms
+2021-01-26 16:27:19,681 INFO 3472 [egg-watcher:application] watcher start success
+2021-01-26 16:27:19,683 INFO 3472 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:27:19 GMT+0800 (中国标准时间)
+2021-01-26 16:27:19,689 INFO 3472 [egg:core] dump config after ready, 4ms
+2021-01-26 16:27:58,756 INFO 3543 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:27:58,778 INFO 3543 [egg-multipart] stream mode enable
+2021-01-26 16:27:58,778 INFO 3543 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:27:58,881 INFO 3543 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:27:58,883 INFO 3543 [egg-security] use methodnoallow middleware
+2021-01-26 16:27:58,883 INFO 3543 [egg-security] use noopen middleware
+2021-01-26 16:27:58,884 INFO 3543 [egg-security] use nosniff middleware
+2021-01-26 16:27:58,884 INFO 3543 [egg-security] use xssProtection middleware
+2021-01-26 16:27:58,885 INFO 3543 [egg-security] use xframe middleware
+2021-01-26 16:27:58,885 INFO 3543 [egg-security] use dta middleware
+2021-01-26 16:27:58,885 INFO 3543 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:27:58,899 INFO 3543 [egg:core] dump config after load, 4ms
+2021-01-26 16:27:58,938 INFO 3543 [egg-watcher:application] watcher start success
+2021-01-26 16:27:58,940 INFO 3543 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:27:58 GMT+0800 (中国标准时间)
+2021-01-26 16:27:58,945 INFO 3543 [egg:core] dump config after ready, 4ms
+2021-01-26 16:36:17,224 INFO 4174 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:36:17,255 INFO 4174 [egg-multipart] stream mode enable
+2021-01-26 16:36:17,256 INFO 4174 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:36:17,447 INFO 4174 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:36:17,448 INFO 4174 [egg-security] use methodnoallow middleware
+2021-01-26 16:36:17,449 INFO 4174 [egg-security] use noopen middleware
+2021-01-26 16:36:17,450 INFO 4174 [egg-security] use nosniff middleware
+2021-01-26 16:36:17,451 INFO 4174 [egg-security] use xssProtection middleware
+2021-01-26 16:36:17,451 INFO 4174 [egg-security] use xframe middleware
+2021-01-26 16:36:17,452 INFO 4174 [egg-security] use dta middleware
+2021-01-26 16:36:17,452 INFO 4174 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:36:17,473 INFO 4174 [egg:core] dump config after load, 4ms
+2021-01-26 16:36:17,529 INFO 4174 [egg-watcher:application] watcher start success
+2021-01-26 16:36:17,531 INFO 4174 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:36:17 GMT+0800 (中国标准时间)
+2021-01-26 16:36:17,537 INFO 4174 [egg:core] dump config after ready, 4ms
+2021-01-26 16:38:01,523 WARN 4174 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 16:38:01,523 WARN 4174 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 16:38:12,072 INFO 4323 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:38:12,098 INFO 4323 [egg-multipart] stream mode enable
+2021-01-26 16:38:12,098 INFO 4323 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:38:12,263 INFO 4323 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:38:12,265 INFO 4323 [egg-security] use methodnoallow middleware
+2021-01-26 16:38:12,266 INFO 4323 [egg-security] use noopen middleware
+2021-01-26 16:38:12,267 INFO 4323 [egg-security] use nosniff middleware
+2021-01-26 16:38:12,267 INFO 4323 [egg-security] use xssProtection middleware
+2021-01-26 16:38:12,268 INFO 4323 [egg-security] use xframe middleware
+2021-01-26 16:38:12,268 INFO 4323 [egg-security] use dta middleware
+2021-01-26 16:38:12,268 INFO 4323 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:38:12,284 INFO 4323 [egg:core] dump config after load, 4ms
+2021-01-26 16:38:12,339 INFO 4323 [egg-watcher:application] watcher start success
+2021-01-26 16:38:12,340 INFO 4323 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:38:12 GMT+0800 (中国标准时间)
+2021-01-26 16:38:12,347 INFO 4323 [egg:core] dump config after ready, 5ms
+2021-01-26 16:38:16,338 INFO 4359 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:38:16,363 INFO 4359 [egg-multipart] stream mode enable
+2021-01-26 16:38:16,363 INFO 4359 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:38:16,482 INFO 4359 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:38:16,484 INFO 4359 [egg-security] use methodnoallow middleware
+2021-01-26 16:38:16,484 INFO 4359 [egg-security] use noopen middleware
+2021-01-26 16:38:16,485 INFO 4359 [egg-security] use nosniff middleware
+2021-01-26 16:38:16,485 INFO 4359 [egg-security] use xssProtection middleware
+2021-01-26 16:38:16,486 INFO 4359 [egg-security] use xframe middleware
+2021-01-26 16:38:16,487 INFO 4359 [egg-security] use dta middleware
+2021-01-26 16:38:16,487 INFO 4359 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:38:16,500 INFO 4359 [egg:core] dump config after load, 3ms
+2021-01-26 16:38:16,550 INFO 4359 [egg-watcher:application] watcher start success
+2021-01-26 16:38:16,552 INFO 4359 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:38:16 GMT+0800 (中国标准时间)
+2021-01-26 16:38:16,558 INFO 4359 [egg:core] dump config after ready, 5ms
+2021-01-26 16:39:09,226 INFO 4424 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:39:09,251 INFO 4424 [egg-multipart] stream mode enable
+2021-01-26 16:39:09,251 INFO 4424 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:39:09,373 INFO 4424 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:39:09,375 INFO 4424 [egg-security] use methodnoallow middleware
+2021-01-26 16:39:09,375 INFO 4424 [egg-security] use noopen middleware
+2021-01-26 16:39:09,376 INFO 4424 [egg-security] use nosniff middleware
+2021-01-26 16:39:09,376 INFO 4424 [egg-security] use xssProtection middleware
+2021-01-26 16:39:09,377 INFO 4424 [egg-security] use xframe middleware
+2021-01-26 16:39:09,377 INFO 4424 [egg-security] use dta middleware
+2021-01-26 16:39:09,377 INFO 4424 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:39:09,392 INFO 4424 [egg:core] dump config after load, 4ms
+2021-01-26 16:39:09,440 INFO 4424 [egg-watcher:application] watcher start success
+2021-01-26 16:39:09,441 INFO 4424 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:39:09 GMT+0800 (中国标准时间)
+2021-01-26 16:39:09,447 INFO 4424 [egg:core] dump config after ready, 4ms
+2021-01-26 16:39:46,478 INFO 4498 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:39:46,508 INFO 4498 [egg-multipart] stream mode enable
+2021-01-26 16:39:46,508 INFO 4498 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:39:46,675 INFO 4498 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:39:46,677 INFO 4498 [egg-security] use methodnoallow middleware
+2021-01-26 16:39:46,678 INFO 4498 [egg-security] use noopen middleware
+2021-01-26 16:39:46,679 INFO 4498 [egg-security] use nosniff middleware
+2021-01-26 16:39:46,680 INFO 4498 [egg-security] use xssProtection middleware
+2021-01-26 16:39:46,681 INFO 4498 [egg-security] use xframe middleware
+2021-01-26 16:39:46,681 INFO 4498 [egg-security] use dta middleware
+2021-01-26 16:39:46,681 INFO 4498 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:39:46,696 INFO 4498 [egg:core] dump config after load, 4ms
+2021-01-26 16:39:46,753 INFO 4498 [egg-watcher:application] watcher start success
+2021-01-26 16:39:46,754 INFO 4498 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:39:46 GMT+0800 (中国标准时间)
+2021-01-26 16:39:46,761 INFO 4498 [egg:core] dump config after ready, 5ms
+2021-01-26 16:41:03,596 INFO 4689 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:41:03,627 INFO 4689 [egg-multipart] stream mode enable
+2021-01-26 16:41:03,627 INFO 4689 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:41:03,811 INFO 4689 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:41:03,813 INFO 4689 [egg-security] use methodnoallow middleware
+2021-01-26 16:41:03,814 INFO 4689 [egg-security] use noopen middleware
+2021-01-26 16:41:03,815 INFO 4689 [egg-security] use nosniff middleware
+2021-01-26 16:41:03,815 INFO 4689 [egg-security] use xssProtection middleware
+2021-01-26 16:41:03,816 INFO 4689 [egg-security] use xframe middleware
+2021-01-26 16:41:03,816 INFO 4689 [egg-security] use dta middleware
+2021-01-26 16:41:03,816 INFO 4689 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:41:03,831 INFO 4689 [egg:core] dump config after load, 4ms
+2021-01-26 16:41:03,886 INFO 4689 [egg-watcher:application] watcher start success
+2021-01-26 16:41:03,887 INFO 4689 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:41:03 GMT+0800 (中国标准时间)
+2021-01-26 16:41:03,893 INFO 4689 [egg:core] dump config after ready, 4ms
+2021-01-26 16:42:29,905 INFO 4809 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:42:29,931 INFO 4809 [egg-multipart] stream mode enable
+2021-01-26 16:42:29,932 INFO 4809 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:42:30,068 INFO 4809 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:42:30,070 INFO 4809 [egg-security] use methodnoallow middleware
+2021-01-26 16:42:30,071 INFO 4809 [egg-security] use noopen middleware
+2021-01-26 16:42:30,071 INFO 4809 [egg-security] use nosniff middleware
+2021-01-26 16:42:30,072 INFO 4809 [egg-security] use xssProtection middleware
+2021-01-26 16:42:30,073 INFO 4809 [egg-security] use xframe middleware
+2021-01-26 16:42:30,073 INFO 4809 [egg-security] use dta middleware
+2021-01-26 16:42:30,074 INFO 4809 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:42:30,089 INFO 4809 [egg:core] dump config after load, 4ms
+2021-01-26 16:42:30,146 INFO 4809 [egg-watcher:application] watcher start success
+2021-01-26 16:42:30,147 INFO 4809 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:42:30 GMT+0800 (中国标准时间)
+2021-01-26 16:42:30,153 INFO 4809 [egg:core] dump config after ready, 4ms
+2021-01-26 16:48:50,614 WARN 4809 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 16:48:50,614 WARN 4809 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 16:58:49,882 INFO 6075 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 16:58:49,912 INFO 6075 [egg-multipart] stream mode enable
+2021-01-26 16:58:49,913 INFO 6075 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 16:58:50,091 INFO 6075 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 16:58:50,093 INFO 6075 [egg-security] use methodnoallow middleware
+2021-01-26 16:58:50,093 INFO 6075 [egg-security] use noopen middleware
+2021-01-26 16:58:50,094 INFO 6075 [egg-security] use nosniff middleware
+2021-01-26 16:58:50,095 INFO 6075 [egg-security] use xssProtection middleware
+2021-01-26 16:58:50,096 INFO 6075 [egg-security] use xframe middleware
+2021-01-26 16:58:50,096 INFO 6075 [egg-security] use dta middleware
+2021-01-26 16:58:50,096 INFO 6075 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 16:58:50,112 INFO 6075 [egg:core] dump config after load, 4ms
+2021-01-26 16:58:50,168 INFO 6075 [egg-watcher:application] watcher start success
+2021-01-26 16:58:50,169 INFO 6075 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 16:58:50 GMT+0800 (中国标准时间)
+2021-01-26 16:58:50,176 INFO 6075 [egg:core] dump config after ready, 5ms
+2021-01-26 17:01:20,737 INFO 6357 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:01:20,763 INFO 6357 [egg-multipart] stream mode enable
+2021-01-26 17:01:20,764 INFO 6357 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:01:20,931 INFO 6357 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:01:20,933 INFO 6357 [egg-security] use methodnoallow middleware
+2021-01-26 17:01:20,934 INFO 6357 [egg-security] use noopen middleware
+2021-01-26 17:01:20,935 INFO 6357 [egg-security] use nosniff middleware
+2021-01-26 17:01:20,935 INFO 6357 [egg-security] use xssProtection middleware
+2021-01-26 17:01:20,936 INFO 6357 [egg-security] use xframe middleware
+2021-01-26 17:01:20,937 INFO 6357 [egg-security] use dta middleware
+2021-01-26 17:01:20,937 INFO 6357 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:01:20,951 INFO 6357 [egg:core] dump config after load, 4ms
+2021-01-26 17:01:21,017 INFO 6357 [egg-watcher:application] watcher start success
+2021-01-26 17:01:21,019 INFO 6357 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:01:21 GMT+0800 (中国标准时间)
+2021-01-26 17:01:21,025 INFO 6357 [egg:core] dump config after ready, 4ms
+2021-01-26 17:03:10,135 INFO 6527 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:03:10,164 INFO 6527 [egg-multipart] stream mode enable
+2021-01-26 17:03:10,164 INFO 6527 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:03:10,292 INFO 6527 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:03:10,294 INFO 6527 [egg-security] use methodnoallow middleware
+2021-01-26 17:03:10,294 INFO 6527 [egg-security] use noopen middleware
+2021-01-26 17:03:10,295 INFO 6527 [egg-security] use nosniff middleware
+2021-01-26 17:03:10,295 INFO 6527 [egg-security] use xssProtection middleware
+2021-01-26 17:03:10,296 INFO 6527 [egg-security] use xframe middleware
+2021-01-26 17:03:10,296 INFO 6527 [egg-security] use dta middleware
+2021-01-26 17:03:10,296 INFO 6527 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:03:10,311 INFO 6527 [egg:core] dump config after load, 3ms
+2021-01-26 17:03:10,364 INFO 6527 [egg-watcher:application] watcher start success
+2021-01-26 17:03:10,365 INFO 6527 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:03:10 GMT+0800 (中国标准时间)
+2021-01-26 17:03:10,371 INFO 6527 [egg:core] dump config after ready, 4ms
+2021-01-26 17:03:13,454 WARN 6357 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 17:03:50,035 INFO 6597 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:03:50,061 INFO 6597 [egg-multipart] stream mode enable
+2021-01-26 17:03:50,062 INFO 6597 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:03:50,180 INFO 6597 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:03:50,181 INFO 6597 [egg-security] use methodnoallow middleware
+2021-01-26 17:03:50,182 INFO 6597 [egg-security] use noopen middleware
+2021-01-26 17:03:50,183 INFO 6597 [egg-security] use nosniff middleware
+2021-01-26 17:03:50,183 INFO 6597 [egg-security] use xssProtection middleware
+2021-01-26 17:03:50,183 INFO 6597 [egg-security] use xframe middleware
+2021-01-26 17:03:50,184 INFO 6597 [egg-security] use dta middleware
+2021-01-26 17:03:50,184 INFO 6597 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:03:50,199 INFO 6597 [egg:core] dump config after load, 4ms
+2021-01-26 17:03:50,248 INFO 6597 [egg-watcher:application] watcher start success
+2021-01-26 17:03:50,249 INFO 6597 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:03:50 GMT+0800 (中国标准时间)
+2021-01-26 17:03:50,255 INFO 6597 [egg:core] dump config after ready, 4ms
+2021-01-26 17:04:50,209 INFO 6693 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:04:50,232 INFO 6693 [egg-multipart] stream mode enable
+2021-01-26 17:04:50,233 INFO 6693 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:04:50,358 INFO 6693 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:04:50,360 INFO 6693 [egg-security] use methodnoallow middleware
+2021-01-26 17:04:50,361 INFO 6693 [egg-security] use noopen middleware
+2021-01-26 17:04:50,361 INFO 6693 [egg-security] use nosniff middleware
+2021-01-26 17:04:50,362 INFO 6693 [egg-security] use xssProtection middleware
+2021-01-26 17:04:50,362 INFO 6693 [egg-security] use xframe middleware
+2021-01-26 17:04:50,362 INFO 6693 [egg-security] use dta middleware
+2021-01-26 17:04:50,363 INFO 6693 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:04:50,378 INFO 6693 [egg:core] dump config after load, 4ms
+2021-01-26 17:04:50,427 INFO 6693 [egg-watcher:application] watcher start success
+2021-01-26 17:04:50,428 INFO 6693 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:04:50 GMT+0800 (中国标准时间)
+2021-01-26 17:04:50,434 INFO 6693 [egg:core] dump config after ready, 4ms
+2021-01-26 17:24:02,219 INFO 8232 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:24:02,247 INFO 8232 [egg-multipart] stream mode enable
+2021-01-26 17:24:02,248 INFO 8232 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:24:02,444 INFO 8232 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:24:02,446 INFO 8232 [egg-security] use methodnoallow middleware
+2021-01-26 17:24:02,446 INFO 8232 [egg-security] use noopen middleware
+2021-01-26 17:24:02,447 INFO 8232 [egg-security] use nosniff middleware
+2021-01-26 17:24:02,448 INFO 8232 [egg-security] use xssProtection middleware
+2021-01-26 17:24:02,449 INFO 8232 [egg-security] use xframe middleware
+2021-01-26 17:24:02,450 INFO 8232 [egg-security] use dta middleware
+2021-01-26 17:24:02,450 INFO 8232 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:24:02,463 INFO 8232 [egg:core] dump config after load, 3ms
+2021-01-26 17:24:02,520 INFO 8232 [egg-watcher:application] watcher start success
+2021-01-26 17:24:02,521 INFO 8232 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:24:02 GMT+0800 (中国标准时间)
+2021-01-26 17:24:02,527 INFO 8232 [egg:core] dump config after ready, 4ms
+2021-01-26 17:25:25,662 INFO 8334 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:25:25,688 INFO 8334 [egg-multipart] stream mode enable
+2021-01-26 17:25:25,689 INFO 8334 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:25:25,808 INFO 8334 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:25:25,810 INFO 8334 [egg-security] use methodnoallow middleware
+2021-01-26 17:25:25,810 INFO 8334 [egg-security] use noopen middleware
+2021-01-26 17:25:25,811 INFO 8334 [egg-security] use nosniff middleware
+2021-01-26 17:25:25,811 INFO 8334 [egg-security] use xssProtection middleware
+2021-01-26 17:25:25,812 INFO 8334 [egg-security] use xframe middleware
+2021-01-26 17:25:25,812 INFO 8334 [egg-security] use dta middleware
+2021-01-26 17:25:25,812 INFO 8334 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:25:25,826 INFO 8334 [egg:core] dump config after load, 4ms
+2021-01-26 17:25:25,871 INFO 8334 [egg-watcher:application] watcher start success
+2021-01-26 17:25:25,873 INFO 8334 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:25:25 GMT+0800 (中国标准时间)
+2021-01-26 17:25:25,879 INFO 8334 [egg:core] dump config after ready, 4ms
+2021-01-26 17:25:51,296 INFO 8389 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:25:51,328 INFO 8389 [egg-multipart] stream mode enable
+2021-01-26 17:25:51,328 INFO 8389 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:25:51,490 INFO 8389 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:25:51,492 INFO 8389 [egg-security] use methodnoallow middleware
+2021-01-26 17:25:51,493 INFO 8389 [egg-security] use noopen middleware
+2021-01-26 17:25:51,493 INFO 8389 [egg-security] use nosniff middleware
+2021-01-26 17:25:51,494 INFO 8389 [egg-security] use xssProtection middleware
+2021-01-26 17:25:51,494 INFO 8389 [egg-security] use xframe middleware
+2021-01-26 17:25:51,495 INFO 8389 [egg-security] use dta middleware
+2021-01-26 17:25:51,495 INFO 8389 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:25:51,511 INFO 8389 [egg:core] dump config after load, 4ms
+2021-01-26 17:25:51,565 INFO 8389 [egg-watcher:application] watcher start success
+2021-01-26 17:25:51,566 INFO 8389 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:25:51 GMT+0800 (中国标准时间)
+2021-01-26 17:25:51,572 INFO 8389 [egg:core] dump config after ready, 4ms
+2021-01-26 17:27:23,756 WARN 8389 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 17:27:23,757 WARN 8389 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 17:28:52,860 INFO 8606 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:28:52,883 INFO 8606 [egg-multipart] stream mode enable
+2021-01-26 17:28:52,883 INFO 8606 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:28:53,038 INFO 8606 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:28:53,040 INFO 8606 [egg-security] use methodnoallow middleware
+2021-01-26 17:28:53,040 INFO 8606 [egg-security] use noopen middleware
+2021-01-26 17:28:53,041 INFO 8606 [egg-security] use nosniff middleware
+2021-01-26 17:28:53,042 INFO 8606 [egg-security] use xssProtection middleware
+2021-01-26 17:28:53,043 INFO 8606 [egg-security] use xframe middleware
+2021-01-26 17:28:53,043 INFO 8606 [egg-security] use dta middleware
+2021-01-26 17:28:53,043 INFO 8606 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:28:53,059 INFO 8606 [egg:core] dump config after load, 4ms
+2021-01-26 17:28:53,113 INFO 8606 [egg-watcher:application] watcher start success
+2021-01-26 17:28:53,115 INFO 8606 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:28:53 GMT+0800 (中国标准时间)
+2021-01-26 17:28:53,121 INFO 8606 [egg:core] dump config after ready, 4ms
+2021-01-26 17:30:21,711 INFO 8732 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:30:21,736 INFO 8732 [egg-multipart] stream mode enable
+2021-01-26 17:30:21,737 INFO 8732 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:30:21,859 INFO 8732 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:30:21,861 INFO 8732 [egg-security] use methodnoallow middleware
+2021-01-26 17:30:21,861 INFO 8732 [egg-security] use noopen middleware
+2021-01-26 17:30:21,862 INFO 8732 [egg-security] use nosniff middleware
+2021-01-26 17:30:21,863 INFO 8732 [egg-security] use xssProtection middleware
+2021-01-26 17:30:21,863 INFO 8732 [egg-security] use xframe middleware
+2021-01-26 17:30:21,864 INFO 8732 [egg-security] use dta middleware
+2021-01-26 17:30:21,864 INFO 8732 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:30:21,878 INFO 8732 [egg:core] dump config after load, 3ms
+2021-01-26 17:30:21,927 INFO 8732 [egg-watcher:application] watcher start success
+2021-01-26 17:30:21,929 INFO 8732 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:30:21 GMT+0800 (中国标准时间)
+2021-01-26 17:30:21,935 INFO 8732 [egg:core] dump config after ready, 4ms
+2021-01-26 17:30:34,540 INFO 8785 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:30:34,563 INFO 8785 [egg-multipart] stream mode enable
+2021-01-26 17:30:34,563 INFO 8785 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:30:34,685 INFO 8785 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:30:34,687 INFO 8785 [egg-security] use methodnoallow middleware
+2021-01-26 17:30:34,687 INFO 8785 [egg-security] use noopen middleware
+2021-01-26 17:30:34,688 INFO 8785 [egg-security] use nosniff middleware
+2021-01-26 17:30:34,688 INFO 8785 [egg-security] use xssProtection middleware
+2021-01-26 17:30:34,689 INFO 8785 [egg-security] use xframe middleware
+2021-01-26 17:30:34,689 INFO 8785 [egg-security] use dta middleware
+2021-01-26 17:30:34,689 INFO 8785 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:30:34,702 INFO 8785 [egg:core] dump config after load, 3ms
+2021-01-26 17:30:34,747 INFO 8785 [egg-watcher:application] watcher start success
+2021-01-26 17:30:34,748 INFO 8785 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:30:34 GMT+0800 (中国标准时间)
+2021-01-26 17:30:34,755 INFO 8785 [egg:core] dump config after ready, 4ms
+2021-01-26 17:33:20,873 WARN 8785 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 17:33:20,873 WARN 8785 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 17:34:04,495 INFO 9031 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:34:04,518 INFO 9031 [egg-multipart] stream mode enable
+2021-01-26 17:34:04,519 INFO 9031 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:34:04,639 INFO 9031 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:34:04,640 INFO 9031 [egg-security] use methodnoallow middleware
+2021-01-26 17:34:04,641 INFO 9031 [egg-security] use noopen middleware
+2021-01-26 17:34:04,641 INFO 9031 [egg-security] use nosniff middleware
+2021-01-26 17:34:04,642 INFO 9031 [egg-security] use xssProtection middleware
+2021-01-26 17:34:04,642 INFO 9031 [egg-security] use xframe middleware
+2021-01-26 17:34:04,643 INFO 9031 [egg-security] use dta middleware
+2021-01-26 17:34:04,643 INFO 9031 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:34:04,658 INFO 9031 [egg:core] dump config after load, 4ms
+2021-01-26 17:34:04,707 INFO 9031 [egg-watcher:application] watcher start success
+2021-01-26 17:34:04,709 INFO 9031 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:34:04 GMT+0800 (中国标准时间)
+2021-01-26 17:34:04,715 INFO 9031 [egg:core] dump config after ready, 4ms
+2021-01-26 17:34:40,599 INFO 9085 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:34:40,623 INFO 9085 [egg-multipart] stream mode enable
+2021-01-26 17:34:40,623 INFO 9085 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:34:40,747 INFO 9085 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:34:40,748 INFO 9085 [egg-security] use methodnoallow middleware
+2021-01-26 17:34:40,749 INFO 9085 [egg-security] use noopen middleware
+2021-01-26 17:34:40,750 INFO 9085 [egg-security] use nosniff middleware
+2021-01-26 17:34:40,750 INFO 9085 [egg-security] use xssProtection middleware
+2021-01-26 17:34:40,750 INFO 9085 [egg-security] use xframe middleware
+2021-01-26 17:34:40,751 INFO 9085 [egg-security] use dta middleware
+2021-01-26 17:34:40,751 INFO 9085 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:34:40,765 INFO 9085 [egg:core] dump config after load, 3ms
+2021-01-26 17:34:40,812 INFO 9085 [egg-watcher:application] watcher start success
+2021-01-26 17:34:40,814 INFO 9085 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:34:40 GMT+0800 (中国标准时间)
+2021-01-26 17:34:40,820 INFO 9085 [egg:core] dump config after ready, 4ms
+2021-01-26 17:35:07,411 INFO 9128 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:35:07,436 INFO 9128 [egg-multipart] stream mode enable
+2021-01-26 17:35:07,436 INFO 9128 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:35:07,558 INFO 9128 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:35:07,559 INFO 9128 [egg-security] use methodnoallow middleware
+2021-01-26 17:35:07,560 INFO 9128 [egg-security] use noopen middleware
+2021-01-26 17:35:07,560 INFO 9128 [egg-security] use nosniff middleware
+2021-01-26 17:35:07,561 INFO 9128 [egg-security] use xssProtection middleware
+2021-01-26 17:35:07,561 INFO 9128 [egg-security] use xframe middleware
+2021-01-26 17:35:07,562 INFO 9128 [egg-security] use dta middleware
+2021-01-26 17:35:07,562 INFO 9128 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:35:07,575 INFO 9128 [egg:core] dump config after load, 4ms
+2021-01-26 17:35:07,624 INFO 9128 [egg-watcher:application] watcher start success
+2021-01-26 17:35:07,626 INFO 9128 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:35:07 GMT+0800 (中国标准时间)
+2021-01-26 17:35:07,632 INFO 9128 [egg:core] dump config after ready, 4ms
+2021-01-26 17:43:46,232 WARN 9128 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-26 17:43:46,233 WARN 9128 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-26 17:47:15,574 INFO 10373 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:47:15,605 INFO 10373 [egg-multipart] stream mode enable
+2021-01-26 17:47:15,605 INFO 10373 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:47:15,798 INFO 10373 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:47:15,801 INFO 10373 [egg-security] use methodnoallow middleware
+2021-01-26 17:47:15,802 INFO 10373 [egg-security] use noopen middleware
+2021-01-26 17:47:15,803 INFO 10373 [egg-security] use nosniff middleware
+2021-01-26 17:47:15,804 INFO 10373 [egg-security] use xssProtection middleware
+2021-01-26 17:47:15,804 INFO 10373 [egg-security] use xframe middleware
+2021-01-26 17:47:15,805 INFO 10373 [egg-security] use dta middleware
+2021-01-26 17:47:15,805 INFO 10373 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:47:15,821 INFO 10373 [egg:core] dump config after load, 5ms
+2021-01-26 17:47:15,878 INFO 10373 [egg-watcher:application] watcher start success
+2021-01-26 17:47:15,879 INFO 10373 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:47:15 GMT+0800 (中国标准时间)
+2021-01-26 17:47:15,885 INFO 10373 [egg:core] dump config after ready, 4ms
+2021-01-26 17:48:03,795 INFO 10444 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:48:03,821 INFO 10444 [egg-multipart] stream mode enable
+2021-01-26 17:48:03,821 INFO 10444 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:48:03,942 INFO 10444 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:48:03,944 INFO 10444 [egg-security] use methodnoallow middleware
+2021-01-26 17:48:03,944 INFO 10444 [egg-security] use noopen middleware
+2021-01-26 17:48:03,945 INFO 10444 [egg-security] use nosniff middleware
+2021-01-26 17:48:03,945 INFO 10444 [egg-security] use xssProtection middleware
+2021-01-26 17:48:03,946 INFO 10444 [egg-security] use xframe middleware
+2021-01-26 17:48:03,946 INFO 10444 [egg-security] use dta middleware
+2021-01-26 17:48:03,946 INFO 10444 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:48:03,961 INFO 10444 [egg:core] dump config after load, 4ms
+2021-01-26 17:48:04,010 INFO 10444 [egg-watcher:application] watcher start success
+2021-01-26 17:48:04,012 INFO 10444 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:48:04 GMT+0800 (中国标准时间)
+2021-01-26 17:48:04,018 INFO 10444 [egg:core] dump config after ready, 4ms
+2021-01-26 17:49:08,543 INFO 10561 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:49:08,565 INFO 10561 [egg-multipart] stream mode enable
+2021-01-26 17:49:08,565 INFO 10561 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:49:08,681 INFO 10561 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:49:08,683 INFO 10561 [egg-security] use methodnoallow middleware
+2021-01-26 17:49:08,683 INFO 10561 [egg-security] use noopen middleware
+2021-01-26 17:49:08,684 INFO 10561 [egg-security] use nosniff middleware
+2021-01-26 17:49:08,684 INFO 10561 [egg-security] use xssProtection middleware
+2021-01-26 17:49:08,684 INFO 10561 [egg-security] use xframe middleware
+2021-01-26 17:49:08,685 INFO 10561 [egg-security] use dta middleware
+2021-01-26 17:49:08,685 INFO 10561 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:49:08,698 INFO 10561 [egg:core] dump config after load, 3ms
+2021-01-26 17:49:08,744 INFO 10561 [egg-watcher:application] watcher start success
+2021-01-26 17:49:08,745 INFO 10561 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:49:08 GMT+0800 (中国标准时间)
+2021-01-26 17:49:08,752 INFO 10561 [egg:core] dump config after ready, 4ms
+2021-01-26 17:50:39,149 INFO 10707 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:50:39,172 INFO 10707 [egg-multipart] stream mode enable
+2021-01-26 17:50:39,173 INFO 10707 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:50:39,285 INFO 10707 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:50:39,287 INFO 10707 [egg-security] use methodnoallow middleware
+2021-01-26 17:50:39,288 INFO 10707 [egg-security] use noopen middleware
+2021-01-26 17:50:39,288 INFO 10707 [egg-security] use nosniff middleware
+2021-01-26 17:50:39,289 INFO 10707 [egg-security] use xssProtection middleware
+2021-01-26 17:50:39,289 INFO 10707 [egg-security] use xframe middleware
+2021-01-26 17:50:39,290 INFO 10707 [egg-security] use dta middleware
+2021-01-26 17:50:39,290 INFO 10707 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:50:39,304 INFO 10707 [egg:core] dump config after load, 4ms
+2021-01-26 17:50:39,350 INFO 10707 [egg-watcher:application] watcher start success
+2021-01-26 17:50:39,351 INFO 10707 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:50:39 GMT+0800 (中国标准时间)
+2021-01-26 17:50:39,358 INFO 10707 [egg:core] dump config after ready, 5ms
+2021-01-26 17:53:19,932 INFO 10897 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:53:19,959 INFO 10897 [egg-multipart] stream mode enable
+2021-01-26 17:53:19,960 INFO 10897 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:53:20,128 INFO 10897 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:53:20,130 INFO 10897 [egg-security] use methodnoallow middleware
+2021-01-26 17:53:20,131 INFO 10897 [egg-security] use noopen middleware
+2021-01-26 17:53:20,132 INFO 10897 [egg-security] use nosniff middleware
+2021-01-26 17:53:20,132 INFO 10897 [egg-security] use xssProtection middleware
+2021-01-26 17:53:20,133 INFO 10897 [egg-security] use xframe middleware
+2021-01-26 17:53:20,134 INFO 10897 [egg-security] use dta middleware
+2021-01-26 17:53:20,134 INFO 10897 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:53:20,149 INFO 10897 [egg:core] dump config after load, 4ms
+2021-01-26 17:53:20,205 INFO 10897 [egg-watcher:application] watcher start success
+2021-01-26 17:53:20,206 INFO 10897 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:53:20 GMT+0800 (中国标准时间)
+2021-01-26 17:53:20,212 INFO 10897 [egg:core] dump config after ready, 4ms
+2021-01-26 17:54:39,917 INFO 11037 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:54:39,942 INFO 11037 [egg-multipart] stream mode enable
+2021-01-26 17:54:39,943 INFO 11037 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:54:40,063 INFO 11037 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:54:40,064 INFO 11037 [egg-security] use methodnoallow middleware
+2021-01-26 17:54:40,065 INFO 11037 [egg-security] use noopen middleware
+2021-01-26 17:54:40,065 INFO 11037 [egg-security] use nosniff middleware
+2021-01-26 17:54:40,066 INFO 11037 [egg-security] use xssProtection middleware
+2021-01-26 17:54:40,066 INFO 11037 [egg-security] use xframe middleware
+2021-01-26 17:54:40,067 INFO 11037 [egg-security] use dta middleware
+2021-01-26 17:54:40,067 INFO 11037 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:54:40,088 INFO 11037 [egg:core] dump config after load, 5ms
+2021-01-26 17:54:40,141 INFO 11037 [egg-watcher:application] watcher start success
+2021-01-26 17:54:40,142 INFO 11037 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:54:40 GMT+0800 (中国标准时间)
+2021-01-26 17:54:40,148 INFO 11037 [egg:core] dump config after ready, 4ms
+2021-01-26 17:58:24,064 INFO 11326 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 17:58:24,092 INFO 11326 [egg-multipart] stream mode enable
+2021-01-26 17:58:24,093 INFO 11326 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 17:58:24,251 INFO 11326 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 17:58:24,253 INFO 11326 [egg-security] use methodnoallow middleware
+2021-01-26 17:58:24,254 INFO 11326 [egg-security] use noopen middleware
+2021-01-26 17:58:24,254 INFO 11326 [egg-security] use nosniff middleware
+2021-01-26 17:58:24,255 INFO 11326 [egg-security] use xssProtection middleware
+2021-01-26 17:58:24,256 INFO 11326 [egg-security] use xframe middleware
+2021-01-26 17:58:24,256 INFO 11326 [egg-security] use dta middleware
+2021-01-26 17:58:24,256 INFO 11326 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 17:58:24,278 INFO 11326 [egg:core] dump config after load, 4ms
+2021-01-26 17:58:24,333 INFO 11326 [egg-watcher:application] watcher start success
+2021-01-26 17:58:24,334 INFO 11326 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 17:58:24 GMT+0800 (中国标准时间)
+2021-01-26 17:58:24,340 INFO 11326 [egg:core] dump config after ready, 4ms
+2021-01-26 18:00:00,999 INFO 11476 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:00:01,028 INFO 11476 [egg-multipart] stream mode enable
+2021-01-26 18:00:01,028 INFO 11476 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:00:01,159 INFO 11476 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:00:01,161 INFO 11476 [egg-security] use methodnoallow middleware
+2021-01-26 18:00:01,162 INFO 11476 [egg-security] use noopen middleware
+2021-01-26 18:00:01,162 INFO 11476 [egg-security] use nosniff middleware
+2021-01-26 18:00:01,163 INFO 11476 [egg-security] use xssProtection middleware
+2021-01-26 18:00:01,163 INFO 11476 [egg-security] use xframe middleware
+2021-01-26 18:00:01,164 INFO 11476 [egg-security] use dta middleware
+2021-01-26 18:00:01,164 INFO 11476 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:00:01,179 INFO 11476 [egg:core] dump config after load, 3ms
+2021-01-26 18:00:01,228 INFO 11476 [egg-watcher:application] watcher start success
+2021-01-26 18:00:01,229 INFO 11476 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:00:01 GMT+0800 (中国标准时间)
+2021-01-26 18:00:01,236 INFO 11476 [egg:core] dump config after ready, 5ms
+2021-01-26 18:01:00,509 INFO 11562 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:01:00,532 INFO 11562 [egg-multipart] stream mode enable
+2021-01-26 18:01:00,532 INFO 11562 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:01:00,651 INFO 11562 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:01:00,653 INFO 11562 [egg-security] use methodnoallow middleware
+2021-01-26 18:01:00,653 INFO 11562 [egg-security] use noopen middleware
+2021-01-26 18:01:00,654 INFO 11562 [egg-security] use nosniff middleware
+2021-01-26 18:01:00,654 INFO 11562 [egg-security] use xssProtection middleware
+2021-01-26 18:01:00,654 INFO 11562 [egg-security] use xframe middleware
+2021-01-26 18:01:00,655 INFO 11562 [egg-security] use dta middleware
+2021-01-26 18:01:00,655 INFO 11562 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:01:00,669 INFO 11562 [egg:core] dump config after load, 3ms
+2021-01-26 18:01:00,718 INFO 11562 [egg-watcher:application] watcher start success
+2021-01-26 18:01:00,719 INFO 11562 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:01:00 GMT+0800 (中国标准时间)
+2021-01-26 18:01:00,725 INFO 11562 [egg:core] dump config after ready, 4ms
+2021-01-26 18:03:01,093 INFO 11730 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:03:01,119 INFO 11730 [egg-multipart] stream mode enable
+2021-01-26 18:03:01,119 INFO 11730 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:03:01,294 INFO 11730 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:03:01,296 INFO 11730 [egg-security] use methodnoallow middleware
+2021-01-26 18:03:01,297 INFO 11730 [egg-security] use noopen middleware
+2021-01-26 18:03:01,298 INFO 11730 [egg-security] use nosniff middleware
+2021-01-26 18:03:01,299 INFO 11730 [egg-security] use xssProtection middleware
+2021-01-26 18:03:01,299 INFO 11730 [egg-security] use xframe middleware
+2021-01-26 18:03:01,300 INFO 11730 [egg-security] use dta middleware
+2021-01-26 18:03:01,300 INFO 11730 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:03:01,315 INFO 11730 [egg:core] dump config after load, 4ms
+2021-01-26 18:03:01,368 INFO 11730 [egg-watcher:application] watcher start success
+2021-01-26 18:03:01,371 INFO 11730 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:03:01 GMT+0800 (中国标准时间)
+2021-01-26 18:03:01,377 INFO 11730 [egg:core] dump config after ready, 5ms
+2021-01-26 18:09:39,752 INFO 12418 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:09:39,780 INFO 12418 [egg-multipart] stream mode enable
+2021-01-26 18:09:39,780 INFO 12418 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:09:39,960 INFO 12418 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:09:39,962 INFO 12418 [egg-security] use methodnoallow middleware
+2021-01-26 18:09:39,962 INFO 12418 [egg-security] use noopen middleware
+2021-01-26 18:09:39,963 INFO 12418 [egg-security] use nosniff middleware
+2021-01-26 18:09:39,964 INFO 12418 [egg-security] use xssProtection middleware
+2021-01-26 18:09:39,965 INFO 12418 [egg-security] use xframe middleware
+2021-01-26 18:09:39,966 INFO 12418 [egg-security] use dta middleware
+2021-01-26 18:09:39,966 INFO 12418 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:09:39,983 INFO 12418 [egg:core] dump config after load, 4ms
+2021-01-26 18:09:40,037 INFO 12418 [egg-watcher:application] watcher start success
+2021-01-26 18:09:40,040 INFO 12418 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:09:40 GMT+0800 (中国标准时间)
+2021-01-26 18:09:40,046 INFO 12418 [egg:core] dump config after ready, 4ms
+2021-01-26 18:09:40,682 INFO 12432 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:09:40,703 INFO 12432 [egg-multipart] stream mode enable
+2021-01-26 18:09:40,703 INFO 12432 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:09:40,805 INFO 12432 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:09:40,807 INFO 12432 [egg-security] use methodnoallow middleware
+2021-01-26 18:09:40,807 INFO 12432 [egg-security] use noopen middleware
+2021-01-26 18:09:40,808 INFO 12432 [egg-security] use nosniff middleware
+2021-01-26 18:09:40,808 INFO 12432 [egg-security] use xssProtection middleware
+2021-01-26 18:09:40,808 INFO 12432 [egg-security] use xframe middleware
+2021-01-26 18:09:40,809 INFO 12432 [egg-security] use dta middleware
+2021-01-26 18:09:40,809 INFO 12432 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:09:40,822 INFO 12432 [egg:core] dump config after load, 4ms
+2021-01-26 18:09:40,861 INFO 12432 [egg-watcher:application] watcher start success
+2021-01-26 18:09:40,865 INFO 12432 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:09:40 GMT+0800 (中国标准时间)
+2021-01-26 18:09:40,870 INFO 12432 [egg:core] dump config after ready, 4ms
+2021-01-26 18:09:56,557 INFO 12474 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:09:56,579 INFO 12474 [egg-multipart] stream mode enable
+2021-01-26 18:09:56,579 INFO 12474 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:09:56,684 INFO 12474 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:09:56,686 INFO 12474 [egg-security] use methodnoallow middleware
+2021-01-26 18:09:56,686 INFO 12474 [egg-security] use noopen middleware
+2021-01-26 18:09:56,687 INFO 12474 [egg-security] use nosniff middleware
+2021-01-26 18:09:56,687 INFO 12474 [egg-security] use xssProtection middleware
+2021-01-26 18:09:56,687 INFO 12474 [egg-security] use xframe middleware
+2021-01-26 18:09:56,688 INFO 12474 [egg-security] use dta middleware
+2021-01-26 18:09:56,688 INFO 12474 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:09:56,700 INFO 12474 [egg:core] dump config after load, 3ms
+2021-01-26 18:09:56,739 INFO 12474 [egg-watcher:application] watcher start success
+2021-01-26 18:09:56,741 INFO 12474 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:09:56 GMT+0800 (中国标准时间)
+2021-01-26 18:09:56,747 INFO 12474 [egg:core] dump config after ready, 4ms
+2021-01-26 18:11:47,334 INFO 12627 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:11:47,363 INFO 12627 [egg-multipart] stream mode enable
+2021-01-26 18:11:47,363 INFO 12627 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:11:47,531 INFO 12627 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:11:47,533 INFO 12627 [egg-security] use methodnoallow middleware
+2021-01-26 18:11:47,533 INFO 12627 [egg-security] use noopen middleware
+2021-01-26 18:11:47,534 INFO 12627 [egg-security] use nosniff middleware
+2021-01-26 18:11:47,535 INFO 12627 [egg-security] use xssProtection middleware
+2021-01-26 18:11:47,535 INFO 12627 [egg-security] use xframe middleware
+2021-01-26 18:11:47,536 INFO 12627 [egg-security] use dta middleware
+2021-01-26 18:11:47,536 INFO 12627 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:11:47,550 INFO 12627 [egg:core] dump config after load, 4ms
+2021-01-26 18:11:47,604 INFO 12627 [egg-watcher:application] watcher start success
+2021-01-26 18:11:47,607 INFO 12627 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:11:47 GMT+0800 (中国标准时间)
+2021-01-26 18:11:47,614 INFO 12627 [egg:core] dump config after ready, 6ms
+2021-01-26 18:14:06,032 INFO 12816 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:14:06,058 INFO 12816 [egg-multipart] stream mode enable
+2021-01-26 18:14:06,059 INFO 12816 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:14:06,218 INFO 12816 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:14:06,220 INFO 12816 [egg-security] use methodnoallow middleware
+2021-01-26 18:14:06,221 INFO 12816 [egg-security] use noopen middleware
+2021-01-26 18:14:06,221 INFO 12816 [egg-security] use nosniff middleware
+2021-01-26 18:14:06,222 INFO 12816 [egg-security] use xssProtection middleware
+2021-01-26 18:14:06,223 INFO 12816 [egg-security] use xframe middleware
+2021-01-26 18:14:06,223 INFO 12816 [egg-security] use dta middleware
+2021-01-26 18:14:06,223 INFO 12816 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:14:06,241 INFO 12816 [egg:core] dump config after load, 5ms
+2021-01-26 18:14:06,295 INFO 12816 [egg-watcher:application] watcher start success
+2021-01-26 18:14:06,298 INFO 12816 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:14:06 GMT+0800 (中国标准时间)
+2021-01-26 18:14:06,304 INFO 12816 [egg:core] dump config after ready, 4ms
+2021-01-26 18:14:52,722 INFO 12911 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:14:52,746 INFO 12911 [egg-multipart] stream mode enable
+2021-01-26 18:14:52,746 INFO 12911 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:14:52,853 INFO 12911 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:14:52,854 INFO 12911 [egg-security] use methodnoallow middleware
+2021-01-26 18:14:52,855 INFO 12911 [egg-security] use noopen middleware
+2021-01-26 18:14:52,856 INFO 12911 [egg-security] use nosniff middleware
+2021-01-26 18:14:52,856 INFO 12911 [egg-security] use xssProtection middleware
+2021-01-26 18:14:52,857 INFO 12911 [egg-security] use xframe middleware
+2021-01-26 18:14:52,857 INFO 12911 [egg-security] use dta middleware
+2021-01-26 18:14:52,857 INFO 12911 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:14:52,870 INFO 12911 [egg:core] dump config after load, 4ms
+2021-01-26 18:14:52,914 INFO 12911 [egg-watcher:application] watcher start success
+2021-01-26 18:14:52,916 INFO 12911 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:14:52 GMT+0800 (中国标准时间)
+2021-01-26 18:14:52,921 INFO 12911 [egg:core] dump config after ready, 4ms
+2021-01-26 18:15:38,875 INFO 12982 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:15:38,899 INFO 12982 [egg-multipart] stream mode enable
+2021-01-26 18:15:38,899 INFO 12982 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:15:39,003 INFO 12982 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:15:39,004 INFO 12982 [egg-security] use methodnoallow middleware
+2021-01-26 18:15:39,005 INFO 12982 [egg-security] use noopen middleware
+2021-01-26 18:15:39,006 INFO 12982 [egg-security] use nosniff middleware
+2021-01-26 18:15:39,007 INFO 12982 [egg-security] use xssProtection middleware
+2021-01-26 18:15:39,007 INFO 12982 [egg-security] use xframe middleware
+2021-01-26 18:15:39,008 INFO 12982 [egg-security] use dta middleware
+2021-01-26 18:15:39,008 INFO 12982 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:15:39,021 INFO 12982 [egg:core] dump config after load, 4ms
+2021-01-26 18:15:39,063 INFO 12982 [egg-watcher:application] watcher start success
+2021-01-26 18:15:39,065 INFO 12982 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:15:39 GMT+0800 (中国标准时间)
+2021-01-26 18:15:39,071 INFO 12982 [egg:core] dump config after ready, 4ms
+2021-01-26 18:16:29,015 INFO 13070 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-26 18:16:29,040 INFO 13070 [egg-multipart] stream mode enable
+2021-01-26 18:16:29,040 INFO 13070 [egg-mysql] connecting root@127.0.0.1:3306/egg_example
+2021-01-26 18:16:29,147 INFO 13070 [egg-static] starting static serve /public/ -> /Users/mangoguang/Documents/service/egg_example/app/public
+2021-01-26 18:16:29,149 INFO 13070 [egg-security] use methodnoallow middleware
+2021-01-26 18:16:29,149 INFO 13070 [egg-security] use noopen middleware
+2021-01-26 18:16:29,150 INFO 13070 [egg-security] use nosniff middleware
+2021-01-26 18:16:29,150 INFO 13070 [egg-security] use xssProtection middleware
+2021-01-26 18:16:29,151 INFO 13070 [egg-security] use xframe middleware
+2021-01-26 18:16:29,151 INFO 13070 [egg-security] use dta middleware
+2021-01-26 18:16:29,151 INFO 13070 [egg-security] compose 6 middlewares into one security middleware
+2021-01-26 18:16:29,166 INFO 13070 [egg:core] dump config after load, 5ms
+2021-01-26 18:16:29,207 INFO 13070 [egg-watcher:application] watcher start success
+2021-01-26 18:16:29,210 INFO 13070 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jan 26 2021 18:16:29 GMT+0800 (中国标准时间)
+2021-01-26 18:16:29,216 INFO 13070 [egg:core] dump config after ready, 4ms
