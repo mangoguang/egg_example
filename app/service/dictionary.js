@@ -20,7 +20,7 @@ class DictService extends Service {
       const data = {
         father_id: fatherDict.id,
         dict_name: params.dictName,
-        create_time: +new Date(),
+        create_time: sendDateTime(new Date(), 'yyyy-MM-dd hh:mm:ss'),
         creater: userName,
         dict_code: `${userName}${+new Date()}`,
         dict_type: userName.toUpperCase() + '_TYPE'

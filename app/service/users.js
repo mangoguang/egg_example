@@ -79,7 +79,7 @@ class UserService extends Service {
    */
   async create(params) {
     const { ctx, app } = this
-    const data = { ...params, register_time: new Date(), user_name: params.userName }
+    const data = { ...params, register_time: sendDateTime(new Date(), 'yyyy-MM-dd hh:mm:ss'), user_name: params.userName }
     delete data.userName
     try {
       const result = await app.mysql.insert('users', data)
@@ -184,6 +184,7 @@ class UserService extends Service {
       const weekTemp = date.getDay()
       const weekStartDate = getDate(new Date(+new Date() - weekTemp * 86400000))
       const weekList = await app.mysql.query('select * from orders where user_name = ? and create_time between ? and ?', [ctx.state.user.userName, `${weekStartDate} 00:00:00`, `${today} 23:59:59`])
+      ctx.logger.debug('本周记录：：：：：：', weekList)
       weekList.length && weekList.forEach(item => {
         if (parseInt(item.order_type)) {
           weekIncome += parseFloat(item.money)

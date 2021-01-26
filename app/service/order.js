@@ -3,7 +3,7 @@ const path = require('path');
 const Service = require('egg').Service;
 const async = require('async');
 const { createOrderNo } = require('../utils/service/order');
-const { getDate, dataToLine } = require('../utils/common')
+const { getDate, dataToLine, sendDateTime } = require('../utils/common')
 
 class OrderService extends Service {
   async index() {
@@ -35,7 +35,7 @@ class OrderService extends Service {
       const userInfo = await app.mysql.get('users', { user_name: ctx.state.user.userName })
       const data = {
         order_no: orderNo,
-        create_time: params.date,
+        create_time: sendDateTime(params.date, 'yyyy-MM-dd hh:mm:ss'),
         money: params.money,
         order_type: params.orderType,
         level_two_name: params.classifyType,
