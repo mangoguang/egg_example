@@ -170,7 +170,7 @@ class UserController extends Controller {
    */
   async setMonthQuota() {
     const { ctx } = this
-    const { monthQuota } = ctx.query
+    const { monthQuota } = ctx.request.body
     // ctx.validate({
     //   monthQuota: { type: string },
     // }, ctx.query)

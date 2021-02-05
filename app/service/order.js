@@ -93,9 +93,23 @@ class OrderService extends Service {
    * 根据订单id删除订单
    */
   async destroy(id) {
-    const { app } = this
+    const { ctx, app } = this
     try {
-      console.log('database:---', id)
+      let data = await app.mysql.query('select img_url from orders where user_name = ? and id = ?', [ctx.state.user.userName, id])
+      data =  JSON.parse(JSON.stringify(data))
+      let imgUrl = data[0].img_url
+      // 如果存在图片，一并删除
+      if (imgUrl) {
+        const baseUrl = __dirname.slice(0, __dirname.length - 8)
+        const filePath = path.join(baseUrl, data[0].img_url || '')
+        console.log(filePath)
+        // /public/uploads/guang/app/public/uploads/guang/202102/1612425598356.png
+        fs.unlink(filePath, function(error){
+          if(error){
+            return false;
+          }
+        })
+      }
       await app.mysql.delete('orders', { id })
       return '删除成功！'
     } catch (error) {
@@ -107,9 +121,9 @@ class OrderService extends Service {
    * 根据时间分页区间查询订单列表
    */
   async list(startTime, endTime, limit, page) {
+
     try {
       // 根据order id更新order信息
-      const result  = await app.mysql.select('orders', row, options)
       let list = this._getDayList(startTime, endTime, limit, page)
       return list
     } catch (error) {

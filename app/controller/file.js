@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const Controller = require('egg').Controller;
 const pump = require('mz-modules/pump');
+const { sendDateTime } = require('../utils/common')
 
 /**
  * @controller file 文件上传
@@ -31,15 +32,18 @@ class FileController extends Controller {
         }
       }
       const userName = ctx.state.user.userName
-      mkdirsSync(path.join(`app${uploadBasePath}/`, userName));
+      // 生成对应月份文件夹名称
+      const folderName = sendDateTime(new Date(), 'yyyyMM')
+      const filePath = path.join(`app${uploadBasePath}/`, userName, folderName)
+      mkdirsSync(filePath);
 
       const stream = await ctx.getFileStream()
       const filename = +new Date() + path.extname(stream.filename).toLowerCase()
-      const target = path.join(this.config.baseDir, `app${uploadBasePath}/${userName}/`, filename)
+      const target = path.join(this.config.baseDir, filePath, filename)
       const writeStream = fs.createWriteStream(target)
       await pump(stream, writeStream)
 
-      this.ctx.body = { url: `${uploadBasePath}/${userName}/${filename}` }
+      this.ctx.body = { url: `${uploadBasePath}/${userName}/${folderName}/${filename}` }
     } catch (error) {
       ctx.body = error
     }
