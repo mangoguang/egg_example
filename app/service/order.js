@@ -42,6 +42,7 @@ class OrderService extends Service {
         user_name: ctx.state.user.userName,
         member_name: params.memberType,
         project_name: params.projectType,
+        account_name: params.accountType,
         remark: params.remark,
         user_id: userInfo.id,
         img_url: params.imgUrl
@@ -60,6 +61,9 @@ class OrderService extends Service {
       // 根据项目名称获取对应项目代码
       const projectDict = await app.mysql.get('dictionary', { dict_name: data.project_name })
       data.project_code = projectDict ? JSON.parse(JSON.stringify(projectDict)).dict_code : ''
+      // 根据账号名称获取对应账号代码
+      const accountDict = await app.mysql.get('dictionary', { dict_name: data.account_name })
+      data.account_code = accountDict ? JSON.parse(JSON.stringify(accountDict)).dict_code : ''
       await app.mysql.insert('orders', data)
       return '新增成功'
     } catch (error) {
@@ -68,15 +72,48 @@ class OrderService extends Service {
   }
 
   async update(id, params) {
-    const { app } = this
+    const { ctx, app } = this
+    const userInfo = await app.mysql.get('users', { user_name: ctx.state.user.userName })
     try {
+      console.log(111, params)
+      const data = {
+        create_time: sendDateTime(params.date, 'yyyy-MM-dd hh:mm:ss'),
+        money: params.money,
+        level_two_name: params.classifyType,
+        user_name: ctx.state.user.userName,
+        member_name: params.memberType,
+        project_name: params.projectType,
+        account_name: params.accountType,
+        remark: params.remark,
+        user_id: userInfo.id
+      }
+      console.log(2222, data)
+  
+      // 根据二级分类名称获取二级分类代码
+      const levelTwoDict = await app.mysql.get('dictionary', { dict_name: data.level_two_name })
+      data.level_two_code = JSON.parse(JSON.stringify(levelTwoDict)).dict_code
+      // 根据二级分类father_id获取一级分类名称&代码
+      const levelOneDict = await app.mysql.get('dictionary', { id: JSON.parse(JSON.stringify(levelTwoDict)).father_id })
+      data.level_one_code = JSON.parse(JSON.stringify(levelOneDict)).dict_code
+      data.level_one_name = JSON.parse(JSON.stringify(levelOneDict)).dict_name
+      // 根据成员名称获取对应成员代码
+      const memberDict = await app.mysql.get('dictionary', { dict_name: data.member_name })
+      data.member_code = memberDict ? JSON.parse(JSON.stringify(memberDict)).dict_code : ''
+      // 根据项目名称获取对应项目代码
+      const projectDict = await app.mysql.get('dictionary', { dict_name: data.project_name })
+      data.project_code = projectDict ? JSON.parse(JSON.stringify(projectDict)).dict_code : ''
+      // 根据账号名称获取对应账号代码
+      const accountDict = await app.mysql.get('dictionary', { dict_name: data.account_name })
+      data.account_code = accountDict ? JSON.parse(JSON.stringify(accountDict)).dict_code : ''
+      console.log('更新的数据：：：：', data)
+
       // 过滤空参数
-      for (let item in params) {
-        if (!params[item]) delete params[item]
+      for (let item in data) {
+        if (!data[item]) delete data[item]
       }
       // 如果对象不为空，才更新数据库
-      if (Object.keys(params).length) {
-        const row = dataToLine(params)
+      if (Object.keys(data).length) {
+        const row = dataToLine(data)
         const options = {
           where: { id }
         }

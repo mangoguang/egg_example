@@ -1,5 +1,24 @@
-2021-02-05 08:11:59,140 INFO 87945 [-/::1/-/706ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
+2021-05-18 14:17:29,462 WARN 24417 [-/::1/-/26ms GET /api/v1/dict/list/PAY_TYPE] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:53:36
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-05-14T10:58:31.000Z"}
+pid: 24417
+hostname: guangs-MBP
+
+2021-05-18 14:17:47,797 INFO 24417 [-/::1/-/650ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
   user_name: 'guang',
   password: null,
   phone: null,
@@ -7,889 +26,57 @@
   address: null,
   month_quota: '2000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
+  nuionid: null,
   nick_name: 'guang',
   avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
+  gender: '1',
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTExMTksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOEMyQTY3RDMtQjMyQy00QkI4LTlDQTUtREQ3OTJFQTQxQ0VFIiwiaWF0IjoxNjEyNDgzOTE5fQ.9Fl7hw6Y9oY4nSeUuw_a7rAtP7FF1tLW6e5kYDe6KBY'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjU4NjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODM5REE4MzktNzZGMS00NDlELTgzMDEtOTUyOTY4QjZBMEIxIiwiaWF0IjoxNjIxMzE4NjY3fQ.ZfjdH3ITg9CKHjkMY7IUBnnbWMj9Oz9jC2tfS3nwXUU'
 }
-2021-02-05 08:12:32,041 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1.1',
+2021-05-18 14:33:59,018 INFO 24417 [-/::1/-/614ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjY4MzksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMjUwRTE4QkEtNkM3NC00N0FELTg2ODUtMTRCQUQ5NEI5NDIzIiwiaWF0IjoxNjIxMzE5NjM5fQ.aHacfsrTMS1pjzNLSGvhAyA97EwPoNaIfYUxGaLHKvw'
+}
+2021-05-18 14:34:51,034 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
+  money: '12',
   classifyType: '早午晚餐',
   accountType: '饭卡',
-  date: '2021/02/05 08:12:18',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202102/1612483951999.png'
-}
-2021-02-05 08:16:20,115 INFO 87945 [-/::1/-/528ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTEzODAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMzcyQTkxRkYtNjM4My00ODc4LTgyQTAtQkU5QTI4MjU5OUIwIiwiaWF0IjoxNjEyNDg0MTgwfQ.7lI7MClHt5Xt6NCYcH_3GnYFsdZzGbFTJsVDmfcJ_Bg'
-}
-2021-02-05 08:16:58,234 INFO 87945 [-/::1/-/485ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE0MTgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0U2NkQ0MDAtMzA5OS00NTcxLUE4MEUtMThGNjBGNEUyM0REIiwiaWF0IjoxNjEyNDg0MjE4fQ.SV5XQJGDL5m7wax5_IERa64fawsQmyG8vxUtGrrD8_M'
-}
-2021-02-05 08:19:11,215 INFO 87945 [-/::1/-/701ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE1NTEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTI5NEFGOEItRUE1Mi00MEFDLTg1MUYtQ0YyRjYxMjZBMTJCIiwiaWF0IjoxNjEyNDg0MzUxfQ.ck1mTW6d2MuJlOU-ZSb_CR2JDmoRdRugH0miBNdApEA'
-}
-2021-02-05 08:21:07,069 INFO 87945 [-/::1/-/370ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE2NjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjVEOUExNDEtMTk4OS00ODBCLTkwNkYtQzkzNzBBRjVDNjFBIiwiaWF0IjoxNjEyNDg0NDY3fQ.QbIXEKvwqFsTzfNljMe4OrZKNSwZJ83AAOhXXOQB2Q8'
-}
-2021-02-05 08:21:18,060 INFO 87945 [-/::1/-/367ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE2NzgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMzk3OEM2RkQtNkIxNi00QzkxLUEyRUQtQjRDMEE5RDc5QUUyIiwiaWF0IjoxNjEyNDg0NDc4fQ.YZAY37JVnQPOWLyq7w3PnZAz6osGjZpdJ84DcUad5Tk'
-}
-2021-02-05 08:21:52,628 INFO 87945 [-/::1/-/478ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE3MTIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOUZFNjMzQUItNUMxOS00ODNBLThBQjEtODQ0NDY2RUU1RDNGIiwiaWF0IjoxNjEyNDg0NTEyfQ.l3mFiqIqtoxfnnwyuAOGctlYvJk9ADEbeKZ7AvwTlEg'
-}
-2021-02-05 08:22:00,347 INFO 87945 [-/::1/-/399ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE3MjAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRDdFNUM3RTItNkFBOC00Q0YzLTlFRUQtQ0UzREFGRDYzMzJDIiwiaWF0IjoxNjEyNDg0NTIwfQ.kXW2fBYR4kWfBXCAo4T2jVtKsAmSICMaZWD8BWfS54E'
-}
-2021-02-05 08:26:19,608 INFO 87945 [-/::1/-/520ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE5NzksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRTlEODA1NkItOTg4My00MzFBLTk1NTktQ0QzQTQ2Rjc3MTAwIiwiaWF0IjoxNjEyNDg0Nzc5fQ.NlVm398WvlNDaZulCcx8V2cS-VEBc2cwUwCD7ku0pZc'
-}
-2021-02-05 08:26:27,325 INFO 87945 [-/::1/-/396ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTE5ODcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTEyM0JGNkEtNTIwNy00RkZCLUIyOEQtRTczMENBMjFBNTNDIiwiaWF0IjoxNjEyNDg0Nzg3fQ.Auu3m4Yd7ffDZ05-fXClbMan30L3sbuGQ_AE0rNHyVk'
-}
-2021-02-05 08:28:18,168 INFO 87945 [-/::1/-/504ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTIwOTgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNDcxMzg2NjQtRDQ0Mi00MEZFLTlGNDUtN0ZBRjg5OTg3ODRCIiwiaWF0IjoxNjEyNDg0ODk4fQ.2gaaEaYiYsfLcLTEl4yZkfSD4JynUWxXzQMfBJGMd3Y'
-}
-2021-02-05 08:30:20,085 INFO 87945 [-/::1/-/447ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTIyMjAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRjM4Nzk0M0YtQjk2RC00MzVDLUJDMEUtNkVCOEQwNzJBMUUwIiwiaWF0IjoxNjEyNDg1MDIwfQ.Whw50THqPboISGoqFIFSa8K-Fm7QMVy83LW5ja9jLVA'
-}
-2021-02-05 08:32:16,038 INFO 87945 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTIzMzYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNEMxRUVDQTktQkI0Ni00QjhGLTg2OEMtNkQ4RUE4ODc3MjBEIiwiaWF0IjoxNjEyNDg1MTM2fQ.-P1YOoYywfQoHyxUkaWo4mjEqagAMcuWW7stayZXLzw'
-}
-2021-02-05 08:34:46,678 INFO 87945 [-/::1/-/421ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI0ODYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTkwQkFFMjUtRDdENy00OTc4LUE2RTEtQTBCOEFDRjcyMDNFIiwiaWF0IjoxNjEyNDg1Mjg2fQ.XGl_q-WIFNWfIphtRXnEEE2VJVl9RRsbdiVYad1_E-k'
-}
-2021-02-05 08:34:52,333 INFO 87945 [-/::1/-/368ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI0OTIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQ0RFRDE3NTktNzg0Ri00MTFFLUE2MjktQ0RGMzkwMzJGREFGIiwiaWF0IjoxNjEyNDg1MjkyfQ.Sgjhn9XdJX2_fnRn6dV_Uo5iumteyM1OlaVWjsG3qiI'
-}
-2021-02-05 08:36:35,963 INFO 87945 [-/::1/-/518ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI1OTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNEEzOUIwRTctNzNBMy00NTg2LTg1NzQtQkQ2MEY0RTZGQ0ExIiwiaWF0IjoxNjEyNDg1Mzk1fQ.x2sfrG2FyisVShvhwaQh47aCI1qdiQzgAvwN8bHklAE'
-}
-2021-02-05 08:38:36,477 INFO 87945 [-/::1/-/442ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI3MTYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQjhGRENENjQtNkFEMi00MjdBLUJEMDQtN0QwOTUyOTM0OEZCIiwiaWF0IjoxNjEyNDg1NTE2fQ.HSvh2-jNX4CEP39yR8CkLbwmnZ-ACQ0hJ41o2Uib_0E'
-}
-2021-02-05 08:38:50,173 INFO 87945 [-/::1/-/351ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI3MzAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODFBOUM4NUQtMDY2MS00M0RBLTlDOTgtNDY0NTc4MUJBMkVDIiwiaWF0IjoxNjEyNDg1NTMwfQ.hWpxnQ6-EFHryKstGPkGZJG_dBa1bVFllOtCJLHX2i8'
-}
-2021-02-05 08:40:43,479 INFO 87945 [-/::1/-/411ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI4NDMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNUIxNUM3MDctQzc3NC00NEQ2LTlFRDktOEU5QzNFMDJGQTRGIiwiaWF0IjoxNjEyNDg1NjQzfQ.EL8HdysPezgtNkdOuDMhRuy-WxRdyHfIuVrxIQYOBLc'
-}
-2021-02-05 08:40:54,318 INFO 87945 [-/::1/-/452ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI4NTQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiREJFNDMzRTUtMkM3QS00RjAwLUE5MUEtODEzMzY5M0ZGMTMyIiwiaWF0IjoxNjEyNDg1NjU0fQ.aruLCscps4cHGYYmIwz0UOyiyFXnfvzlFNQjZIB4XeA'
-}
-2021-02-05 08:41:02,185 INFO 87945 [-/::1/-/500ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI4NjIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjNCQURFQjUtOTIwMS00RkI0LUE2NkEtRUQ5NUZERDIzNEI4IiwiaWF0IjoxNjEyNDg1NjYyfQ.uN2ZuEDE1kbZ2W21dQslueNHNiGpdvCKZC6zuo1gZZU'
-}
-2021-02-05 08:41:44,362 INFO 87945 [-/::1/-/457ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI5MDQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0U1Rjg1RTUtMzM4NC00NkFBLTkyOTgtMzQzRUI5QjVBNEQ0IiwiaWF0IjoxNjEyNDg1NzA0fQ.ms8pWa-N0q1LNHV6WgQtVPgmEVE9_vA6qYJWxIh-3Ss'
-}
-2021-02-05 08:43:16,715 INFO 87945 [-/::1/-/570ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTI5OTYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRjg3MDg4OUEtNzY2Qy00MEMzLUJGQjEtMTQyQUM1OENBMEZEIiwiaWF0IjoxNjEyNDg1Nzk2fQ.kamzSsnu8pMbpKCvX596lRB-R_aCErngU7Jf5NZkAhM'
-}
-2021-02-05 08:44:29,716 INFO 87945 [-/::1/-/479ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTMwNjksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNEFBNTA3NjktMTQ2NC00RUNBLUExMkEtOEFDOEI0NUM0NEM1IiwiaWF0IjoxNjEyNDg1ODY5fQ.-D7LuYAKHI12VsExThW74nApEYl14NqSluN4-tBOxbA'
-}
-2021-02-05 08:44:46,158 INFO 87945 [-/::1/-/489ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTMwODYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0Q0NDBFNjAtOUI2OC00MkM4LThBRDQtMkJGRTBCMjg1NzVCIiwiaWF0IjoxNjEyNDg1ODg2fQ.7eR1HQFSZZPG3ML3t5ry_f4q694idhgBWHQdAFPs0eE'
-}
-2021-02-05 08:45:27,835 INFO 87945 [-/::1/-/330ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTMxMjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQTQ2M0ExNTQtNEQ0QS00MjQ5LUEyNDQtNkQyNDlBOUVBMUFCIiwiaWF0IjoxNjEyNDg1OTI3fQ.9V8KxXgF3oQjSRzz3hvyJ9D2f97Kj7Scxf0inAlXvIE'
-}
-2021-02-05 08:46:08,435 INFO 87945 [-/::1/-/384ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTMxNjgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRDg5NjdBNjItNThGNC00OTk5LTlFOEMtRTA1RTA5M0M4MkE3IiwiaWF0IjoxNjEyNDg1OTY4fQ.8-Irg3XD8DjF3qH9GtmMeuwWqlcR1i9FPKOEggG-6Uw'
-}
-2021-02-05 08:46:22,155 INFO 87945 [-/::1/-/395ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTMxODIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNDgxM0NEQUItQkY1RS00MDVELTk2OEYtQTE1RTEyRTMzNjAwIiwiaWF0IjoxNjEyNDg1OTgyfQ.dBEcjSEAT_9GNi82IFiG953z9GxfVlgiq_zu5VPbRiQ'
-}
-2021-02-05 09:05:19,664 INFO 87945 [-/::1/-/1195ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQzMTksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjI2QjQ0MjctNkU5Ri00OTY4LTlBN0ItNkQ1NjZDODJDNUQxIiwiaWF0IjoxNjEyNDg3MTE5fQ.QPgJWCo_xMRV1a2W2BC6lXI2o5fi8rObHsZVS_etBTE'
-}
-2021-02-05 09:05:33,427 INFO 87945 [-/::1/-/468ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQzMzMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUQxRjk4MkUtOUM2My00RURFLTgzMDItODVBM0ZGRUI1QURDIiwiaWF0IjoxNjEyNDg3MTMzfQ.cHhA5VWKfV_v9Ntj6Xi3NKGHijg_UEMYMOmcCKlr1Vk'
-}
-2021-02-05 09:05:44,910 INFO 87945 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQzNDQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMkNERDFBRkEtQzAxMS00MjBGLTk0REEtODA3MTVDRDNDRkFEIiwiaWF0IjoxNjEyNDg3MTQ0fQ.rAYKtfHEsQr80qYg8zWy3EFgdcuyjgvpaF077k2SgzQ'
-}
-2021-02-05 09:06:56,859 INFO 87945 [-/::1/-/532ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ0MTYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTNCODBDODctRjkyMi00MEE4LTkyNDMtNzcwQTUyMUU1Q0Q2IiwiaWF0IjoxNjEyNDg3MjE2fQ.7qzIoqQ6hZrZL4Ylimfl1xscEFD6eigDq7mygc1NBNU'
-}
-2021-02-05 09:09:27,985 INFO 87945 [-/::1/-/459ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ1NjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMDhGODE2OEEtODQyMy00OTkzLUE5MjQtN0Y0RjkxNTUwRUI5IiwiaWF0IjoxNjEyNDg3MzY3fQ.1eItTGaP9jRYM_rF7I-lNR4TxXgjel-4PnbxJRQv0qk'
-}
-2021-02-05 09:09:58,115 INFO 87945 [-/::1/-/410ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ1OTgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMEExMTVDOTgtNzAxNS00RjY0LTkwQjEtNjczQUZBNkY4N0MxIiwiaWF0IjoxNjEyNDg3Mzk4fQ.BECSs8JaXVPOH86cMiYXT-zBiWQPlY3lAuVMbV5Vs24'
-}
-2021-02-05 09:10:06,587 INFO 87945 [-/::1/-/484ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ2MDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiM0IxMDQ0NTEtRDBEMS00MTY4LTg2N0ItQkRBQzM1OTU1MzZBIiwiaWF0IjoxNjEyNDg3NDA2fQ.25ZzpiFtYb3zTM5JZLM70bV5ghQIwiBTI6voj0JtCnQ'
-}
-2021-02-05 09:11:10,981 INFO 87945 [-/::1/-/576ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ2NzAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTBEOTBGQzAtNTcxNy00MEQxLTkzRjEtNjZGRkZCQzg2RjE2IiwiaWF0IjoxNjEyNDg3NDcwfQ.1fwpmNPH-opaDDf9oY1wZshgz8BjEDsjH3-0y6Xr3zI'
-}
-2021-02-05 09:12:04,472 INFO 87945 [-/::1/-/504ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ3MjQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMzIyNkNFNTUtRjFERi00OTQ0LUIxOEUtM0ExQTg1RDEzOTUzIiwiaWF0IjoxNjEyNDg3NTI0fQ.KV3pEUuNZkijpf-Stuu7gO0FaffpSmmq4dJy6XHhl-o'
-}
-2021-02-05 09:12:35,706 INFO 87945 [-/::1/-/612ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ3NTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTcyMjgxMjYtRjUwMi00RkE4LUJERDEtQzZERTg5NEIwMUZBIiwiaWF0IjoxNjEyNDg3NTU1fQ.-rcOTlT1uzlRWQkurY0kzvQWmpIL4nBXlYMJ7RSlfKc'
-}
-2021-02-05 09:12:46,473 INFO 87945 [-/::1/-/393ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ3NjYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQTgxNDE2RkYtQjg4NS00M0I3LTgwMUQtRUI3RjA1MTE1QTVCIiwiaWF0IjoxNjEyNDg3NTY2fQ.La91GEqay43a2oCRxEfNGZ-52CDYDYHSXSQOT1ZuHqA'
-}
-2021-02-05 09:13:07,356 INFO 87945 [-/::1/-/493ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ3ODcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODM1MTVGQjUtMjgzQS00MUM5LUIwMDMtMTY4NkM2MDBBMTFGIiwiaWF0IjoxNjEyNDg3NTg3fQ.pcpU6_-TNxlXjPtJeyGuAi9P9_M3kC0FOfV5V4fwVdM'
-}
-2021-02-05 09:14:06,270 INFO 87945 [-/::1/-/425ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ4NDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQUNCQkY2REItNEE1Ny00QjgzLUIxMTQtRDJFMkY4OTM2QTVGIiwiaWF0IjoxNjEyNDg3NjQ2fQ.JFwbIDY16YvtPn4jvMHjOgDVn1y1rTJR__vEcJUPzWk'
-}
-2021-02-05 09:14:23,846 INFO 87945 [-/::1/-/667ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ4NjMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRUQ2OTUyQTItNjQ5Qy00MjNBLTg3REUtRkE3OTQyRkUzMTU2IiwiaWF0IjoxNjEyNDg3NjYzfQ.viN67SxLdOQhHZ0qXnlY2sFvoZmwrIQ_Q52k8hLXLzM'
-}
-2021-02-05 09:14:48,316 INFO 87945 [-/::1/-/501ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ4ODgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQkI4MThGM0YtNkMyNy00MTcxLTlFOUQtNjJGNTJFMzBFNzJEIiwiaWF0IjoxNjEyNDg3Njg4fQ.T0QuPyVldmFbksIF_SX3te3-neU6QerEbpv-XEXmKTM'
-}
-2021-02-05 09:15:30,231 INFO 87945 [-/::1/-/562ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ5MzAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMTFBMjZDOUEtRTIxRS00MjRBLTkzMTEtMjQwRTg3QkYyMkY4IiwiaWF0IjoxNjEyNDg3NzMwfQ.iJMxo6zdFne6Y3TDF_2283l3lJabSwqPLPloWFg1QAc'
-}
-2021-02-05 09:15:57,891 INFO 87945 [-/::1/-/425ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTQ5NTcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMTJCQzcyNTctNEIzQS00RjhDLTk5MTItQjZFMTIxNEFBNjA4IiwiaWF0IjoxNjEyNDg3NzU3fQ.vk9cWfDuwcsC2gHmymp1BWDeIdTSMb5LKzIUFx056HA'
-}
-2021-02-05 09:16:40,190 INFO 87945 [-/::1/-/714ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTUwMDAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTUxQzIxNzEtQjA0OS00ODdDLThBNTMtODQ2MEQ2ODgyMDhDIiwiaWF0IjoxNjEyNDg3ODAwfQ.WWdHyGGcBEGIGNXnfvZ1b35j2XRjA0-2sR-CRLI7bZY'
-}
-2021-02-05 09:23:35,629 INFO 87945 [-/::1/-/619ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTU0MTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQkQyNUEyMzQtRURCOC00OUI2LTlEQkMtRkREMkI2OTgxM0FEIiwiaWF0IjoxNjEyNDg4MjE1fQ.7-kzVd5BccMxGZFBNSFxuEe4XZ846sav5b4pPyWzYaI'
-}
-2021-02-05 09:23:41,535 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/02/05 09:23:37',
+  date: '2021/05/18 14:34:02',
   memberType: undefined,
   projectType: '日常项目',
   remark: '',
   orderType: 0,
   imgUrl: null
 }
-2021-02-05 09:23:53,969 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
+2021-05-18 14:34:51,055 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
+  money: '12',
   classifyType: '早午晚餐',
   accountType: '饭卡',
-  date: '2021/02/05 09:23:37',
+  date: '2021/05/18 14:34:02',
   memberType: undefined,
   projectType: '日常项目',
   remark: '',
   orderType: 0,
-  imgUrl: null
+  imgUrl: '/public/uploads/guang/202105/1621319691021.png'
 }
-2021-02-05 09:23:53,988 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/02/05 09:23:37',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202102/1612488233946.png'
-}
-2021-02-05 09:25:13,940 INFO 87945 [-/::1/-/778ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
+2021-05-18 14:52:51,038 INFO 24417 [-/::1/-/648ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
   user_name: 'guang',
   password: null,
   phone: null,
@@ -897,39 +84,39 @@
   address: null,
   month_quota: '2000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
+  nuionid: null,
   nick_name: 'guang',
   avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
+  gender: '1',
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTU1MTMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMEUxREE2N0MtMEM3RC00REQ4LTlFODAtMkRDMTBGQzhCMjVGIiwiaWF0IjoxNjEyNDg4MzEzfQ.h8-Lvzj6sVMpOplCBzEzkm04C3mxJfO1Ax03VMQzCjI'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjc5NzEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTc2MDBGOTgtNDI1Qy00MzgzLUJEMzYtNjc2RkE0Nzk5NkFCIiwiaWF0IjoxNjIxMzIwNzcxfQ.VPg8ZtdipmDekN3m29OP4UbDzgWR_1l13jIaT6nd76w'
 }
-2021-02-05 09:25:22,644 INFO 87945 [-/::1/-/3ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '工资收入',
-  accountType: '银行卡',
-  date: '2021/02/05 09:25:17',
-  memberType: undefined,
+2021-05-18 14:54:50,112 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '123',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 14:52:53',
+  memberType: '老婆',
   projectType: '日常项目',
-  remark: '',
-  orderType: 1,
+  remark: 'wg',
+  orderType: 0,
   imgUrl: null
 }
-2021-02-05 09:25:36,439 INFO 87945 [-/::1/-/3ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '工资收入',
-  accountType: '银行卡',
-  date: '2021/02/05 09:25:17',
-  memberType: undefined,
+2021-05-18 14:54:50,132 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '123',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 14:52:53',
+  memberType: '老婆',
   projectType: '日常项目',
-  remark: '',
-  orderType: 1,
-  imgUrl: null
+  remark: 'wg',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621320890087.png'
 }
-2021-02-05 09:28:49,858 INFO 87945 [-/::1/-/465ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 24,
+2021-05-18 14:57:37,112 INFO 24417 [-/::1/-/485ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
   user_name: 'guang',
   password: null,
   phone: null,
@@ -937,34 +124,409 @@
   address: null,
   month_quota: '2000',
   openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  unionid: null,
+  nuionid: null,
   nick_name: 'guang',
   avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: 1,
+  gender: '1',
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTI0OTU3MjksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMDc1RjkyRTUtRTg5Ni00N0Y5LUFBN0YtRjFEMENCMjFDRjU1IiwiaWF0IjoxNjEyNDg4NTI5fQ.1pEXk36bZ64w1FpfjWPnoDYFfk9kTA3lm2sEt4p8wg4'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjgyNTcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMTFEMzIyNkItQkI0Ri00MTYzLTlEQjQtMzRGRUFGNTIxQzA5IiwiaWF0IjoxNjIxMzIxMDU3fQ.vGIF8TqUfgc59SytRxoALbl_9Eb67BFeQgsyiSLMZC4'
 }
-2021-02-05 09:28:59,899 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
+2021-05-18 14:58:16,196 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '520',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 14:57:39',
+  memberType: '老婆',
+  projectType: '日常项目',
+  remark: 'wg',
+  orderType: 0,
+  imgUrl: null
+}
+2021-05-18 14:58:16,215 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '520',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 14:57:39',
+  memberType: '老婆',
+  projectType: '日常项目',
+  remark: 'wg',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621321096176.png'
+}
+2021-05-18 14:59:17,484 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
   money: '1',
   classifyType: '早午晚餐',
   accountType: '饭卡',
-  date: '2021/02/05 09:28:51',
+  date: '2021/05/18 14:59:05',
   memberType: undefined,
   projectType: '日常项目',
   remark: '',
   orderType: 0,
   imgUrl: null
 }
-2021-02-05 09:28:59,920 INFO 87945 [-/::1/-/2ms POST /api/v1/order] 新增收支记录记录： {
+2021-05-18 14:59:17,502 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
   money: '1',
   classifyType: '早午晚餐',
   accountType: '饭卡',
-  date: '2021/02/05 09:28:51',
+  date: '2021/05/18 14:59:05',
   memberType: undefined,
   projectType: '日常项目',
   remark: '',
   orderType: 0,
-  imgUrl: '/public/uploads/guang/202102/1612488539875.png'
+  imgUrl: '/public/uploads/guang/202105/1621321157446.png'
+}
+2021-05-18 15:04:05,194 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
+  money: '520',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 15:03:03',
+  memberType: '老婆',
+  projectType: '日常项目',
+  remark: 'wg',
+  orderType: 0,
+  imgUrl: null
+}
+2021-05-18 15:04:05,213 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '520',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 15:03:03',
+  memberType: '老婆',
+  projectType: '日常项目',
+  remark: 'wg',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621321445161.png'
+}
+2021-05-18 15:04:09,361 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
+name: "ENOENTError"
+pid: 24417
+hostname: guangs-MBP
+
+2021-05-18 15:04:13,844 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
+name: "ENOENTError"
+pid: 24417
+hostname: guangs-MBP
+
+2021-05-18 15:05:33,865 INFO 24417 [-/::1/-/600ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjg3MzMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMzFBRDg0OTYtOTQzQS00QTVGLUI0QUUtNjlGNEZFOUNCMjA0IiwiaWF0IjoxNjIxMzIxNTMzfQ.zzK22FUZ4k7PT34E0rGuD3GGyKDDMRnuzCoaHnPW-5k'
+}
+2021-05-18 15:24:03,873 INFO 42441 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:24:03,899 INFO 42441 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:24:04,759 INFO 42448 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:24:04,778 INFO 42448 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:29:42,337 INFO 42906 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:29:42,359 INFO 42906 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:32:40,623 ERROR 42906 [-/::1/-/82675ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
+    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 42906
+hostname: guangs-MBP
+
+2021-05-18 15:32:54,372 INFO 43179 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:32:54,392 INFO 43179 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:33:54,946 ERROR 43179 [-/::1/-/4284ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
+    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 43179
+hostname: guangs-MBP
+
+2021-05-18 15:34:45,810 INFO 43331 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:34:45,829 INFO 43331 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:35:43,447 INFO 43401 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:35:43,467 INFO 43401 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:37:05,977 INFO 43530 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:37:05,997 INFO 43530 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:37:12,044 INFO 43551 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:37:12,065 INFO 43551 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:38:29,116 INFO 43663 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:38:29,137 INFO 43663 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:41:50,910 INFO 43951 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:41:50,929 INFO 43951 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:43:10,163 INFO 44045 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:43:10,184 INFO 44045 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:44:03,226 INFO 44124 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:44:03,246 INFO 44124 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:45:17,407 INFO 44242 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:45:17,426 INFO 44242 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:47:28,762 INFO 44411 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 15:47:28,784 INFO 44411 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 15:48:42,620 INFO 44411 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzEzMjIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiREI4OThBNjktNjE2OC00RTNELTkwMjctQTM5QjI3RTI3OTZGIiwiaWF0IjoxNjIxMzI0MTIyfQ.VFzdxSHkCNAOIPGWRfalJc6sfGmexABz68vCMOzrE_U'
+}
+2021-05-18 15:50:10,153 INFO 44411 [-/::1/-/589ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE0MTAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUY2NTEyQzYtQ0VEOS00RDY1LTk3M0EtQzM0RERCNjlEMzUwIiwiaWF0IjoxNjIxMzI0MjEwfQ.3f72fFJxVYAVk1RrgbNqKJbkVJNbSoEXeQh19uIq88c'
+}
+2021-05-18 15:51:13,317 INFO 44411 [-/::1/-/576ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE0NzMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQUJDNDY5OEItODc3RS00NzgzLTg0MUUtRjdEQjJDMDM4NTJCIiwiaWF0IjoxNjIxMzI0MjczfQ.X12RVQfwYImxmo3bUm_-EmtkWPTBHou654_tt9k8DnA'
+}
+2021-05-18 15:54:59,077 INFO 44411 [-/::1/-/512ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE2OTksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUU4NkY4RkEtNjA4Qi00QjEyLTlBREYtMDhCQzQ3Nzk5MDVEIiwiaWF0IjoxNjIxMzI0NDk5fQ.z3o4Arb4UN56imGvP37W48LzNRUoHRigVH58lij5mI0'
+}
+2021-05-18 15:56:46,793 INFO 44411 [-/::1/-/529ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE4MDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOUEyOUYyNzEtMEM4Qi00NUZBLUJDNUMtNkE5QTk4NTMyRDcxIiwiaWF0IjoxNjIxMzI0NjA2fQ.o8DKHsRMF8RcUrjc-9pD6M3-1CccFhy4xMGazq_lR9Y'
+}
+2021-05-18 15:59:03,232 INFO 44411 [-/::1/-/422ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NDMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRkE0QzBBRTMtRkI4MC00QTY1LThENjQtNjM3NTZFQjFFNDUwIiwiaWF0IjoxNjIxMzI0NzQzfQ.0tn_LVvhJlXeIPOjPIGDf6Crdej6kjCQnCx2gCMby1c'
+}
+2021-05-18 15:59:15,354 INFO 44411 [-/::1/-/508ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0EyMTlFRUQtMDQ1NS00MURDLThGOTYtQUQwRDRBMkJEOTM5IiwiaWF0IjoxNjIxMzI0NzU1fQ.9nTKvdJzlkftui-g_TYyGaZHIinYc22eKrc3KczfaYE'
+}
+2021-05-18 15:59:31,033 INFO 44411 [-/::1/-/616ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NzEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjMyQjc0MTEtMEQ2NS00MUY2LUJCRDQtM0I2NDdENjQ3QjFDIiwiaWF0IjoxNjIxMzI0NzcxfQ.er3-p1HUg9pF9wV3_0sRbNTmelBLgEktFOr8ibL79e0'
+}
+2021-05-18 16:45:28,773 INFO 49028 [egg-swagger-doc] register router: get /swagger-doc
+2021-05-18 16:45:28,801 INFO 49028 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-05-18 16:45:40,045 INFO 49028 [-/::1/-/593ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzQ3NDAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRTY3NzlFRTUtNkQ0My00Mzk5LTk1RDctNjJERDA1MTkxRERDIiwiaWF0IjoxNjIxMzI3NTQwfQ.qYhSgEzyMnmyNPuvupLRiYL6r2d1iQ3bw11CZBpJmNI'
+}
+2021-05-18 16:45:51,825 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '2',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 16:45:43',
+  memberType: undefined,
+  projectType: '日常项目',
+  remark: '',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621327551797.png'
+}
+2021-05-18 16:46:36,586 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '3',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 16:46:18',
+  memberType: undefined,
+  projectType: '日常项目',
+  remark: '',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621327596550.png'
+}
+2021-05-18 16:47:39,145 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
+  money: '4',
+  classifyType: '早午晚餐',
+  accountType: '饭卡',
+  date: '2021/05/18 16:47:17',
+  memberType: undefined,
+  projectType: '日常项目',
+  remark: '',
+  orderType: 0,
+  imgUrl: '/public/uploads/guang/202105/1621327659106.png'
+}
+2021-05-18 16:50:14,128 INFO 49028 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzUwMTQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODlBMzA3MDktRDYwNS00NzYwLThCRTgtNTBDMTRFREEwOTFCIiwiaWF0IjoxNjIxMzI3ODE0fQ.z0BfHq0RI3MEQmsXGkeMoNROrzux706qX-BfalCkzgM'
+}
+2021-05-18 17:34:09,443 INFO 49028 [-/::1/-/445ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzc2NDksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMEQ4Q0I2QjQtNUUwNS00REFELTk5QTgtMTQyM0Y3N0IyMzk3IiwiaWF0IjoxNjIxMzMwNDQ5fQ.yZRzo8xsHXUEGcVVq-7FhtjEtjqUyAPzlSQSF2yvzkw'
+}
+2021-05-18 17:37:26,653 INFO 49028 [-/::1/-/508ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+  id: 7,
+  user_name: 'guang',
+  password: null,
+  phone: null,
+  register_time: null,
+  address: null,
+  month_quota: '2000',
+  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
+  nuionid: null,
+  nick_name: 'guang',
+  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
+  gender: '1',
+  city: '',
+  country: 'Algeria',
+  province: '',
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzc4NDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiM0NFREMzQjgtNjZBRi00NkVELUI2N0UtMzIxNzBGNERGQTNFIiwiaWF0IjoxNjIxMzMwNjQ2fQ.RTABfZPoss1bZUJ6HRfJvcikJmU9r_F0iv4nY1qzQ7E'
 }

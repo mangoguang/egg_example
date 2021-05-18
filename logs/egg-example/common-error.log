@@ -1,32 +1,42 @@
-2021-02-05 03:17:08,355 ERROR 35332 nodejs.ClusterClientNoResponseError: client no response in 7197409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 35332
+2021-05-18 15:04:09,361 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
+name: "ENOENTError"
+pid: 24417
 hostname: guangs-MBP
 
-2021-02-05 05:18:04,973 ERROR 35332 nodejs.ClusterClientNoResponseError: client no response in 7216586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 35332
+2021-05-18 15:04:13,844 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
+name: "ENOENTError"
+pid: 24417
 hostname: guangs-MBP
 
-2021-02-05 06:39:25,915 ERROR 35332 nodejs.ClusterClientNoResponseError: client no response in 4840912ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2021-05-18 15:32:20,054 ERROR 24415 nodejs.ClusterClientNoResponseError: client no response in 77664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at listOnTimeout (internal/timers.js:554:17)
     at processTimers (internal/timers.js:497:7)
 name: "ClusterClientNoResponseError"
-pid: 35332
+pid: 24415
 hostname: guangs-MBP
 
-2021-02-05 08:08:30,292 ERROR 35332 nodejs.ClusterClientNoResponseError: client no response in 5304359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 35332
+2021-05-18 15:32:40,623 ERROR 42906 [-/::1/-/82675ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
+    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 42906
+hostname: guangs-MBP
+
+2021-05-18 15:33:54,946 ERROR 43179 [-/::1/-/4284ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
+    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 43179
 hostname: guangs-MBP
 
