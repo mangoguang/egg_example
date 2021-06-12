@@ -20,6 +20,7 @@ class DictController extends Controller {
    */
   async create() {
     const { ctx } = this
+    console.log(ctx.params)
     const { dictName, fatherCode } = ctx.request.body
     try {
       ctx.validate({

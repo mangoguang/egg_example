@@ -22,6 +22,10 @@ module.exports = app => {
   router.post('/api/v1/order/list/', jwt, controller.order.list)
   router.post('/api/v1/order/getOrdersBySearch/', jwt, controller.order.getOrdersBySearch)
 
+  // 牌局
+  router.resources('mahjong', '/api/v1/mahjong', jwt, controller.mahjong)
+  router.post('/api/v1/mahjong/list/', jwt, controller.mahjong.list)
+
   // 文件
   router.resources('file', '/api/v1/file', jwt, controller.file)
 

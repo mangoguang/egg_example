@@ -366,6 +366,71 @@
     ]
   },
   {
+    "name": "mahjongs",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/mahjong",
+    "regexp": "/^\\/api\\/v1\\/mahjong(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "mahjongs",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/mahjong",
+    "regexp": "/^\\/api\\/v1\\/mahjong(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "mahjong",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/mahjong/:id",
+    "regexp": "/^\\/api\\/v1\\/mahjong\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/mahjong/list/",
+    "regexp": "/^\\/api\\/v1\\/mahjong\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
     "name": "files",
     "methods": [
       "POST"

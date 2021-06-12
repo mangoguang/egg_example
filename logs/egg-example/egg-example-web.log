@@ -1,23 +1,4 @@
-2021-05-18 14:17:29,462 WARN 24417 [-/::1/-/26ms GET /api/v1/dict/list/PAY_TYPE] nodejs.UnauthorizedError: jwt expired
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
-    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
-    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
-    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
-    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
-    at new Promise (<anonymous>)
-    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
-    at runMicrotasks (<anonymous>)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:53:36
-name: "UnauthorizedError"
-message: "jwt expired"
-code: "invalid_token"
-status: 401
-inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2021-05-14T10:58:31.000Z"}
-pid: 24417
-hostname: guangs-MBP
-
-2021-05-18 14:17:47,797 INFO 24417 [-/::1/-/650ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:02:00,863 INFO 1178 [-/::1/-/261ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -33,9 +14,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjU4NjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODM5REE4MzktNzZGMS00NDlELTgzMDEtOTUyOTY4QjZBMEIxIiwiaWF0IjoxNjIxMzE4NjY3fQ.ZfjdH3ITg9CKHjkMY7IUBnnbWMj9Oz9jC2tfS3nwXUU'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjA5MjAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMDIwNDhFQTItMjM0Qi00RkUyLThCREYtMkJCRTk5MTkxNjMwIiwiaWF0IjoxNjIzNTEzNzIwfQ.OUE_xYMAlILifwZMxAQgETdNvsH9Yww1CLpKNTbt7J0'
 }
-2021-05-18 14:33:59,018 INFO 24417 [-/::1/-/614ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:16:24,326 INFO 1178 [-/::1/-/289ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -51,31 +32,35 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjY4MzksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMjUwRTE4QkEtNkM3NC00N0FELTg2ODUtMTRCQUQ5NEI5NDIzIiwiaWF0IjoxNjIxMzE5NjM5fQ.aHacfsrTMS1pjzNLSGvhAyA97EwPoNaIfYUxGaLHKvw'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjE3ODQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQ0E4REY0QTgtRjc5NS00NzNFLUFDNUMtNjFBQzVFM0U0QkU2IiwiaWF0IjoxNjIzNTE0NTg0fQ.lipbut36edyfapYjj9yqYUX5O5bk7vlkCX2v4l3VIa4'
 }
-2021-05-18 14:34:51,034 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
-  money: '12',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:34:02',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: null
+2021-06-13 00:17:21,854 INFO 1178 [-/::1/-/0ms POST /api/v1/mahjong] 新增牌局： {
+  date: '2021/06/13 00:16:23',
+  addressName: '凯旋华府（八仔家）',
+  addressCode: 'guang1623340104727',
+  eastName: '八仔',
+  westName: '桂梅',
+  southName: '温舒',
+  northName: '小薇',
+  eastNum: '-1',
+  westNum: '1',
+  southNum: '-1',
+  northNum: '1'
 }
-2021-05-18 14:34:51,055 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
-  money: '12',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:34:02',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621319691021.png'
+2021-06-13 00:17:34,886 INFO 1178 [-/::1/-/0ms POST /api/v1/mahjong] 新增牌局： {
+  date: '2021/06/13 00:16:23',
+  addressName: '凯旋华府（八仔家）',
+  addressCode: 'guang1623340104727',
+  eastName: '八仔',
+  westName: '桂梅',
+  southName: '温舒',
+  northName: '小薇',
+  eastNum: '-2',
+  westNum: '1',
+  southNum: '-1',
+  northNum: '2'
 }
-2021-05-18 14:52:51,038 INFO 24417 [-/::1/-/648ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:23:32,623 INFO 1178 [-/::1/-/222ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -91,31 +76,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjc5NzEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOTc2MDBGOTgtNDI1Qy00MzgzLUJEMzYtNjc2RkE0Nzk5NkFCIiwiaWF0IjoxNjIxMzIwNzcxfQ.VPg8ZtdipmDekN3m29OP4UbDzgWR_1l13jIaT6nd76w'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjIyMTIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMEQyODI0RDItQUIwOS00RThELUJDNEItOTU5NDY5MzhGQzE0IiwiaWF0IjoxNjIzNTE1MDEyfQ.pFDbcqU98z0ubP3rEXaRycZYtl5WpEBfxZFkDyTxWpY'
 }
-2021-05-18 14:54:50,112 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '123',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:52:53',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: null
-}
-2021-05-18 14:54:50,132 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '123',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:52:53',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621320890087.png'
-}
-2021-05-18 14:57:37,112 INFO 24417 [-/::1/-/485ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:26:54,525 INFO 1178 [-/::1/-/270ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -131,95 +94,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjgyNTcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMTFEMzIyNkItQkI0Ri00MTYzLTlEQjQtMzRGRUFGNTIxQzA5IiwiaWF0IjoxNjIxMzIxMDU3fQ.vGIF8TqUfgc59SytRxoALbl_9Eb67BFeQgsyiSLMZC4'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjI0MTQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQjkzRUJBQTUtOEZFMy00RkE5LUE3OTEtQ0QwNkU4OTE3REY3IiwiaWF0IjoxNjIzNTE1MjE0fQ.oQ1HayebQKpeP5yDFsAMulBpd0KFTELSLnQ2RgCMLyY'
 }
-2021-05-18 14:58:16,196 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '520',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:57:39',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: null
-}
-2021-05-18 14:58:16,215 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '520',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:57:39',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621321096176.png'
-}
-2021-05-18 14:59:17,484 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:59:05',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: null
-}
-2021-05-18 14:59:17,502 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '1',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 14:59:05',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621321157446.png'
-}
-2021-05-18 15:04:05,194 INFO 24417 [-/::1/-/0ms POST /api/v1/order] 新增收支记录记录： {
-  money: '520',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 15:03:03',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: null
-}
-2021-05-18 15:04:05,213 INFO 24417 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '520',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 15:03:03',
-  memberType: '老婆',
-  projectType: '日常项目',
-  remark: 'wg',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621321445161.png'
-}
-2021-05-18 15:04:09,361 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
-ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
-errno: -2
-code: "ENOENT"
-syscall: "stat"
-path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
-name: "ENOENTError"
-pid: 24417
-hostname: guangs-MBP
-
-2021-05-18 15:04:13,844 ERROR 24417 [-/::1/-/1ms GET /public/uploads/guang/202105/1621320890087.png] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
-ENOENTError: ENOENT: no such file or directory, stat '/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png'
-errno: -2
-code: "ENOENT"
-syscall: "stat"
-path: "/Users/mangoguang/Documents/service/egg_example/app/public/uploads/guang/202105/1621320890087.png"
-name: "ENOENTError"
-pid: 24417
-hostname: guangs-MBP
-
-2021-05-18 15:05:33,865 INFO 24417 [-/::1/-/600ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:35:02,788 INFO 1178 [-/::1/-/331ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -235,51 +112,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMjg3MzMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMzFBRDg0OTYtOTQzQS00QTVGLUI0QUUtNjlGNEZFOUNCMjA0IiwiaWF0IjoxNjIxMzIxNTMzfQ.zzK22FUZ4k7PT34E0rGuD3GGyKDDMRnuzCoaHnPW-5k'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjI5MDIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOUFCNUQzMEQtOTRGNC00MjRCLTk1QUMtQTU1QzIzRDY1RjJEIiwiaWF0IjoxNjIzNTE1NzAyfQ.B3ItAdciejq8uxQOyMXCtiOnZXZO6DdzMTzU3hcnbpc'
 }
-2021-05-18 15:24:03,873 INFO 42441 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:24:03,899 INFO 42441 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:24:04,759 INFO 42448 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:24:04,778 INFO 42448 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:29:42,337 INFO 42906 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:29:42,359 INFO 42906 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:32:40,623 ERROR 42906 [-/::1/-/82675ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
-    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-
-pid: 42906
-hostname: guangs-MBP
-
-2021-05-18 15:32:54,372 INFO 43179 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:32:54,392 INFO 43179 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:33:54,946 ERROR 43179 [-/::1/-/4284ms PUT /api/v1/order/314] nodejs.TypeError: Cannot read property '0' of undefined
-    at OrderController.update (/Users/mangoguang/Documents/service/egg_example/app/controller/order.js:88:51)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-
-pid: 43179
-hostname: guangs-MBP
-
-2021-05-18 15:34:45,810 INFO 43331 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:34:45,829 INFO 43331 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:35:43,447 INFO 43401 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:35:43,467 INFO 43401 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:37:05,977 INFO 43530 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:37:05,997 INFO 43530 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:37:12,044 INFO 43551 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:37:12,065 INFO 43551 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:38:29,116 INFO 43663 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:38:29,137 INFO 43663 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:41:50,910 INFO 43951 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:41:50,929 INFO 43951 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:43:10,163 INFO 44045 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:43:10,184 INFO 44045 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:44:03,226 INFO 44124 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:44:03,246 INFO 44124 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:45:17,407 INFO 44242 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:45:17,426 INFO 44242 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:47:28,762 INFO 44411 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 15:47:28,784 INFO 44411 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 15:48:42,620 INFO 44411 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:35:43,317 INFO 1178 [-/::1/-/194ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -295,9 +130,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzEzMjIsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiREI4OThBNjktNjE2OC00RTNELTkwMjctQTM5QjI3RTI3OTZGIiwiaWF0IjoxNjIxMzI0MTIyfQ.VFzdxSHkCNAOIPGWRfalJc6sfGmexABz68vCMOzrE_U'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjI5NDMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTk0OEMzREUtNDUzMi00RTdDLTk1MDMtQkFBNkM3QzIwNkMwIiwiaWF0IjoxNjIzNTE1NzQzfQ.BHcY7cW6ZWCdgO2EaQ3YLdVZOnaSKiBA0J-izEInZ3U'
 }
-2021-05-18 15:50:10,153 INFO 44411 [-/::1/-/589ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:39:27,962 INFO 1178 [-/::1/-/235ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -313,9 +148,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE0MTAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUY2NTEyQzYtQ0VEOS00RDY1LTk3M0EtQzM0RERCNjlEMzUwIiwiaWF0IjoxNjIxMzI0MjEwfQ.3f72fFJxVYAVk1RrgbNqKJbkVJNbSoEXeQh19uIq88c'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjMxNjcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNDUwNTVFRDMtNEQ0QS00Qzg1LThGMzctRjY3MUY2RkFEMUQ5IiwiaWF0IjoxNjIzNTE1OTY3fQ.n4WUGtewf2sbbAYD_TEFB6xDYgQtKlGxvt3arooE42k'
 }
-2021-05-18 15:51:13,317 INFO 44411 [-/::1/-/576ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:41:37,075 INFO 1178 [-/::1/-/240ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -331,9 +166,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE0NzMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQUJDNDY5OEItODc3RS00NzgzLTg0MUUtRjdEQjJDMDM4NTJCIiwiaWF0IjoxNjIxMzI0MjczfQ.X12RVQfwYImxmo3bUm_-EmtkWPTBHou654_tt9k8DnA'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjMyOTcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMTI4MDg4OTgtRDBFRC00MDgyLUE4MTctRjhBMDNDMjNERTdGIiwiaWF0IjoxNjIzNTE2MDk3fQ.rhRygGtulWGgHcGVpYS3CzBfIbOO4M8v3f0M9ObT_M4'
 }
-2021-05-18 15:54:59,077 INFO 44411 [-/::1/-/512ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:42:50,671 INFO 1178 [-/::1/-/249ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -349,9 +184,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE2OTksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMUU4NkY4RkEtNjA4Qi00QjEyLTlBREYtMDhCQzQ3Nzk5MDVEIiwiaWF0IjoxNjIxMzI0NDk5fQ.z3o4Arb4UN56imGvP37W48LzNRUoHRigVH58lij5mI0'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjMzNzAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQTJGRjNBMzUtRTNBMi00QjY2LTlCQzEtRjI0M0FENDVFOTMyIiwiaWF0IjoxNjIzNTE2MTcwfQ.c1o7z3b6A1AI-8WVEHAjhAIxUZ71xKbYuiG_UOeuUoY'
 }
-2021-05-18 15:56:46,793 INFO 44411 [-/::1/-/529ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:42:59,493 INFO 1178 [-/::1/-/237ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -367,9 +202,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE4MDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiOUEyOUYyNzEtMEM4Qi00NUZBLUJDNUMtNkE5QTk4NTMyRDcxIiwiaWF0IjoxNjIxMzI0NjA2fQ.o8DKHsRMF8RcUrjc-9pD6M3-1CccFhy4xMGazq_lR9Y'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjMzNzksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMjlCQUMxNUMtMEIzMy00QjYwLTlGQjUtMTQxNTU1QTU0RTc4IiwiaWF0IjoxNjIzNTE2MTc5fQ.i4KzjA2XLgfzXQfz7EZ7IhTYoKi9kQ3dubjt42oyKHA'
 }
-2021-05-18 15:59:03,232 INFO 44411 [-/::1/-/422ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:43:07,640 INFO 1178 [-/::1/-/263ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -385,9 +220,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NDMsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRkE0QzBBRTMtRkI4MC00QTY1LThENjQtNjM3NTZFQjFFNDUwIiwiaWF0IjoxNjIxMzI0NzQzfQ.0tn_LVvhJlXeIPOjPIGDf6Crdej6kjCQnCx2gCMby1c'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjMzODcsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNDg1MjdGQzItRDUwMy00QjFBLUE1NTctMDQxRjE5NkRDMEZFIiwiaWF0IjoxNjIzNTE2MTg3fQ.XtP1gWCucwuR5kNC3lBe82OME2Fep8OHPXh4mZdzDi4'
 }
-2021-05-18 15:59:15,354 INFO 44411 [-/::1/-/508ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:43:25,992 INFO 1178 [-/::1/-/213ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -403,9 +238,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NTUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiN0EyMTlFRUQtMDQ1NS00MURDLThGOTYtQUQwRDRBMkJEOTM5IiwiaWF0IjoxNjIxMzI0NzU1fQ.9nTKvdJzlkftui-g_TYyGaZHIinYc22eKrc3KczfaYE'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjM0MDUsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQjVGRjQ3QUItMTFERi00QURGLUJDRDYtQjgwMzg4MjY2QTI5IiwiaWF0IjoxNjIzNTE2MjA1fQ.Uswb7B84RRRhKkWBcwywxkeqmPzMVArzP4IGs6t8LJk'
 }
-2021-05-18 15:59:31,033 INFO 44411 [-/::1/-/616ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:43:40,185 INFO 1178 [-/::1/-/228ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -421,11 +256,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzE5NzEsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNjMyQjc0MTEtMEQ2NS00MUY2LUJCRDQtM0I2NDdENjQ3QjFDIiwiaWF0IjoxNjIxMzI0NzcxfQ.er3-p1HUg9pF9wV3_0sRbNTmelBLgEktFOr8ibL79e0'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjM0MjAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMDZGQTQ3RDUtQTE1Ni00RkRELTgwODktNEEyNDVGQTAzMTcwIiwiaWF0IjoxNjIzNTE2MjIwfQ.qHz7zAF3auAFlD5MR8DC4i9hhTfYSAGAVHIY3-jRMZk'
 }
-2021-05-18 16:45:28,773 INFO 49028 [egg-swagger-doc] register router: get /swagger-doc
-2021-05-18 16:45:28,801 INFO 49028 [egg-swagger-doc] register router: get /swagger-ui.html
-2021-05-18 16:45:40,045 INFO 49028 [-/::1/-/593ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:44:36,940 INFO 1178 [-/::1/-/227ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -441,42 +274,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzQ3NDAsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRTY3NzlFRTUtNkQ0My00Mzk5LTk1RDctNjJERDA1MTkxRERDIiwiaWF0IjoxNjIxMzI3NTQwfQ.qYhSgEzyMnmyNPuvupLRiYL6r2d1iQ3bw11CZBpJmNI'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjM0NzYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiQzJBQkY0OTQtNjU4MS00MDA2LTk2NzAtQTM1NDA1RDlEOUQyIiwiaWF0IjoxNjIzNTE2Mjc2fQ.ZnWuu-J6eJGd_gsudr57n1NsJeuGx_lvoA3Ri3b1vgs'
 }
-2021-05-18 16:45:51,825 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '2',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 16:45:43',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621327551797.png'
-}
-2021-05-18 16:46:36,586 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '3',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 16:46:18',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621327596550.png'
-}
-2021-05-18 16:47:39,145 INFO 49028 [-/::1/-/1ms POST /api/v1/order] 新增收支记录记录： {
-  money: '4',
-  classifyType: '早午晚餐',
-  accountType: '饭卡',
-  date: '2021/05/18 16:47:17',
-  memberType: undefined,
-  projectType: '日常项目',
-  remark: '',
-  orderType: 0,
-  imgUrl: '/public/uploads/guang/202105/1621327659106.png'
-}
-2021-05-18 16:50:14,128 INFO 49028 [-/::1/-/563ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:44:56,993 INFO 1178 [-/::1/-/219ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -492,9 +292,9 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzUwMTQsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiODlBMzA3MDktRDYwNS00NzYwLThCRTgtNTBDMTRFREEwOTFCIiwiaWF0IjoxNjIxMzI3ODE0fQ.z0BfHq0RI3MEQmsXGkeMoNROrzux706qX-BfalCkzgM'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjM0OTYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiNTg3Q0M0MkItMzY5NS00NUQ4LUFFMUUtOTFFODFGNEQ5NENDIiwiaWF0IjoxNjIzNTE2Mjk2fQ.5B7kk2vYIIDlFqDDmCA4jGze1kOUFHgxQdPPbH67UqM'
 }
-2021-05-18 17:34:09,443 INFO 49028 [-/::1/-/445ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
+2021-06-13 00:45:58,507 INFO 1178 [-/::1/-/233ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
   id: 7,
   user_name: 'guang',
   password: null,
@@ -510,23 +310,5 @@ hostname: guangs-MBP
   city: '',
   country: 'Algeria',
   province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzc2NDksInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiMEQ4Q0I2QjQtNUUwNS00REFELTk5QTgtMTQyM0Y3N0IyMzk3IiwiaWF0IjoxNjIxMzMwNDQ5fQ.yZRzo8xsHXUEGcVVq-7FhtjEtjqUyAPzlSQSF2yvzkw'
-}
-2021-05-18 17:37:26,653 INFO 49028 [-/::1/-/508ms POST /api/v1/users/getUserInfoByCode] 获取用户信息 {
-  id: 7,
-  user_name: 'guang',
-  password: null,
-  phone: null,
-  register_time: null,
-  address: null,
-  month_quota: '2000',
-  openid: 'oIkWq5bLd7VKeNPEYjgnqA7PZToE',
-  nuionid: null,
-  nick_name: 'guang',
-  avatar_url: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIakNE0jichoO13w337fjAvmCfRGsajS7frPpTickCSzqiaKicbFRVKyianHsZGFgoWaqGHiclTu1blHt6w/132',
-  gender: '1',
-  city: '',
-  country: 'Algeria',
-  province: '',
-  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjEzMzc4NDYsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiM0NFREMzQjgtNjZBRi00NkVELUI2N0UtMzIxNzBGNERGQTNFIiwiaWF0IjoxNjIxMzMwNjQ2fQ.RTABfZPoss1bZUJ6HRfJvcikJmU9r_F0iv4nY1qzQ7E'
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjM1MjM1NTgsInVzZXJOYW1lIjoiZ3VhbmciLCJ1dWlkIjoiRjUxQ0NBNzUtQUI0Ny00RUE2LUJGREQtNUJDRTZGRjVGQTNFIiwiaWF0IjoxNjIzNTE2MzU4fQ.rOY5nV0VOhQ9PfP7qBzIOqOWkPZ0rZ8r5xgR4hiypkU'
 }
