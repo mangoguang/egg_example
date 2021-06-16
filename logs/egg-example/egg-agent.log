@@ -1,1 +1,33 @@
-2021-06-13 00:00:01,006 INFO 1176 [egg-logrotator] agent logger reload: got log-reload message
+2021-06-15 08:06:07,700 INFO 1176 [egg-logrotator] agent logger reload: got log-reload message
+2021-06-15 08:11:04,956 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 98143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1176
+hostname: guangs-MacBook-Pro.local
+
+2021-06-15 08:15:04,359 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 199383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1176
+hostname: guangs-MacBook-Pro.local
+
+2021-06-15 08:24:38,676 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 394274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1176
+hostname: guangs-MacBook-Pro.local
+
+2021-06-15 08:40:07,982 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 849286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 1176
+hostname: guangs-MacBook-Pro.local
+
