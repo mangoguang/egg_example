@@ -92,20 +92,21 @@ class MahjongController extends Controller {
   //   }
   // }
 
-  // /**
-  //  * @summary 删除订单
-  //  * @description 根据订单id删除订单
-  //  * @router delete /api/v1/order/{id}
-  //  * @request path integer *id eg:1 用户ＩＤ
-  //  * @request header string *Authorization token
-  //  * @response 200 deleteOrderByIdResponse 删除成功！
-  //  */
-  // async destroy() {
-  //   const { ctx } = this
-  //   const { id } = ctx.params
-  //   const result = await ctx.service.order.destroy(id)
-  //   ctx.body = result
-  // }
+  /**
+   * @summary 删除牌局
+   * @description 根据牌局id删除订单
+   * @router delete /api/v1/mahjong/{id}
+   * @request path integer *id eg:1 用户ＩＤ
+   * @request header string *Authorization token
+   * @response 200 deleteOrderByIdResponse 删除成功！
+   */
+  async destroy() {
+    const { ctx } = this
+    const { id } = ctx.params
+    console.log('+++++++++++++______________++++++++++++++', id)
+    const result = await ctx.service.mahjong.destroy(id)
+    ctx.body = result
+  }
 
   /**
    * @summary 根据时间分页区间查询牌局列表
@@ -119,7 +120,6 @@ class MahjongController extends Controller {
     const { ctx } = this
     const { limit, page } = ctx.request.body
     const data = await ctx.service.mahjong.list(limit, page)
-      console.log('list--------------------------------------2', data)
       ctx.body = data
   }
 

@@ -26,8 +26,14 @@ module.exports = app => {
   router.resources('mahjong', '/api/v1/mahjong', jwt, controller.mahjong)
   router.post('/api/v1/mahjong/list/', jwt, controller.mahjong.list)
 
+  // 笔记
+  router.resources('note', '/api/v1/note', jwt, controller.note)
+  router.post('/api/v1/note/list/', jwt, controller.note.list)
+
   // 文件
   router.resources('file', '/api/v1/file', jwt, controller.file)
+  router.post('/api/v1/file/slice', jwt, controller.file.slice)
+  router.post('/api/v1/file/merge', jwt, controller.file.merge)
 
   // io路由
   // io.of('/').route('server', io.controller.home.server);

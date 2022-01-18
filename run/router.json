@@ -418,6 +418,30 @@
     ]
   },
   {
+    "name": "destroy_mahjong",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/mahjong/:id",
+    "regexp": "/^\\/api\\/v1\\/mahjong\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
     "name": null,
     "methods": [
       "POST"
@@ -431,6 +455,95 @@
     ]
   },
   {
+    "name": "notes",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/note",
+    "regexp": "/^\\/api\\/v1\\/note(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "notes",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/note",
+    "regexp": "/^\\/api\\/v1\\/note(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "note",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/note/:id",
+    "regexp": "/^\\/api\\/v1\\/note\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_note",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/note/:id",
+    "regexp": "/^\\/api\\/v1\\/note\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/note/list/",
+    "regexp": "/^\\/api\\/v1\\/note\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
     "name": "files",
     "methods": [
       "POST"
@@ -438,6 +551,32 @@
     "paramNames": [],
     "path": "/api/v1/file",
     "regexp": "/^\\/api\\/v1\\/file(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/file/slice",
+    "regexp": "/^\\/api\\/v1\\/file\\/slice(?:\\/(?=$))?$/",
+    "stack": [
+      "middleware",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/file/merge",
+    "regexp": "/^\\/api\\/v1\\/file\\/merge(?:\\/(?=$))?$/",
     "stack": [
       "middleware",
       "wrappedController"

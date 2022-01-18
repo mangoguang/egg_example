@@ -17,6 +17,7 @@ module.exports = {
     },
     // 允许访问接口的白名单
     domainWhiteList: [
+      'http://localhost',
       'http://localhost:8080',
       'http://localhost:8081',
       'http://localhost:8082',
@@ -56,6 +57,9 @@ module.exports = {
     app: true,
     // 是否加载到 agent 上，默认关闭
     agent: false,
+  },
+  multipart: {
+    fileExtensions: ['.pdf', '.xlsx']
   },
   swaggerdoc: {
     dirScanner: './app/controller',

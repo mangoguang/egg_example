@@ -85,6 +85,7 @@ class OrderService extends Service {
         project_name: params.projectType,
         account_name: params.accountType,
         remark: params.remark,
+        img_url: params.imgUrl,
         user_id: userInfo.id
       }
       console.log(2222, data)

@@ -8,6 +8,7 @@
     },
     "security": {
       "domainWhiteList": [
+        "http://localhost",
         "http://localhost:8080",
         "http://localhost:8081",
         "http://localhost:8082",
@@ -116,7 +117,10 @@
       "fields": 10,
       "fileSize": "10mb",
       "files": 10,
-      "fileExtensions": [],
+      "fileExtensions": [
+        ".pdf",
+        ".xlsx"
+      ],
       "whitelist": null,
       "tmpdir": "/var/folders/k5/0gw04hr107b766mg27_g0lj80000gn/T/egg-multipart-tmp/egg-example",
       "cleanSchedule": {

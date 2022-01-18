@@ -77,6 +77,22 @@
       "connectionLimit": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
     }
   },
+  "multipart": {
+    "fileExtensions": "/Users/mangoguang/Documents/service/egg_example/config/config.default.js",
+    "mode": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fields": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "files": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js"
+    }
+  },
   "swaggerdoc": {
     "dirScanner": "/Users/mangoguang/Documents/service/egg_example/config/config.default.js",
     "apiInfo": {
@@ -153,22 +169,6 @@
   },
   "schedule": {
     "directory": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-schedule@3.6.6@egg-schedule/config/config.default.js"
-  },
-  "multipart": {
-    "mode": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "autoFields": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fields": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fileSize": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "files": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "whitelist": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "cleanSchedule": {
-      "cron": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js"
-    }
   },
   "development": {
     "watchDirs": "/Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/config/config.default.js",

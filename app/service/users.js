@@ -139,9 +139,8 @@ class UserService extends Service {
     const { ctx, app } = this
     const { password, userName, uuid } = params
     try {
-      console.log(this, UserService)
       const userInfo = await app.mysql.get('users', { user_name: userName })
-      ctx.logger.info('登录用户的IP地址---------------：', ctx.request.socket.remoteAddress);
+      // ctx.logger.info('登录用户的IP地址---------------：', ctx.request.socket.remoteAddress);
       // 校验密码
       if (md5(userInfo.password) !== password) return '用户不存在或密码错误。'
       const token = app.jwt.sign({

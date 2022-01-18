@@ -1,10 +1,10 @@
 module.exports = {
     cluster: {
-        listen: {
-            path: '',
-            port: 8888,
-            hostname: '0.0.0.0'
-        }
+      listen: {
+        path: '',
+        port: 8888,
+        hostname: '0.0.0.0'
+      }
     },
     mysql: {
       // 单数据库信息配置

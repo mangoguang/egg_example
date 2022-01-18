@@ -1,0 +1,2 @@
+2022-01-18 08:22:40,477 INFO 6953 [egg-swagger-doc] register router: get /swagger-doc
+2022-01-18 08:22:40,502 INFO 6953 [egg-swagger-doc] register router: get /swagger-ui.html

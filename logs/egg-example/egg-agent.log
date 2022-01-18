@@ -1,33 +1,11 @@
-2021-06-15 08:06:07,700 INFO 1176 [egg-logrotator] agent logger reload: got log-reload message
-2021-06-15 08:11:04,956 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 98143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1176
-hostname: guangs-MacBook-Pro.local
-
-2021-06-15 08:15:04,359 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 199383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1176
-hostname: guangs-MacBook-Pro.local
-
-2021-06-15 08:24:38,676 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 394274ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1176
-hostname: guangs-MacBook-Pro.local
-
-2021-06-15 08:40:07,982 ERROR 1176 nodejs.ClusterClientNoResponseError: client no response in 849286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (/Users/mangoguang/Documents/service/egg_example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at listOnTimeout (internal/timers.js:554:17)
-    at processTimers (internal/timers.js:497:7)
-name: "ClusterClientNoResponseError"
-pid: 1176
-hostname: guangs-MacBook-Pro.local
-
+2022-01-13 20:46:54,883 INFO 1004 [egg-logrotator] agent logger reload: got log-reload message
+2022-01-18 08:22:39,463 INFO 6948 [egg:logger] init all loggers with options: {"dir":"/Users/mangoguang/Documents/service/egg_example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2022-01-18 08:22:39,471 INFO 6948 [egg:core] dump config after load, 5ms
+2022-01-18 08:22:39,504 INFO 6948 [egg-watcher] Start watching: ["/Users/mangoguang/Documents/service/egg_example/app","/Users/mangoguang/Documents/service/egg_example/config","/Users/mangoguang/Documents/service/egg_example/mocks","/Users/mangoguang/Documents/service/egg_example/mocks_proxy","/Users/mangoguang/Documents/service/egg_example/app.js"]
+2022-01-18 08:22:39,504 INFO 6948 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app"
+2022-01-18 08:22:39,505 INFO 6948 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/config"
+2022-01-18 08:22:39,505 INFO 6948 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks"
+2022-01-18 08:22:39,505 INFO 6948 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/mocks_proxy"
+2022-01-18 08:22:39,505 INFO 6948 [egg-watcher] Start watching: "/Users/mangoguang/Documents/service/egg_example/app.js"
+2022-01-18 08:22:39,505 INFO 6948 [egg-watcher:agent] watcher start success
+2022-01-18 08:22:39,520 INFO 6948 [egg:core] dump config after ready, 3ms

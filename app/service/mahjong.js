@@ -130,33 +130,18 @@ class MahjongService extends Service {
   //   }
   // }
 
-  // /**
-  //  * 根据订单id删除订单
-  //  */
-  // async destroy(id) {
-  //   const { ctx, app } = this
-  //   try {
-  //     let data = await app.mysql.query('select img_url from orders where user_name = ? and id = ?', [ctx.state.user.userName, id])
-  //     data =  JSON.parse(JSON.stringify(data))
-  //     let imgUrl = data[0].img_url
-  //     // 如果存在图片，一并删除
-  //     if (imgUrl) {
-  //       const baseUrl = __dirname.slice(0, __dirname.length - 8)
-  //       const filePath = path.join(baseUrl, data[0].img_url || '')
-  //       console.log(filePath)
-  //       // /public/uploads/guang/app/public/uploads/guang/202102/1612425598356.png
-  //       fs.unlink(filePath, function(error){
-  //         if(error){
-  //           return false;
-  //         }
-  //       })
-  //     }
-  //     await app.mysql.delete('orders', { id })
-  //     return '删除成功！'
-  //   } catch (error) {
-  //     return error
-  //   }
-  // }
+  /**
+   * 根据订单id删除订单
+   */
+  async destroy(id) {
+    const { ctx, app } = this
+    try {
+      await app.mysql.delete('mahjongs', { id })
+      return '删除成功！'
+    } catch (error) {
+      return error
+    }
+  }
 
   /**
    * 根据时间分页区间查询牌局列表

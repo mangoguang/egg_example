@@ -76,13 +76,13 @@ class OrderController extends Controller {
   async update() {
     const { ctx } = this
     const { id } = ctx.params
-    const { money, classifyType, accountType, date, memberType, projectType, remark } = ctx.request.body
+    const { money, classifyType, accountType, date, memberType, projectType, remark, imgUrl } = ctx.request.body
     try {
       console.log('++++++++++++++++', ctx.query, ':::',ctx.params, ':::', ctx.request.body)
       ctx.validate({
         id: { type: 'string' }
       }, ctx.params)
-      const result = await ctx.service.order.update(id, { money, classifyType, accountType, date, memberType, projectType, remark })
+      const result = await ctx.service.order.update(id, { money, classifyType, accountType, date, memberType, projectType, remark, imgUrl })
       ctx.body = result
     } catch (error) {
       ctx.body = `更新失败`
