@@ -1,2 +1,76 @@
-2022-01-18 08:22:40,477 INFO 6953 [egg-swagger-doc] register router: get /swagger-doc
-2022-01-18 08:22:40,502 INFO 6953 [egg-swagger-doc] register router: get /swagger-ui.html
+2022-01-26 22:07:24,135 WARN 18321 [-/::1/-/1ms POST /api/v1/file/slice] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2022-01-22T16:23:14.000Z"}
+pid: 18321
+hostname: guangs-MacBook-Pro.local
+
+2022-01-26 22:07:24,139 WARN 18321 [-/::1/-/2ms POST /api/v1/file/slice] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2022-01-22T16:23:14.000Z"}
+pid: 18321
+hostname: guangs-MacBook-Pro.local
+
+2022-01-26 22:07:24,145 WARN 18321 [-/::1/-/2ms POST /api/v1/file/slice] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2022-01-22T16:23:14.000Z"}
+pid: 18321
+hostname: guangs-MacBook-Pro.local
+
+2022-01-26 22:07:24,154 WARN 18321 [-/::1/-/2ms POST /api/v1/file/merge] nodejs.UnauthorizedError: jwt expired
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:117:18
+    at /Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:152:16
+    at getSecret (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/Users/mangoguang/Documents/service/egg_example/node_modules/_jsonwebtoken@8.5.1@jsonwebtoken/verify.js:94:10)
+    at decoded (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:115:11)
+    at new Promise (<anonymous>)
+    at middleware (/Users/mangoguang/Documents/service/egg_example/node_modules/_koa-jwt2@1.0.3@koa-jwt2/lib/index.js:114:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async /Users/mangoguang/Documents/service/egg_example/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async errorHandler (/Users/mangoguang/Documents/service/egg_example/app/middleware/error_handler.js:6:7)
+name: "UnauthorizedError"
+message: "jwt expired"
+code: "invalid_token"
+status: 401
+inner: {"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2022-01-22T16:23:14.000Z"}
+pid: 18321
+hostname: guangs-MacBook-Pro.local
+

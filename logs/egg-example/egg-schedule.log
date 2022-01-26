@@ -1,8 +1,0 @@
-2022-01-18 08:22:40,231 INFO 6953 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
-2022-01-18 08:22:40,231 INFO 6953 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
-2022-01-18 08:22:40,231 INFO 6953 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
-2022-01-18 08:22:40,231 INFO 6953 [egg-schedule]: register schedule /Users/mangoguang/Documents/service/egg_example/app/schedule/test.js
-2022-01-18 08:22:40,531 INFO 6948 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 72439471ms at 2022-01-19 04:30:00.002
-2022-01-18 08:22:40,531 INFO 6948 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 56239469ms at 2022-01-19 00:00:00.000
-2022-01-18 08:22:40,531 INFO 6948 [Timer] /Users/mangoguang/Documents/service/egg_example/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 56240469ms at 2022-01-19 00:00:01.000
-2022-01-18 08:22:40,532 INFO 6948 [Timer] /Users/mangoguang/Documents/service/egg_example/app/schedule/test.js next time will execute after 6000000ms at 2022-01-18 10:02:40.532
